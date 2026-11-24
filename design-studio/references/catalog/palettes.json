@@ -1,0 +1,1416 @@
+[
+  {
+    "slug": "white-link-blue",
+    "name": "Sheet and biro",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "mono-accent",
+      "saas",
+      "devtool",
+      "fintech",
+      "law",
+      "clinic",
+      "retail"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#f4f4f4",
+        "text": "#111111",
+        "text-muted": "#6b6b6b",
+        "primary": "#1a4be0",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "cool-white-slate",
+    "name": "Frost and slate",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "clinic",
+      "wellness",
+      "saas",
+      "fintech",
+      "law",
+      "hardware"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f7f9fa",
+        "surface": "#ecf0f2",
+        "text": "#1f3038",
+        "text-muted": "#5d6b72",
+        "primary": "#0d7480",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "rose-grey-green",
+    "name": "Rose grey, green",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "cafe",
+      "bakery",
+      "studio",
+      "wellness",
+      "wedding",
+      "retail"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ebe5e3",
+        "surface": "#e1dad7",
+        "text": "#2b2622",
+        "text-muted": "#6a615d",
+        "primary": "#0f7d45",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "paper-grey-brass",
+    "name": "Newsprint and brass",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "agency",
+      "studio",
+      "restaurant",
+      "workshop",
+      "law"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e8e8e3",
+        "surface": "#dcdcd6",
+        "text": "#181715",
+        "text-muted": "#63625c",
+        "primary": "#bfb21a",
+        "on-primary": "#181715"
+      }
+    }
+  },
+  {
+    "slug": "stone-blueprint",
+    "name": "Stone and blueprint",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "workshop",
+      "hardware",
+      "agency",
+      "studio",
+      "devtool"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#dfdedb",
+        "surface": "#d3d2ce",
+        "text": "#26251e",
+        "text-muted": "#5f5d55",
+        "primary": "#2456d6",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "white-navy-tab",
+    "name": "Navy on white",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "photographic-neutral",
+      "hotel",
+      "retail",
+      "consumer-product",
+      "clinic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#f4f4f2",
+        "text": "#1f2b4d",
+        "text-muted": "#6a7186",
+        "primary": "#f7941d",
+        "on-primary": "#1f2b4d"
+      }
+    }
+  },
+  {
+    "slug": "three-stones",
+    "name": "Three stones",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "photographic-neutral",
+      "hotel",
+      "wellness",
+      "wedding",
+      "studio",
+      "law",
+      "clinic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#eeecea",
+        "surface": "#e4e1dd",
+        "text": "#333231",
+        "text-muted": "#6b6763",
+        "primary": "#5c6b54",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "putty-black-teal",
+    "name": "Putty and black",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "photographic-neutral",
+      "cafe",
+      "restaurant",
+      "workshop",
+      "studio",
+      "hardware",
+      "consumer-product"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#dedad3",
+        "surface": "#d3cec6",
+        "text": "#0a0a0a",
+        "text-muted": "#5c5852",
+        "primary": "#256f82",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "moss-sand",
+    "name": "Sand and moss",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "earth",
+      "cafe",
+      "bakery",
+      "hotel",
+      "wellness",
+      "restaurant",
+      "consumer-product"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ddd6c6",
+        "surface": "#d2cab8",
+        "text": "#2a2a26",
+        "text-muted": "#59574e",
+        "primary": "#4f6238",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "green-mat-chocolate",
+    "name": "Bone, green, chocolate",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "earth",
+      "cafe",
+      "bakery",
+      "restaurant",
+      "hotel",
+      "retail"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e5e1d8",
+        "surface": "#dad5ca",
+        "text": "#2a1d17",
+        "text-muted": "#6b5b51",
+        "primary": "#456f3a",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "lunar-grey-bronze",
+    "name": "Lunar and bronze",
+    "category": "行业配色",
+    "aliases": [
+      "dark-neutral",
+      "hardware",
+      "ai",
+      "fintech",
+      "game"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#111111",
+        "surface": "#1c1c1c",
+        "text": "#f2f2f2",
+        "text-muted": "#8f8f8f",
+        "primary": "#a08672",
+        "on-primary": "#111111"
+      }
+    }
+  },
+  {
+    "slug": "blue-black-cornflower",
+    "name": "Night and sky blue",
+    "category": "行业配色",
+    "aliases": [
+      "dark-neutral",
+      "ai",
+      "devtool",
+      "saas",
+      "fintech",
+      "game"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0a0d14",
+        "surface": "#131824",
+        "text": "#e9edf3",
+        "text-muted": "#8891a1",
+        "primary": "#5ab9fc",
+        "on-primary": "#0a0d14"
+      }
+    }
+  },
+  {
+    "slug": "green-black-bone",
+    "name": "Green-black and bone",
+    "category": "行业配色",
+    "aliases": [
+      "dark-neutral",
+      "earth",
+      "ai",
+      "devtool",
+      "hardware",
+      "game"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#161c1a",
+        "surface": "#1f2725",
+        "text": "#e3e2da",
+        "text-muted": "#8e948d",
+        "primary": "#9fc7b8",
+        "on-primary": "#161c1a"
+      }
+    }
+  },
+  {
+    "slug": "black-crimson",
+    "name": "Black and crimson",
+    "category": "行业配色",
+    "aliases": [
+      "dark-neutral",
+      "mono-accent",
+      "game",
+      "hardware"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0a0a0a",
+        "surface": "#151515",
+        "text": "#efefef",
+        "text-muted": "#8c8c8c",
+        "primary": "#b11226",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "forest-pale-lime",
+    "name": "Forest and lime",
+    "category": "行业配色",
+    "aliases": [
+      "dark-neutral",
+      "earth",
+      "game",
+      "devtool",
+      "ai"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0f1f10",
+        "surface": "#162a17",
+        "text": "#ffffff",
+        "text-muted": "#9aa39a",
+        "primary": "#c6f19d",
+        "on-primary": "#0f1f10"
+      }
+    }
+  },
+  {
+    "slug": "charcoal-room-sage",
+    "name": "Charcoal and sage",
+    "category": "行业配色",
+    "aliases": [
+      "dark-neutral",
+      "photographic-neutral",
+      "hardware",
+      "ai",
+      "fintech"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#1c1c1c",
+        "surface": "#262626",
+        "text": "#f1f1ef",
+        "text-muted": "#9a9b96",
+        "primary": "#8fa68e",
+        "on-primary": "#1c1c1c"
+      }
+    }
+  },
+  {
+    "slug": "warm-black-gold",
+    "name": "Warm black, gold",
+    "category": "行业配色",
+    "aliases": [
+      "dark-neutral",
+      "photographic-neutral",
+      "game",
+      "hardware",
+      "fintech"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0c0a08",
+        "surface": "#181512",
+        "text": "#ffffff",
+        "text-muted": "#8f8a84",
+        "primary": "#c9a45a",
+        "on-primary": "#0c0a08"
+      }
+    }
+  },
+  {
+    "slug": "graphite-safety-orange",
+    "name": "Graphite and orange",
+    "category": "行业配色",
+    "aliases": [
+      "mono-accent",
+      "dark-neutral",
+      "hardware",
+      "devtool",
+      "game"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#18191b",
+        "surface": "#222427",
+        "text": "#eff0f1",
+        "text-muted": "#9c9ea3",
+        "primary": "#ff4a1f",
+        "on-primary": "#18191b"
+      }
+    }
+  },
+  {
+    "slug": "soot-pale-lime",
+    "name": "Soot and lime",
+    "category": "行业配色",
+    "aliases": [
+      "mono-accent",
+      "dark-neutral",
+      "devtool",
+      "ai",
+      "saas",
+      "game"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0f0f0f",
+        "surface": "#1a1a1a",
+        "text": "#ffffff",
+        "text-muted": "#8f8f8f",
+        "primary": "#dafa9c",
+        "on-primary": "#0f0f0f"
+      }
+    }
+  },
+  {
+    "slug": "plum-black-pink",
+    "name": "Plum-black and pink",
+    "category": "行业配色",
+    "aliases": [
+      "mono-accent",
+      "dark-neutral",
+      "game",
+      "ai"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0d060b",
+        "surface": "#1b0e17",
+        "text": "#ffffff",
+        "text-muted": "#9a8f97",
+        "primary": "#ff488b",
+        "on-primary": "#0d060b"
+      }
+    }
+  },
+  {
+    "slug": "white-signal-red",
+    "name": "Signal red, white",
+    "category": "行业配色",
+    "aliases": [
+      "mono-accent",
+      "restaurant",
+      "retail",
+      "agency",
+      "consumer-product",
+      "hardware"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#f2f2f2",
+        "text": "#0a0a0a",
+        "text-muted": "#6b6b6b",
+        "primary": "#d92b21",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "white-mint-tiles",
+    "name": "Greys and mint",
+    "category": "行业配色",
+    "aliases": [
+      "mono-accent",
+      "saas",
+      "ai",
+      "fintech",
+      "consumer-product"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#f3f3f3",
+        "text": "#232323",
+        "text-muted": "#6e6e6e",
+        "primary": "#a1ffcb",
+        "on-primary": "#232323"
+      }
+    }
+  },
+  {
+    "slug": "cool-grey-cobalt",
+    "name": "Cool grey, cobalt",
+    "category": "行业配色",
+    "aliases": [
+      "mono-accent",
+      "devtool",
+      "saas",
+      "ai",
+      "fintech",
+      "hardware"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#eef0f3",
+        "surface": "#e2e5ea",
+        "text": "#0b0c0e",
+        "text-muted": "#5d6470",
+        "primary": "#1f2de6",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "offwhite-bottle-yellow",
+    "name": "Bottle ink, yellow",
+    "category": "行业配色",
+    "aliases": [
+      "mono-accent",
+      "bakery",
+      "cafe",
+      "retail",
+      "consumer-product"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f7f7f7",
+        "surface": "#ebebeb",
+        "text": "#0d2a1c",
+        "text-muted": "#5f6b64",
+        "primary": "#f6e016",
+        "on-primary": "#0d2a1c"
+      }
+    }
+  },
+  {
+    "slug": "teal-on-paper",
+    "name": "Teal on paper",
+    "category": "行业配色",
+    "aliases": [
+      "two-tone",
+      "clinic",
+      "law",
+      "wellness",
+      "fintech",
+      "saas"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f7f9f8",
+        "surface": "#ebf0ee",
+        "text": "#06525c",
+        "text-muted": "#2f737d",
+        "primary": "#06525c",
+        "on-primary": "#f7f9f8"
+      }
+    }
+  },
+  {
+    "slug": "navy-pink",
+    "name": "Navy and pink",
+    "category": "行业配色",
+    "aliases": [
+      "two-tone",
+      "single-field",
+      "agency",
+      "game"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#1a2039",
+        "surface": "#212846",
+        "text": "#f9a3c0",
+        "text-muted": "#b9879c",
+        "primary": "#f9a3c0",
+        "on-primary": "#1a2039"
+      }
+    }
+  },
+  {
+    "slug": "blush-aubergine",
+    "name": "Blush and aubergine",
+    "category": "行业配色",
+    "aliases": [
+      "two-tone",
+      "wedding",
+      "studio",
+      "agency",
+      "consumer-product"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#edccbe",
+        "surface": "#e8c2b2",
+        "text": "#351a2b",
+        "text-muted": "#6c4857",
+        "primary": "#351a2b",
+        "on-primary": "#edccbe"
+      }
+    }
+  },
+  {
+    "slug": "cobalt-on-sand",
+    "name": "Cobalt on sand",
+    "category": "行业配色",
+    "aliases": [
+      "two-tone",
+      "bakery",
+      "cafe",
+      "studio",
+      "retail",
+      "agency",
+      "workshop"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e6dbc7",
+        "surface": "#ddd0b9",
+        "text": "#062b8a",
+        "text-muted": "#3a5aa8",
+        "primary": "#062b8a",
+        "on-primary": "#e6dbc7"
+      }
+    }
+  },
+  {
+    "slug": "oxblood-grey",
+    "name": "Oxblood and grey",
+    "category": "行业配色",
+    "aliases": [
+      "two-tone",
+      "restaurant",
+      "law",
+      "agency",
+      "retail",
+      "studio"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e2e2e2",
+        "surface": "#d6d6d6",
+        "text": "#7d0c14",
+        "text-muted": "#7a4a4e",
+        "primary": "#7d0c14",
+        "on-primary": "#e2e2e2"
+      }
+    }
+  },
+  {
+    "slug": "olive-on-bone",
+    "name": "Olive on bone",
+    "category": "行业配色",
+    "aliases": [
+      "two-tone",
+      "earth",
+      "restaurant",
+      "hotel",
+      "wellness",
+      "bakery",
+      "studio",
+      "law"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ecebe7",
+        "surface": "#e1dfd9",
+        "text": "#38450f",
+        "text-muted": "#5d683a",
+        "primary": "#38450f",
+        "on-primary": "#ecebe7"
+      }
+    }
+  },
+  {
+    "slug": "burgundy-bubblegum",
+    "name": "Burgundy and bubblegum",
+    "category": "行业配色",
+    "aliases": [
+      "two-tone",
+      "agency",
+      "game"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#3d0012",
+        "surface": "#4d0519",
+        "text": "#ff99d3",
+        "text-muted": "#c77aa0",
+        "primary": "#ff99d3",
+        "on-primary": "#3d0012"
+      }
+    }
+  },
+  {
+    "slug": "bottle-green-gold",
+    "name": "Bottle green, gold",
+    "category": "行业配色",
+    "aliases": [
+      "two-tone",
+      "earth",
+      "restaurant",
+      "game"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#133621",
+        "surface": "#1a4429",
+        "text": "#f4d96c",
+        "text-muted": "#b3a55e",
+        "primary": "#f4d96c",
+        "on-primary": "#133621"
+      }
+    }
+  },
+  {
+    "slug": "cobalt-field",
+    "name": "Cobalt field",
+    "category": "行业配色",
+    "aliases": [
+      "single-field",
+      "agency",
+      "game"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0034eb",
+        "surface": "#002fd6",
+        "text": "#ffffff",
+        "text-muted": "#dfe4f2",
+        "primary": "#e9e34a",
+        "on-primary": "#111111"
+      }
+    }
+  },
+  {
+    "slug": "mustard-field",
+    "name": "Mustard and black",
+    "category": "行业配色",
+    "aliases": [
+      "single-field",
+      "agency",
+      "consumer-product"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e1ac10",
+        "surface": "#cd9d0f",
+        "text": "#0b0b0b",
+        "text-muted": "#4d3d0a",
+        "primary": "#24338f",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "carmine-field",
+    "name": "Carmine field",
+    "category": "行业配色",
+    "aliases": [
+      "single-field",
+      "agency",
+      "game"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#9c1220",
+        "surface": "#8a101c",
+        "text": "#ffffff",
+        "text-muted": "#f0b9bd",
+        "primary": "#ffd9dc",
+        "on-primary": "#9c1220"
+      }
+    }
+  },
+  {
+    "slug": "pink-field-lime",
+    "name": "Bubblegum and lime",
+    "category": "行业配色",
+    "aliases": [
+      "single-field",
+      "consumer-product",
+      "agency"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ff87ab",
+        "surface": "#ff739d",
+        "text": "#0a0a0a",
+        "text-muted": "#6b1f3a",
+        "primary": "#def915",
+        "on-primary": "#0a0a0a"
+      }
+    }
+  },
+  {
+    "slug": "sky-field-navy",
+    "name": "Sky and navy",
+    "category": "行业配色",
+    "aliases": [
+      "single-field",
+      "consumer-product",
+      "agency"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#6bb4ee",
+        "surface": "#7dbdf0",
+        "text": "#0e1822",
+        "text-muted": "#1b3d5c",
+        "primary": "#ff5a1f",
+        "on-primary": "#0e1822"
+      }
+    }
+  },
+  {
+    "slug": "orange-field-black",
+    "name": "Orange and black",
+    "category": "行业配色",
+    "aliases": [
+      "single-field",
+      "two-tone",
+      "agency",
+      "consumer-product"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ff7a1f",
+        "surface": "#ff8633",
+        "text": "#050f16",
+        "text-muted": "#5a2306",
+        "primary": "#050f16",
+        "on-primary": "#ff7a1f"
+      }
+    }
+  },
+  {
+    "slug": "tobacco-olive",
+    "name": "Tobacco and olive",
+    "category": "行业配色",
+    "aliases": [
+      "single-field",
+      "earth",
+      "restaurant",
+      "game"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#472913",
+        "surface": "#55321a",
+        "text": "#e4e0cf",
+        "text-muted": "#b39f84",
+        "primary": "#525e1b",
+        "on-primary": "#e4e0cf"
+      }
+    }
+  },
+  {
+    "slug": "poster-chapters",
+    "name": "Poster chapters",
+    "category": "行业配色",
+    "aliases": [
+      "flat-loud",
+      "agency",
+      "game",
+      "consumer-product"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e6e0d2",
+        "surface": "#dcd5c5",
+        "text": "#1a1a1a",
+        "text-muted": "#5f5b52",
+        "primary": "#18bc42",
+        "on-primary": "#1a1a1a"
+      }
+    }
+  },
+  {
+    "slug": "blue-red-black",
+    "name": "Blue, red, black",
+    "category": "行业配色",
+    "aliases": [
+      "flat-loud",
+      "agency",
+      "devtool"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#f3f3f3",
+        "text": "#0a0a0a",
+        "text-muted": "#6b6b6b",
+        "primary": "#1f30e0",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "charcoal-primaries",
+    "name": "Charcoal and primaries",
+    "category": "行业配色",
+    "aliases": [
+      "flat-loud",
+      "game",
+      "agency"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#191919",
+        "surface": "#242424",
+        "text": "#ffffff",
+        "text-muted": "#9a9a9a",
+        "primary": "#0c7866",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "ultramarine-yellow",
+    "name": "Ultramarine and yellow",
+    "category": "行业配色",
+    "aliases": [
+      "flat-loud",
+      "agency",
+      "game"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#1423b8",
+        "surface": "#1220a6",
+        "text": "#ffffff",
+        "text-muted": "#e4e2d6",
+        "primary": "#1fc27a",
+        "on-primary": "#0a0a0a"
+      }
+    }
+  },
+  {
+    "slug": "candy-chapters",
+    "name": "Candy chapters",
+    "category": "行业配色",
+    "aliases": [
+      "flat-loud",
+      "consumer-product",
+      "game"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffd249",
+        "surface": "#f5c63c",
+        "text": "#0a0a0a",
+        "text-muted": "#5e4a0a",
+        "primary": "#f53fd6",
+        "on-primary": "#0a0a0a"
+      }
+    }
+  },
+  {
+    "slug": "orange-sky-lime",
+    "name": "Orange, sky, lime",
+    "category": "行业配色",
+    "aliases": [
+      "flat-loud",
+      "consumer-product",
+      "agency"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ff8126",
+        "surface": "#ff8d3a",
+        "text": "#111111",
+        "text-muted": "#5c2a05",
+        "primary": "#de194b",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "post-red-mustard",
+    "name": "Post red, mustard",
+    "category": "行业配色",
+    "aliases": [
+      "flat-loud",
+      "agency",
+      "restaurant"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e2dccf",
+        "surface": "#d7d0c1",
+        "text": "#2a1110",
+        "text-muted": "#6b524c",
+        "primary": "#4a6f84",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "mint-orange-grey",
+    "name": "Grey, mint, orange",
+    "category": "行业配色",
+    "aliases": [
+      "flat-loud",
+      "agency",
+      "saas"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#f5f5f5",
+        "text": "#000000",
+        "text-muted": "#666666",
+        "primary": "#a7ff9c",
+        "on-primary": "#000000"
+      }
+    }
+  },
+  {
+    "slug": "report-blocks",
+    "name": "Report blocks",
+    "category": "行业配色",
+    "aliases": [
+      "flat-loud",
+      "agency",
+      "fintech"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#f6f6f6",
+        "text": "#000000",
+        "text-muted": "#5f5f5f",
+        "primary": "#fe7141",
+        "on-primary": "#000000"
+      }
+    }
+  },
+  {
+    "slug": "card-pastels",
+    "name": "Card pastels",
+    "category": "行业配色",
+    "aliases": [
+      "pastel-fields",
+      "agency",
+      "saas",
+      "consumer-product",
+      "studio"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f7f7f5",
+        "surface": "#ebebe8",
+        "text": "#000000",
+        "text-muted": "#666662",
+        "primary": "#d0106f",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "mint-pink-accounts",
+    "name": "Mint and pink",
+    "category": "行业配色",
+    "aliases": [
+      "pastel-fields",
+      "fintech",
+      "saas",
+      "bakery",
+      "retail"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f8f8f8",
+        "surface": "#eeeeee",
+        "text": "#0a0a0a",
+        "text-muted": "#6a6a6a",
+        "primary": "#1f6b3a",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "swap-pastels",
+    "name": "Swapping pastels",
+    "category": "行业配色",
+    "aliases": [
+      "pastel-fields",
+      "agency",
+      "studio",
+      "consumer-product",
+      "ai"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#c3d7e5",
+        "surface": "#d0e0eb",
+        "text": "#141414",
+        "text-muted": "#4a5068",
+        "primary": "#0f5257",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "blush-sage-slate",
+    "name": "Blush, sage, slate",
+    "category": "行业配色",
+    "aliases": [
+      "pastel-fields",
+      "earth",
+      "studio",
+      "wedding",
+      "agency",
+      "consumer-product"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#a6b3bc",
+        "surface": "#b2bdc5",
+        "text": "#1c1c1c",
+        "text-muted": "#38424a",
+        "primary": "#2c3620",
+        "on-primary": "#e3e2da"
+      }
+    }
+  },
+  {
+    "slug": "candy-on-black",
+    "name": "Candy on black",
+    "category": "行业配色",
+    "aliases": [
+      "pastel-fields",
+      "game",
+      "ai"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#000000",
+        "surface": "#0d0d0d",
+        "text": "#ffffff",
+        "text-muted": "#999999",
+        "primary": "#93f1f7",
+        "on-primary": "#000000"
+      }
+    }
+  },
+  {
+    "slug": "sky-sand",
+    "name": "Sky and sand",
+    "category": "行业配色",
+    "aliases": [
+      "pastel-fields",
+      "consumer-product",
+      "agency",
+      "studio"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#cbe4f2",
+        "surface": "#bcdcee",
+        "text": "#0a0a0a",
+        "text-muted": "#44606e",
+        "primary": "#b0298f",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "studio-grey",
+    "name": "Studio grey",
+    "category": "行业配色",
+    "aliases": [
+      "photographic-neutral",
+      "hardware",
+      "consumer-product"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#a8a8aa",
+        "surface": "#b4b4b6",
+        "text": "#0e0e0e",
+        "text-muted": "#3a3a3c",
+        "primary": "#1f5c49",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "walnut-tan",
+    "name": "Walnut and tan",
+    "category": "行业配色",
+    "aliases": [
+      "photographic-neutral",
+      "earth",
+      "hardware",
+      "game"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#2b2216",
+        "surface": "#382d1e",
+        "text": "#e4e2da",
+        "text-muted": "#a39a8b",
+        "primary": "#bda38b",
+        "on-primary": "#2b2216"
+      }
+    }
+  },
+  {
+    "slug": "warm-paper-walnut",
+    "name": "Warm paper and walnut",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "earth",
+      "cafe",
+      "bakery",
+      "hotel",
+      "wedding",
+      "studio",
+      "retail"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f7f3ec",
+        "surface": "#ede6da",
+        "text": "#2a2622",
+        "text-muted": "#665e55",
+        "primary": "#7a4a2c",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "flour-terracotta",
+    "name": "Flour and terracotta",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "earth",
+      "bakery",
+      "cafe",
+      "restaurant",
+      "retail",
+      "workshop"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f6f1e7",
+        "surface": "#ebe3d4",
+        "text": "#2b241e",
+        "text-muted": "#6a5f54",
+        "primary": "#a3472b",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "linen-harbour",
+    "name": "Linen and harbour blue",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "hotel",
+      "wellness",
+      "wedding",
+      "cafe",
+      "clinic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f3f1ec",
+        "surface": "#e6e2d9",
+        "text": "#1d2530",
+        "text-muted": "#5a6270",
+        "primary": "#2c5877",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "limewash-ochre",
+    "name": "Limewash and ochre",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "earth",
+      "bakery",
+      "hotel",
+      "studio",
+      "workshop",
+      "restaurant"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f4efe5",
+        "surface": "#e7dfcf",
+        "text": "#29251e",
+        "text-muted": "#675e51",
+        "primary": "#8c6418",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "clay-pine",
+    "name": "Clay and pine",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "earth",
+      "wellness",
+      "hotel",
+      "cafe",
+      "workshop",
+      "studio"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#efe9e0",
+        "surface": "#e2d9cb",
+        "text": "#22261f",
+        "text-muted": "#5f6158",
+        "primary": "#2e5b44",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "chalk-tomato",
+    "name": "Chalk and tomato",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "mono-accent",
+      "restaurant",
+      "cafe",
+      "retail",
+      "bakery"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f8f5ef",
+        "surface": "#ede7dc",
+        "text": "#1f1b18",
+        "text-muted": "#645c54",
+        "primary": "#b8381f",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "plaster-rose",
+    "name": "Plaster and rose",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "wedding",
+      "retail",
+      "bakery",
+      "wellness",
+      "studio"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f6f0eb",
+        "surface": "#ebe0d9",
+        "text": "#2c2325",
+        "text-muted": "#6a5d5e",
+        "primary": "#9a3c4c",
+        "on-primary": "#ffffff"
+      }
+    }
+  },
+  {
+    "slug": "steel-orange",
+    "name": "Steel and orange",
+    "category": "行业配色",
+    "aliases": [
+      "light-neutral",
+      "mono-accent",
+      "workshop",
+      "hardware",
+      "retail",
+      "consumer-product"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#eeeeeb",
+        "surface": "#e1e1dd",
+        "text": "#1c1d1f",
+        "text-muted": "#5c5e62",
+        "primary": "#c2501b",
+        "on-primary": "#ffffff"
+      }
+    }
+  }
+]

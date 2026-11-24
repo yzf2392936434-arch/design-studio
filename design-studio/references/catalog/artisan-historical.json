@@ -1,0 +1,2971 @@
+[
+  {
+    "slug": "film-noir",
+    "name": "Film Noir",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "noir",
+      "detective noir",
+      "黑色电影",
+      "黑白电影"
+    ],
+    "traits": [
+      "High-contrast black, smoke, and cream",
+      "Venetian-blind stripes and hard pools of light",
+      "Editorial crime-file typography and precise red evidence marks"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#111111",
+        "surface": "#1b1b1b",
+        "surface-2": "#292929",
+        "text": "#f5eedc",
+        "text-muted": "#c9c0ac",
+        "primary": "#e8dfc9",
+        "accent": "#bb342f",
+        "smoke": "#78736a"
+      },
+      "radius": {
+        "sm": "0",
+        "md": "2px",
+        "lg": "4px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "hard": "8px 8px 0 #050505",
+        "light": "0 0 0 1px rgba(245,238,220,.28)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "Arial, Helvetica, sans-serif",
+        "display": "Georgia, 'Times New Roman', serif",
+        "mono": "'Courier New', monospace"
+      },
+      "text": {
+        "xs": ".75rem",
+        "sm": ".875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(.2,.8,.2,1)"
+      },
+      "extra": {
+        "blind-stripes": "repeating-linear-gradient(145deg, transparent 0 15px, rgba(245,238,220,.08) 16px 18px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/film-noir.md"
+  },
+  {
+    "slug": "islamic-geometric",
+    "name": "Islamic Geometric",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "girih",
+      "geometric arabesque"
+    ],
+    "traits": [
+      "Measured star and polygon tessellations",
+      "Ink, lapis, turquoise, and warm parchment",
+      "Symmetry and repetition used as structural rhythm"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f6eddb",
+        "surface": "#fffaf0",
+        "surface-2": "#e6d9be",
+        "text": "#173a3a",
+        "text-muted": "#49625e",
+        "primary": "#066c72",
+        "accent": "#c69332",
+        "lapis": "#214f87"
+      },
+      "radius": {
+        "sm": "0",
+        "md": "2px",
+        "lg": "4px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "tile": "0 1px 0 #fffaf0 inset, 0 6px 18px rgba(23,58,58,.14)",
+        "inlay": "0 0 0 2px #c69332 inset"
+      },
+      "blur": {},
+      "font": {
+        "sans": "Arial, Helvetica, sans-serif",
+        "display": "Georgia, serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": ".75rem",
+        "sm": ".875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(.2,.7,.2,1)"
+      },
+      "extra": {
+        "star-grid": "conic-gradient(from 30deg at 50% 50%, #066c72 0 30deg, transparent 31deg 60deg, #c69332 61deg 90deg, transparent 91deg 120deg, #214f87 121deg 150deg, transparent 151deg 180deg)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/islamic-geometric.md"
+  },
+  {
+    "slug": "bauhaus",
+    "name": "Bauhaus",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Bauhaus style",
+      "包豪斯"
+    ],
+    "traits": [
+      "Form follows function; geometric primitives (circle, square, triangle)",
+      "Primary red/yellow/blue plus black & white",
+      "Sans-serif geometric type (Futura lineage)",
+      "Asymmetric balance, no ornament"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f4f1ea",
+        "surface": "#ffffff",
+        "text": "#1a1a1a",
+        "text-muted": "#4d4d4d",
+        "primary": "#e63946",
+        "accent": "#f4a300",
+        "blue": "#1d4ed8",
+        "black": "#1a1a1a"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "circle": "999px"
+      },
+      "shadow": {
+        "none": "none"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Futura', 'Century Gothic', 'Poppins', sans-serif",
+        "display": "'Futura', 'Josefin Sans', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.9rem",
+        "base": "1rem",
+        "lg": "1.25rem",
+        "xl": "1.75rem",
+        "2xl": "2.5rem",
+        "3xl": "3.5rem",
+        "4xl": "5rem",
+        "5xl": "7rem"
+      },
+      "space": {
+        "1": "8px",
+        "2": "16px",
+        "3": "24px",
+        "4": "32px",
+        "6": "48px",
+        "8": "64px",
+        "12": "96px",
+        "16": "128px"
+      },
+      "ease": {
+        "standard": "linear"
+      },
+      "extra": {
+        "primary-triad": "#e63946 #f4a300 #1d4ed8"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/bauhaus.md"
+  },
+  {
+    "slug": "swiss-design",
+    "name": "Swiss / International Typographic Style",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "International Style",
+      "Swiss Style",
+      "grid design",
+      "瑞士国际主义",
+      "瑞士排版",
+      "国际主义",
+      "瑞士风"
+    ],
+    "traits": [
+      "Mathematical grid systems and rigorous alignment",
+      "Helvetica/Akzidenz-Grotesk, flush-left ragged-right",
+      "Objective, neutral, hierarchy via size/weight",
+      "Generous whitespace, photography over illustration"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#ffffff",
+        "surface-2": "#f2f2f2",
+        "text": "#111111",
+        "text-muted": "#555555",
+        "primary": "#e2001a",
+        "accent": "#000000",
+        "grid": "#d9d9d9"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "none": "none"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Helvetica Neue', 'Akzidenz-Grotesk', Arial, sans-serif",
+        "display": "'Helvetica Neue', Arial, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.333rem",
+        "xl": "1.777rem",
+        "2xl": "2.369rem",
+        "3xl": "3.157rem",
+        "4xl": "4.209rem",
+        "5xl": "5.61rem"
+      },
+      "space": {
+        "1": "8px",
+        "2": "16px",
+        "3": "24px",
+        "4": "32px",
+        "6": "48px",
+        "8": "64px",
+        "12": "96px",
+        "16": "128px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "baseline": "8px",
+        "columns": "12"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/swiss-design.md"
+  },
+  {
+    "slug": "de-stijl",
+    "name": "De Stijl / Neoplasticism",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Neoplasticism",
+      "Mondrian style",
+      "风格派",
+      "新造型主义"
+    ],
+    "traits": [
+      "Only horizontals and verticals; thick black rules",
+      "Primary colors + white/gray/black",
+      "Asymmetric rectangular compositions",
+      "Pure abstraction, universal harmony"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f7f7f2",
+        "surface": "#ffffff",
+        "text": "#0d0d0d",
+        "text-muted": "#333333",
+        "primary": "#d40000",
+        "accent": "#0000c8",
+        "yellow": "#ffd500",
+        "black": "#0d0d0d"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "none": "none"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Futura', 'Century Gothic', 'Poppins', sans-serif",
+        "display": "'Archivo Black', 'Futura', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "8px",
+        "2": "16px",
+        "3": "24px",
+        "4": "32px",
+        "6": "48px",
+        "8": "64px",
+        "12": "96px",
+        "16": "128px"
+      },
+      "ease": {
+        "standard": "linear"
+      },
+      "extra": {
+        "rule": "6px solid #0d0d0d",
+        "primaries": "#d40000 #ffd500 #0000c8"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/de-stijl.md"
+  },
+  {
+    "slug": "constructivism",
+    "name": "Constructivism",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Russian Constructivism",
+      "Soviet design",
+      "构成主义"
+    ],
+    "traits": [
+      "Bold diagonals and dynamic asymmetry",
+      "Red, black, cream; heavy sans/slab type",
+      "Photomontage, geometric shapes as propaganda",
+      "Industrial, purposeful, revolutionary"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f0ece1",
+        "surface": "#ffffff",
+        "text": "#141414",
+        "text-muted": "#3a3a3a",
+        "primary": "#d7261e",
+        "accent": "#141414",
+        "cream": "#f0ece1"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "none": "none"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Alternate Gothic', 'Oswald', 'Anton', sans-serif",
+        "display": "'Anton', 'Oswald', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.9rem",
+        "base": "1rem",
+        "lg": "1.3rem",
+        "xl": "1.9rem",
+        "2xl": "2.8rem",
+        "3xl": "4rem",
+        "4xl": "5.6rem",
+        "5xl": "8rem"
+      },
+      "space": {
+        "1": "8px",
+        "2": "16px",
+        "3": "24px",
+        "4": "32px",
+        "6": "48px",
+        "8": "64px",
+        "12": "96px",
+        "16": "128px"
+      },
+      "ease": {
+        "standard": "linear"
+      },
+      "extra": {
+        "diagonal": "-15deg",
+        "red-black": "#d7261e #141414"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/constructivism.md"
+  },
+  {
+    "slug": "suprematism",
+    "name": "Suprematism",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Malevich style"
+    ],
+    "traits": [
+      "Pure geometric abstraction floating in space",
+      "Limited palette, often on white ground",
+      "Feeling over representation",
+      "Circles, rectangles, crosses, tilted planes"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f7f7f5",
+        "surface": "#ffffff",
+        "surface-strong": "#efefec",
+        "border": "#16161a",
+        "text": "#16161a",
+        "text-muted": "#55555c",
+        "primary": "#d21f1f",
+        "accent": "#1c4fa0",
+        "black": "#16161a",
+        "ochre": "#e0a415"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "none",
+        "md": "none",
+        "lg": "none"
+      },
+      "font": {
+        "sans": "'Futura', 'Helvetica Neue', system-ui, sans-serif",
+        "display": "'Futura', 'Helvetica Neue', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "tilt-plane": "8deg",
+        "plane-red": "var(--color-primary)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/suprematism.md"
+  },
+  {
+    "slug": "art-deco",
+    "name": "Art Deco",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Deco",
+      "Style Moderne",
+      "装饰艺术",
+      "装饰艺术风格"
+    ],
+    "traits": [
+      "Symmetry, geometric and stepped (ziggurat) forms",
+      "Luxurious gold/black/jewel tones",
+      "Sunburst, chevron, zigzag motifs",
+      "Elegant high-contrast display type"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0e0e12",
+        "surface": "#16161d",
+        "text": "#f5e9c8",
+        "text-muted": "#b8a878",
+        "primary": "#c8a253",
+        "accent": "#1f7a6d",
+        "gold": "#c8a253",
+        "black": "#0e0e12",
+        "cream": "#f5e9c8"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "2px",
+        "lg": "4px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "gold": "0 0 0 1px #c8a253, 0 8px 24px rgba(0,0,0,0.5)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Poiret One', 'Century Gothic', sans-serif",
+        "display": "'Cinzel', 'Poiret One', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.9rem",
+        "base": "1rem",
+        "lg": "1.3rem",
+        "xl": "1.8rem",
+        "2xl": "2.6rem",
+        "3xl": "3.8rem",
+        "4xl": "5.4rem",
+        "5xl": "7.6rem"
+      },
+      "space": {
+        "1": "8px",
+        "2": "16px",
+        "3": "24px",
+        "4": "32px",
+        "6": "48px",
+        "8": "64px",
+        "12": "96px",
+        "16": "128px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "chevron": "#c8a253",
+        "sunburst": "repeating-conic-gradient(#c8a253 0deg 4deg, transparent 4deg 8deg)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/art-deco.md"
+  },
+  {
+    "slug": "art-nouveau",
+    "name": "Art Nouveau",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Jugendstil",
+      "Liberty style",
+      "新艺术运动"
+    ],
+    "traits": [
+      "Organic, sinuous 'whiplash' curves from nature",
+      "Floral and botanical ornament, flowing hair",
+      "Muted earthy + gold palettes",
+      "Decorative custom lettering"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f3ead9",
+        "surface": "#fbf6ec",
+        "surface-strong": "#ede0c4",
+        "border": "#8a6d3b",
+        "text": "#2e2412",
+        "text-muted": "#6b5a3c",
+        "primary": "#2f5233",
+        "accent": "#b8860b",
+        "terracotta": "#a5502c"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "30px 6px 30px 6px",
+        "lg": "60px 12px 60px 12px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(46,36,18,0.12)",
+        "md": "0 6px 18px rgba(46,36,18,0.16)",
+        "lg": "0 14px 32px rgba(46,36,18,0.2)"
+      },
+      "font": {
+        "sans": "'Cormorant Garamond', 'EB Garamond', Georgia, serif",
+        "display": "'Cinzel Decorative', 'Playfair Display', Georgia, serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "vine-underline": "linear-gradient(90deg, transparent, var(--color-accent) 20%, var(--color-accent) 80%, transparent)",
+        "gilt-border": "1px solid var(--color-accent)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/art-nouveau.md"
+  },
+  {
+    "slug": "memphis-design",
+    "name": "Memphis Design",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Memphis Group",
+      "Memphis Milano",
+      "孟菲斯",
+      "孟菲斯风格"
+    ],
+    "traits": [
+      "Playful clashing colors and bold geometric shapes",
+      "Squiggles, zigzags, confetti, polka dots",
+      "Black-and-white grids and patterns",
+      "Anti-'good taste' postmodern exuberance"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fdf6e3",
+        "surface": "#ffffff",
+        "text": "#1a1a2e",
+        "text-muted": "#575780",
+        "primary": "#ff2e63",
+        "accent": "#08d9d6",
+        "yellow": "#ffde22",
+        "purple": "#8a4fff",
+        "black": "#252a34"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "8px",
+        "lg": "20px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "hard": "6px 6px 0 #252a34"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Poppins', 'Futura', system-ui, sans-serif",
+        "display": "'Righteous', 'Poppins', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      "extra": {
+        "squiggle": "#ff2e63",
+        "confetti": "#08d9d6 #ffde22 #8a4fff"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/memphis-design.md"
+  },
+  {
+    "slug": "postmodernism",
+    "name": "Postmodern Graphic Design",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "postmodern design"
+    ],
+    "traits": [
+      "Rejects rigid grid and objectivity",
+      "Layering, collage, historical pastiche, irony",
+      "Mixed type, texture, decoration",
+      "Expressive and subjective"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#efe9df",
+        "surface": "#ffffff",
+        "surface-strong": "#fff2b8",
+        "border": "#17171a",
+        "text": "#17171a",
+        "text-muted": "#514f52",
+        "primary": "#e0247a",
+        "accent": "#2b6df0",
+        "clash": "#ffce00"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "2px",
+        "lg": "999px 4px 999px 4px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "3px 3px 0 var(--color-primary)",
+        "md": "6px 6px 0 var(--color-accent)",
+        "lg": "9px 9px 0 var(--color-clash)"
+      },
+      "font": {
+        "sans": "'Helvetica Neue', Arial, sans-serif",
+        "display": "Georgia, 'Times New Roman', serif",
+        "mono": "'Courier New', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.68, -0.55, 0.27, 1.55)"
+      },
+      "extra": {
+        "collage-tilt": "-1.2deg",
+        "overprint-texture": "repeating-linear-gradient(45deg, rgba(23,23,26,0.04) 0 2px, transparent 2px 6px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/postmodernism.md"
+  },
+  {
+    "slug": "pop-art",
+    "name": "Pop Art",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "comic style",
+      "Warhol style",
+      "波普艺术",
+      "波普"
+    ],
+    "traits": [
+      "Bright saturated primary colors, bold outlines",
+      "Ben-Day dots / halftone comic texture",
+      "Repetition and mass-media imagery",
+      "Speech bubbles, exclamatory type"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fff8e7",
+        "surface": "#ffffff",
+        "text": "#111111",
+        "text-muted": "#333333",
+        "primary": "#ff2d95",
+        "accent": "#00b3ff",
+        "yellow": "#ffe000",
+        "red": "#ff1e1e",
+        "black": "#111111"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "8px",
+        "lg": "16px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "hard": "5px 5px 0 #111111"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Bangers', 'Archivo Black', sans-serif",
+        "display": "'Bangers', 'Anton', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "steps(2, end)"
+      },
+      "extra": {
+        "benday": "radial-gradient(#ff2d95 30%, transparent 31%) 0 0 / 12px 12px",
+        "outline": "3px solid #111111"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/pop-art.md"
+  },
+  {
+    "slug": "op-art",
+    "name": "Op Art",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Optical Art"
+    ],
+    "traits": [
+      "Black-and-white (or vibrating color) geometric patterns",
+      "Illusions of motion, depth, and warping",
+      "Precise repetition of lines/shapes",
+      "Perceptual, hypnotic effects"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#ffffff",
+        "surface-strong": "#f0f0f0",
+        "border": "#0a0a0a",
+        "text": "#0a0a0a",
+        "text-muted": "#4a4a4a",
+        "primary": "#0a0a0a",
+        "accent": "#e10600"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 0 0 rgba(0,0,0,0)",
+        "md": "0 6px 0 rgba(10,10,10,1)",
+        "lg": "0 10px 0 rgba(10,10,10,1)"
+      },
+      "font": {
+        "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+        "display": "'Futura', 'Helvetica Neue', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "steps(6, end)"
+      },
+      "extra": {
+        "stripe-pattern": "repeating-linear-gradient(90deg, #0a0a0a 0px, #0a0a0a 6px, #ffffff 6px, #ffffff 12px)",
+        "stripe-pattern-tight": "repeating-linear-gradient(90deg, #0a0a0a 0px, #0a0a0a 3px, #ffffff 3px, #ffffff 6px)",
+        "concentric-pattern": "repeating-radial-gradient(circle at 50% 50%, #0a0a0a 0px, #0a0a0a 4px, #ffffff 4px, #ffffff 8px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/op-art.md"
+  },
+  {
+    "slug": "dada",
+    "name": "Dada",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Dadaism"
+    ],
+    "traits": [
+      "Photomontage and chance composition",
+      "Ransom-note mixed typography",
+      "Anti-art, absurd, provocative",
+      "Collage of found media"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#eae4d6",
+        "surface": "#f5f1e6",
+        "surface-strong": "#ded4b8",
+        "border": "#16151a",
+        "text": "#16151a",
+        "text-muted": "#4a473f",
+        "primary": "#c21807",
+        "accent": "#e8b700",
+        "newsprint": "rgba(22, 21, 26, 0.06)"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "sm": "2px 2px 0 var(--color-border)",
+        "md": "4px 3px 0 var(--color-border)",
+        "lg": "6px 5px 0 var(--color-border)"
+      },
+      "font": {
+        "sans": "'Courier New', ui-monospace, monospace",
+        "display": "'Times New Roman', Georgia, serif",
+        "stencil": "'Arial Black', Impact, sans-serif",
+        "mono": "'Courier New', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "linear"
+      },
+      "extra": {
+        "tear-rotate-a": "rotate(-1.4deg)",
+        "tear-rotate-b": "rotate(0.9deg)",
+        "newsprint-texture": "repeating-linear-gradient(115deg, var(--color-newsprint) 0 2px, transparent 2px 5px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/dada.md"
+  },
+  {
+    "slug": "futurism-italian",
+    "name": "Futurism (Italian)",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Futurismo",
+      "parole in libertà"
+    ],
+    "traits": [
+      "Words-in-freedom: explosive dynamic typography",
+      "Speed, machines, motion lines",
+      "Diagonal, chaotic type on the page",
+      "Celebration of technology and energy"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#efe6d8",
+        "surface": "#f7f1e6",
+        "surface-strong": "#e9ddc7",
+        "border": "#171512",
+        "text": "#171512",
+        "text-muted": "#4c4640",
+        "primary": "#c81d1d",
+        "accent": "#1c1c8a"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "3px 3px 0 var(--color-border)",
+        "md": "6px 6px 0 var(--color-border)",
+        "lg": "10px 10px 0 var(--color-border)"
+      },
+      "font": {
+        "sans": "'Futura', 'Eurostile', Arial, sans-serif",
+        "display": "'Bifur', 'Anton', 'Impact', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.5rem",
+        "2xl": "2.1rem",
+        "3xl": "2.9rem",
+        "4xl": "4rem",
+        "5xl": "5.4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.7, 0, 0.2, 1)",
+        "tilt-heading": "rotate(-2.5deg)",
+        "tilt-badge": "rotate(3deg)",
+        "speed-lines": "repeating-linear-gradient(115deg, rgba(23,21,18,0.05) 0 2px, transparent 2px 22px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/futurism-italian.md"
+  },
+  {
+    "slug": "psychedelic",
+    "name": "Psychedelic Art",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "1960s psychedelia",
+      "acid poster"
+    ],
+    "traits": [
+      "Warped, melting, hand-drawn lettering",
+      "Intense vibrating complementary colors",
+      "Swirling Art-Nouveau-derived forms",
+      "Kaleidoscopic symmetry"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ff5f9e",
+        "surface": "#ffe14d",
+        "surface-strong": "#ff8a3d",
+        "border": "#1a0b2e",
+        "text": "#1a0b2e",
+        "text-muted": "#4b2c63",
+        "primary": "#00c2a8",
+        "accent": "#6a1fd0",
+        "vibrate-a": "#ff5f9e",
+        "vibrate-b": "#00c2a8"
+      },
+      "radius": {
+        "sm": "12px",
+        "md": "40% 60% 55% 45% / 50% 40% 60% 50%",
+        "lg": "60% 40% 30% 70% / 60% 30% 70% 40%",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 0 0 4px var(--color-vibrate-a)",
+        "md": "0 0 0 4px var(--color-vibrate-b), 0 8px 24px rgba(26,11,46,0.3)",
+        "lg": "0 0 0 6px var(--color-accent), 0 16px 40px rgba(26,11,46,0.35)"
+      },
+      "font": {
+        "sans": "'Cooper Black', 'Baloo 2', system-ui, sans-serif",
+        "display": "'Cooper Black', 'Baloo 2', cursive",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.65, 0, 0.35, 1)"
+      },
+      "extra": {
+        "swirl-bg": "radial-gradient(circle at 20% 30%, #ffe14d 0%, transparent 40%), radial-gradient(circle at 80% 20%, #00c2a8 0%, transparent 45%), radial-gradient(circle at 50% 80%, #6a1fd0 0%, transparent 50%), var(--color-bg)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/psychedelic.md"
+  },
+  {
+    "slug": "arts-and-crafts",
+    "name": "Arts & Crafts",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "William Morris style"
+    ],
+    "traits": [
+      "Intricate botanical patterns and repeats",
+      "Handcraft over machine production",
+      "Earthy natural palettes",
+      "Ornamental borders, medieval revival type"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ece2cd",
+        "surface": "#fbf5e6",
+        "surface-strong": "#e3d3ac",
+        "border": "#6b4a2b",
+        "text": "#2b2013",
+        "text-muted": "#5c4a30",
+        "primary": "#7a2e2e",
+        "accent": "#4a6741"
+      },
+      "radius": {
+        "sm": "3px",
+        "md": "4px",
+        "lg": "6px",
+        "pill": "4px"
+      },
+      "shadow": {
+        "sm": "0 1px 3px rgba(43,32,19,0.2)",
+        "md": "0 4px 10px rgba(43,32,19,0.22)",
+        "lg": "0 10px 22px rgba(43,32,19,0.26)"
+      },
+      "font": {
+        "sans": "'Crimson Text', 'EB Garamond', Georgia, serif",
+        "display": "'IM Fell English', 'Crimson Text', Georgia, serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "ease-out"
+      },
+      "extra": {
+        "leaf-repeat": "repeating-linear-gradient(135deg, var(--color-accent) 0 3px, transparent 3px 14px)",
+        "border-frame": "3px double var(--color-border)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/arts-and-crafts.md"
+  },
+  {
+    "slug": "victorian",
+    "name": "Victorian",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "ornate Victorian",
+      "1800s ornament"
+    ],
+    "traits": [
+      "Dense ornamentation, filigree, flourishes",
+      "Multiple decorative typefaces per page",
+      "Gold, deep jewel tones, engravings",
+      "Circus/advertising exuberance"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#241713",
+        "surface": "#2f1f19",
+        "surface-strong": "#3a2620",
+        "border": "#b8862f",
+        "text": "#f2e6d0",
+        "text-muted": "#cbb896",
+        "primary": "#8a1f2b",
+        "accent": "#b8862f",
+        "emerald": "#1f4d38"
+      },
+      "radius": {
+        "sm": "3px",
+        "md": "6px",
+        "lg": "10px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 3px rgba(0,0,0,0.4)",
+        "md": "0 4px 14px rgba(0,0,0,0.5)",
+        "lg": "0 10px 28px rgba(0,0,0,0.55)",
+        "inset-gilt": "inset 0 0 0 1px rgba(184,134,47,0.5)"
+      },
+      "font": {
+        "sans": "'Playfair Display', 'Georgia', serif",
+        "display": "'UnifrakturCook', 'Playfair Display', 'Georgia', serif",
+        "mono": "'Courier New', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "filigree-border": "2px double var(--color-accent)",
+        "gilt-corner": "conic-gradient(from 45deg, var(--color-accent), #f2d98a, var(--color-accent))",
+        "damask-tint": "radial-gradient(circle at 50% 50%, rgba(184,134,47,0.06) 0, transparent 65%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/victorian.md"
+  },
+  {
+    "slug": "mid-century-modern",
+    "name": "Mid-Century Modern",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "MCM",
+      "atomic age design"
+    ],
+    "traits": [
+      "Clean organic + geometric balance",
+      "Warm retro palette (mustard, teal, orange, brown)",
+      "Simple friendly illustration, atomic motifs",
+      "Functional optimism"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f2e9d8",
+        "surface": "#fbf5e9",
+        "surface-strong": "#e8dcc0",
+        "border": "#b08d4f",
+        "text": "#2b241a",
+        "text-muted": "#6b5c42",
+        "primary": "#c1531c",
+        "accent": "#2f7d6e",
+        "mustard": "#e0a52c",
+        "brown": "#6f4324"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "10px",
+        "lg": "18px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 4px rgba(43,36,26,0.14)",
+        "md": "0 6px 14px rgba(43,36,26,0.18)",
+        "lg": "0 14px 32px rgba(43,36,26,0.22)"
+      },
+      "font": {
+        "sans": "'Futura', 'Century Gothic', 'Poppins', sans-serif",
+        "display": "'Cooper Black', 'Futura', serif",
+        "mono": "'Courier New', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.3, 0, 0.2, 1)",
+        "sunburst-rule": "linear-gradient(90deg, var(--color-primary), var(--color-mustard) 50%, var(--color-accent))"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/mid-century-modern.md"
+  },
+  {
+    "slug": "streamline-moderne",
+    "name": "Streamline Moderne",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Art Moderne",
+      "Streamline"
+    ],
+    "traits": [
+      "Aerodynamic curves and horizontal speed lines",
+      "Rounded corners, nautical/machine forms",
+      "Silver, cream, chrome accents",
+      "Sleek, futuristic-for-its-time"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f2efe9",
+        "surface": "#ffffff",
+        "surface-strong": "#e6e2d8",
+        "border": "#b9c1c6",
+        "text": "#1c2226",
+        "text-muted": "#52605f",
+        "primary": "#16414d",
+        "accent": "#c9a34b",
+        "chrome": "#9aa7ac"
+      },
+      "radius": {
+        "sm": "10px",
+        "md": "20px",
+        "lg": "40px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 5px rgba(28,34,38,0.14)",
+        "md": "0 6px 16px rgba(28,34,38,0.16)",
+        "lg": "0 16px 36px rgba(28,34,38,0.2)"
+      },
+      "font": {
+        "sans": "'Century Gothic', 'Poppins', system-ui, sans-serif",
+        "display": "'Broadway', 'Bebas Neue', 'Poppins', system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      "extra": {
+        "speed-lines": "repeating-linear-gradient(180deg, var(--color-chrome) 0px, var(--color-chrome) 2px, transparent 2px, transparent 7px)",
+        "chrome-band": "linear-gradient(180deg, #fdfdfd, var(--color-chrome) 50%, #7c898d)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/streamline-moderne.md"
+  },
+  {
+    "slug": "vienna-secession",
+    "name": "Vienna Secession",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Secessionist",
+      "Wiener Werkstätte"
+    ],
+    "traits": [
+      "Geometric grids of squares married to ornament",
+      "Gold leaf, decorative symbolism",
+      "Custom geometric lettering",
+      "Bridge between Art Nouveau and Deco"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f2ede1",
+        "surface": "#ffffff",
+        "surface-strong": "#e9e1cd",
+        "border": "#1a1a1a",
+        "text": "#1a1a1a",
+        "text-muted": "#5c5647",
+        "primary": "#b8942f",
+        "accent": "#6b1f2a",
+        "violet": "#4b3a63"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 0 rgba(26,26,26,0.2)",
+        "md": "0 2px 0 rgba(26,26,26,0.25)",
+        "lg": "0 4px 0 rgba(26,26,26,0.3)"
+      },
+      "font": {
+        "sans": "'Josefin Sans', 'Century Gothic', sans-serif",
+        "display": "'Cinzel', 'Josefin Sans', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "grid-squares": "repeating-linear-gradient(90deg, var(--color-primary) 0 6px, transparent 6px 18px)",
+        "gold-border": "4px solid var(--color-primary)",
+        "square-corner": "10px"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/vienna-secession.md"
+  },
+  {
+    "slug": "punk-zine",
+    "name": "Punk Zine / Cut-and-Paste",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "zine",
+      "ransom note",
+      "DIY punk"
+    ],
+    "traits": [
+      "Photocopied, torn, cut-and-paste collage",
+      "Ransom-note lettering from clippings",
+      "High-contrast xerox degradation",
+      "Anti-authority DIY energy"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#efefe8",
+        "surface": "#ffffff",
+        "surface-strong": "#f5f2e6",
+        "border": "#0d0d0d",
+        "text": "#0d0d0d",
+        "text-muted": "#3d3d3a",
+        "primary": "#e60023",
+        "accent": "#f5d000",
+        "tape": "rgba(245, 208, 0, 0.55)"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "3px 3px 0 #0d0d0d",
+        "md": "5px 5px 0 #0d0d0d",
+        "lg": "8px 8px 0 #0d0d0d"
+      },
+      "font": {
+        "sans": "Arial, 'Helvetica Neue', sans-serif",
+        "display": "'Times New Roman', Georgia, serif",
+        "mono": "'Courier New', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "steps(3, end)"
+      },
+      "extra": {
+        "xerox-noise": "repeating-linear-gradient(0deg, rgba(13,13,13,0.05) 0px, transparent 1px, transparent 3px), repeating-linear-gradient(90deg, rgba(13,13,13,0.03) 0px, transparent 1px, transparent 4px)",
+        "tape-strip": "linear-gradient(var(--color-tape), var(--color-tape))"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/punk-zine.md"
+  },
+  {
+    "slug": "wpa-poster",
+    "name": "WPA / Vintage Poster",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "travel poster",
+      "screenprint poster",
+      "WPA",
+      "复古公共海报"
+    ],
+    "traits": [
+      "Flat screen-printed color areas",
+      "Bold simplified shapes and shadows",
+      "Limited ink palette, gradient skies",
+      "Optimistic public-service messaging"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e8d9b5",
+        "surface": "#f0e6c8",
+        "surface-strong": "#dcc98f",
+        "border": "#1c3d5a",
+        "text": "#1c1c1c",
+        "text-muted": "#4a3f2c",
+        "primary": "#c1502e",
+        "accent": "#1c3d5a",
+        "mustard": "#d69c2f"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "2px 2px 0 var(--color-border)",
+        "md": "4px 4px 0 var(--color-border)",
+        "lg": "6px 6px 0 var(--color-border)"
+      },
+      "font": {
+        "sans": "'Futura', 'Century Gothic', sans-serif",
+        "display": "'Bebas Neue', 'Futura', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.9rem",
+        "base": "1rem",
+        "lg": "1.2rem",
+        "xl": "1.6rem",
+        "2xl": "2.2rem",
+        "3xl": "3rem",
+        "4xl": "4rem",
+        "5xl": "5.5rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "linear"
+      },
+      "extra": {
+        "sky-gradient": "linear-gradient(180deg, var(--color-mustard) 0%, var(--color-primary) 55%, var(--color-accent) 100%)",
+        "ink-band": "6px solid var(--color-border)",
+        "sun-rays": "repeating-conic-gradient(from 0deg, var(--color-mustard) 0deg 4deg, transparent 4deg 20deg)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/wpa-poster.md"
+  },
+  {
+    "slug": "ukiyo-e",
+    "name": "Ukiyo-e",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Japanese woodblock",
+      "floating world",
+      "浮世绘"
+    ],
+    "traits": [
+      "Flat areas of color with bold outlines",
+      "Woodblock print texture and registration",
+      "Nature, waves, Mt Fuji, everyday life",
+      "Asymmetric balance, negative space"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#eee3c8",
+        "surface": "#f6ecd2",
+        "surface-strong": "#e6d7ac",
+        "border": "#1c1a15",
+        "text": "#1c1a15",
+        "text-muted": "#4a4736",
+        "primary": "#1d4e89",
+        "accent": "#b23a2e",
+        "wave": "#2f6f8f"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "2px",
+        "lg": "2px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "2px 2px 0 rgba(28,26,21,0.15)",
+        "md": "4px 4px 0 rgba(28,26,21,0.18)",
+        "lg": "6px 6px 0 rgba(28,26,21,0.22)"
+      },
+      "font": {
+        "sans": "'Zen Old Mincho', 'Noto Serif JP', 'Georgia', serif",
+        "display": "'Zen Old Mincho', 'Shippori Mincho', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "keyline": "2.5px solid var(--color-border)",
+        "seal-stamp": "var(--color-accent)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/ukiyo-e.md"
+  },
+  {
+    "slug": "illuminated-manuscript",
+    "name": "Illuminated Manuscript",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "medieval manuscript",
+      "illumination"
+    ],
+    "traits": [
+      "Ornate drop caps and gold-leaf illumination",
+      "Decorative borders, vines, marginalia",
+      "Blackletter script",
+      "Rich reds, blues, gold on vellum"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f3e6c4",
+        "surface": "#f8edd0",
+        "surface-strong": "#efdbaa",
+        "border": "#7a5a1e",
+        "text": "#2a1a10",
+        "text-muted": "#5a4632",
+        "primary": "#7a1f2b",
+        "accent": "#b8860b",
+        "blue": "#1e3a6e",
+        "gold": "#c9971f",
+        "sm": "2px",
+        "md": "2px",
+        "lg": "2px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 3px rgba(42,26,16,0.25)",
+        "md": "0 4px 10px rgba(42,26,16,0.3)",
+        "lg": "0 10px 22px rgba(42,26,16,0.35)"
+      },
+      "font": {
+        "sans": "'EB Garamond', 'Palatino', Georgia, serif",
+        "display": "'UnifrakturMaguntia', 'Blackletter', 'Cinzel', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.5rem",
+        "2xl": "2rem",
+        "3xl": "2.75rem",
+        "4xl": "3.75rem",
+        "5xl": "5rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "gilt-border": "3px solid var(--color-gold)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/illuminated-manuscript.md"
+  },
+  {
+    "slug": "baroque-rococo",
+    "name": "Baroque / Rococo",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "baroque",
+      "rococo",
+      "ornate classical"
+    ],
+    "traits": [
+      "Lavish ornament, scrollwork, gilding",
+      "Dramatic light/shadow (Baroque) or pastel frivolity (Rococo)",
+      "Curved cartouches and flourishes",
+      "Opulent, theatrical, aristocratic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#2a1116",
+        "surface": "#3a1a20",
+        "surface-strong": "#4a232b",
+        "border": "#c9a24b",
+        "text": "#f3e6d0",
+        "text-muted": "#d8bfa0",
+        "primary": "#8c1c2b",
+        "accent": "#c9a24b"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "14px",
+        "lg": "34px 8px 34px 8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(0,0,0,0.4)",
+        "md": "0 10px 24px rgba(0,0,0,0.5)",
+        "lg": "0 22px 48px rgba(0,0,0,0.6)",
+        "inset-gilt": "inset 0 0 0 1px rgba(201,162,75,0.5)"
+      },
+      "font": {
+        "sans": "'Cormorant Garamond', 'EB Garamond', Georgia, serif",
+        "display": "'Cinzel Decorative', 'Playfair Display', Georgia, serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "gilt-frame": "3px double var(--color-accent)",
+        "gilt-glow": "linear-gradient(180deg, rgba(201,162,75,0.18), transparent 40%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/baroque-rococo.md"
+  },
+  {
+    "slug": "blackletter",
+    "name": "Blackletter / Gothic Type",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Fraktur",
+      "Old English",
+      "gothic script"
+    ],
+    "traits": [
+      "Dense angular condensed letterforms",
+      "Ornate capitals, heavy vertical strokes",
+      "Newspaper mastheads, tattoo, metal-band use",
+      "Solemn, historic, dramatic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#14110d",
+        "surface": "#1e1a13",
+        "surface-strong": "#29231a",
+        "border": "#6b5b3a",
+        "text": "#ece4d0",
+        "text-muted": "#b9ac8a",
+        "primary": "#a8232f",
+        "accent": "#c9a227"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "sm": "0 1px 0 rgba(0,0,0,0.6)",
+        "md": "0 4px 12px rgba(0,0,0,0.55)",
+        "lg": "0 10px 28px rgba(0,0,0,0.6)"
+      },
+      "font": {
+        "sans": "'Century Old Style', Georgia, 'Iowan Old Style', serif",
+        "display": "'UnifrakturMaguntia', 'Old English Text MT', 'Cloister Black', serif",
+        "mono": "'Courier Prime', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      },
+      "extra": {
+        "rule-double": "3px double var(--color-accent)",
+        "masthead-rule": "linear-gradient(180deg, var(--color-accent) 0%, var(--color-border) 100%)",
+        "texture-vellum": "radial-gradient(120% 90% at 50% -10%, rgba(201,162,39,0.08), transparent 60%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/blackletter.md"
+  },
+  {
+    "slug": "egyptian-revival",
+    "name": "Egyptian / Ancient Revival",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "hieroglyphic",
+      "Egyptomania"
+    ],
+    "traits": [
+      "Hieroglyph and papyrus motifs, lotus, scarab",
+      "Gold, lapis blue, terracotta",
+      "Bold slab 'Egyptian' typefaces",
+      "Monumental, symmetric, ancient"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#efe2c0",
+        "surface": "#f7ecd3",
+        "surface-strong": "#e6d3a3",
+        "border": "#b8860b",
+        "text": "#241a0e",
+        "text-muted": "#5a4527",
+        "primary": "#1b3f6b",
+        "accent": "#b8860b",
+        "terracotta": "#a3441f"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "6px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 4px rgba(36,26,14,0.2)",
+        "md": "0 6px 16px rgba(36,26,14,0.24)",
+        "lg": "0 16px 36px rgba(36,26,14,0.3)"
+      },
+      "font": {
+        "sans": "'Trajan Pro', 'Cinzel', 'Georgia', serif",
+        "display": "'Cinzel', 'Trajan Pro', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "key-pattern": "repeating-linear-gradient(90deg, var(--color-accent) 0 8px, transparent 8px 10px, var(--color-accent) 10px 18px, transparent 18px 24px)",
+        "banded-border": "4px solid var(--color-accent)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/egyptian-revival.md"
+  },
+  {
+    "slug": "sumi-e",
+    "name": "Sumi-e (Japanese Ink Wash)",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "ink wash painting",
+      "suibokuga",
+      "brush ink style",
+      "水墨",
+      "水墨画"
+    ],
+    "traits": [
+      "Monochrome black ink gradients (bokashi) on cream rice-paper backgrounds",
+      "Visible brush-stroke texture and ink-bleed edges",
+      "Deliberate negative space (ma) as a compositional element",
+      "Asymmetric, organic compositions with a single red seal (hanko) accent"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f4efe4",
+        "surface": "#faf6ec",
+        "surface-2": "#ede5d3",
+        "text": "#1c1c1c",
+        "text-muted": "#5a564c",
+        "primary": "#232323",
+        "accent": "#b13d2c",
+        "ink-grey": "#8c8676",
+        "ink-wash": "#3d3a33"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "6px",
+        "lg": "14px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "ink-bleed": "0 6px 18px rgba(28,28,28,0.14)",
+        "ink-bleed-sm": "0 2px 8px rgba(28,28,28,0.10)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Shippori Mincho', 'Noto Serif JP', 'Zen Old Mincho', serif",
+        "display": "'Zen Old Mincho', 'Shippori Mincho', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0.0, 0.2, 1)"
+      },
+      "extra": {
+        "ink-gradient": "linear-gradient(160deg, #232323 0%, #5a564c 55%, transparent 100%)",
+        "seal-stamp": "0 0 0 2px #b13d2c"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/sumi-e.md"
+  },
+  {
+    "slug": "fauvism",
+    "name": "Fauvism",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Les Fauves",
+      "wild beasts style"
+    ],
+    "traits": [
+      "Wild, non-naturalistic, highly saturated clashing color",
+      "Bold flat unmixed color fields applied straight from the tube",
+      "Expressive, loose, brush-like edges and borders",
+      "High-energy arbitrary palette: hot orange, cobalt, viridian, magenta"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fff8ee",
+        "surface": "#ffffff",
+        "surface-2": "#ffe9d1",
+        "text": "#1a1a1a",
+        "text-muted": "#5c4a3a",
+        "primary": "#ff5e1a",
+        "accent": "#1c3fab",
+        "viridian": "#00a878",
+        "magenta": "#d6146b"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "12px",
+        "lg": "24px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "bold": "6px 6px 0 #1c3fab",
+        "bold-sm": "3px 3px 0 #d6146b"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Fraunces', 'Georgia', serif",
+        "display": "'Fraunces', 'Playfair Display', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      "extra": {
+        "brushstroke-border": "3px solid #1a1a1a",
+        "clash-gradient": "linear-gradient(105deg, #ff5e1a 0%, #d6146b 45%, #1c3fab 100%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/fauvism.md"
+  },
+  {
+    "slug": "cubism",
+    "name": "Cubism",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "synthetic cubism",
+      "papier collé",
+      "faceted design"
+    ],
+    "traits": [
+      "Fragmented, overlapping geometric planes viewed from multiple simultaneous perspectives",
+      "Muted earthy ground (ochre, umber, black) punctuated by bolder collage color (sienna, blue)",
+      "Thin black contour lines separating each plane, planes overlapping at odd angles"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e8dcc3",
+        "surface": "#f2e9d8",
+        "surface-2": "#d9c9a3",
+        "text": "#1c1610",
+        "text-muted": "#5c4f3a",
+        "primary": "#b5451f",
+        "accent": "#2b4c6f",
+        "ochre": "#c68a2e",
+        "ink": "#16130f"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "2px",
+        "lg": "4px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "facet": "3px 3px 0 #16130f",
+        "collage": "0 6px 18px rgba(22,19,15,0.28)"
+      },
+      "blur": {
+        "none": "0px"
+      },
+      "font": {
+        "sans": "Arial, Helvetica Neue, sans-serif",
+        "display": "Georgia, Times New Roman, serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": ".75rem",
+        "sm": ".875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(.2,.8,.2,1)"
+      },
+      "extra": {
+        "facet-gradient": "linear-gradient(115deg, rgba(181,69,31,0.14) 0 32%, rgba(43,76,111,0.12) 32% 61%, rgba(198,138,46,0.16) 61% 100%)",
+        "collage-paper": "repeating-linear-gradient(4deg, rgba(22,19,15,0.04) 0 2px, transparent 2px 6px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/cubism.md"
+  },
+  {
+    "slug": "populuxe",
+    "name": "Populuxe",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "atomic populuxe",
+      "jet-age consumer style",
+      "boomerang modern"
+    ],
+    "traits": [
+      "Two-tone pastel blocking (turquoise/pink/coral/mint) on warm cream, trimmed in chrome silver",
+      "Atomic starburst and boomerang accent shapes used sparingly as optimistic punctuation",
+      "Bold italic wedge-shaped display type evoking tailfins and forward motion"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f4ede0",
+        "surface": "#fffaf3",
+        "surface-2": "#ffe3ec",
+        "text": "#2b2320",
+        "text-muted": "#6b5f56",
+        "primary": "#ff6f61",
+        "accent": "#1fb5a3",
+        "chrome": "#c8ccd0",
+        "gold": "#d4af37"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "10px",
+        "lg": "20px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "chrome": "0 0 0 1px #ffffff, 0 0 0 2px #c8ccd0, 0 8px 20px rgba(43,35,32,0.18)",
+        "starburst": "0 10px 24px rgba(255,111,97,0.25)"
+      },
+      "blur": {
+        "none": "0px"
+      },
+      "font": {
+        "sans": "Futura, Century Gothic, Trebuchet MS, sans-serif",
+        "display": "Futura, Century Gothic, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": ".75rem",
+        "sm": ".875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(.34,1.56,.64,1)"
+      },
+      "extra": {
+        "starburst": "conic-gradient(from 0deg, #ff6f61 0 6deg, transparent 6deg 30deg, #1fb5a3 30deg 36deg, transparent 36deg 60deg, #d4af37 60deg 66deg, transparent 66deg 90deg)",
+        "boomerang-sweep": "linear-gradient(100deg, #ffe3ec 0 38%, transparent 38% 62%, rgba(31,181,163,0.16) 62% 100%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/populuxe.md"
+  },
+  {
+    "slug": "kintsugi",
+    "name": "Kintsugi",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "golden joinery",
+      "kintsukuroi"
+    ],
+    "traits": [
+      "Dark matte ceramic/glaze surfaces (charcoal, near-black) as the base material",
+      "Luminous gold seam lines marking every join, division, or repair — imperfection as a visible feature",
+      "Warm charcoal-and-gold palette only, with slightly irregular hand-drawn seam paths"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#1c1a18",
+        "surface": "#262320",
+        "surface-2": "#322d28",
+        "text": "#f0e6d2",
+        "text-muted": "#b8ab94",
+        "primary": "#d4a53d",
+        "accent": "#8a6a3a",
+        "seam": "#f0c04d",
+        "lacquer": "#100e0c"
+      },
+      "radius": {
+        "sm": "3px",
+        "md": "10px",
+        "lg": "18px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "seam-glow": "0 0 10px rgba(240,192,77,0.45)",
+        "vessel": "0 10px 26px rgba(0,0,0,0.5)"
+      },
+      "blur": {
+        "soft": "6px"
+      },
+      "font": {
+        "sans": "Noto Serif JP, Shippori Mincho, Georgia, serif",
+        "display": "Shippori Mincho, Noto Serif JP, serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": ".75rem",
+        "sm": ".875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(.4,0,.2,1)"
+      },
+      "extra": {
+        "seam-gradient": "linear-gradient(90deg, transparent, #f0c04d 15%, #d4a53d 50%, #f0c04d 85%, transparent)",
+        "glaze-sheen": "radial-gradient(circle at 25% 0%, rgba(240,230,210,0.06), transparent 55%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/kintsugi.md"
+  },
+  {
+    "slug": "neoclassicism",
+    "name": "Neoclassicism",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "neoclassical design",
+      "Greco-Roman revival"
+    ],
+    "traits": [
+      "Strict symmetric composition, centered layouts",
+      "Column/pediment motifs used as structural framing, not decoration",
+      "Cream/marble-white surfaces with muted gold and deep ink accents; serif type evoking carved stone"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f2ede0",
+        "surface": "#faf7ef",
+        "surface-2": "#e3dbc7",
+        "text": "#1f2733",
+        "text-muted": "#5a5850",
+        "primary": "#8a6d3b",
+        "accent": "#2f3b52",
+        "marble-vein": "#c9c0a8",
+        "ink": "#14181f"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "2px",
+        "lg": "4px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "plinth": "0 1px 0 #ffffff inset, 0 10px 22px rgba(31,39,51,0.14)",
+        "relief": "0 1px 2px rgba(31,39,51,0.22)"
+      },
+      "blur": {
+        "none": "0px"
+      },
+      "font": {
+        "sans": "Trajan Pro, Cinzel, Georgia, serif",
+        "display": "Cinzel, Trajan Pro, serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": ".75rem",
+        "sm": ".875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(.4,0,.2,1)"
+      },
+      "extra": {
+        "pediment-cap": "linear-gradient(180deg, #e3dbc7 0 3px, transparent 3px)",
+        "fluted-divider": "repeating-linear-gradient(90deg, #c9c0a8 0 1px, transparent 1px 10px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/neoclassicism.md"
+  },
+  {
+    "slug": "pre-raphaelite",
+    "name": "Pre-Raphaelite",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Pre-Raphaelite Brotherhood style",
+      "PRB aesthetic"
+    ],
+    "traits": [
+      "Deep saturated jewel-tone palette (emerald, crimson, gold), built up like glazed paint",
+      "Dense, specific botanical motifs framing content, not repeating as flat pattern",
+      "Flowing organic linework (hair, vines, drapery) softening hard edges; medieval-romantic, painterly mood"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#1a0f14",
+        "surface": "#2a151c",
+        "surface-2": "#3d1f28",
+        "text": "#f3e6d8",
+        "text-muted": "#cbb8a8",
+        "primary": "#8c1f3f",
+        "accent": "#1f6b4a",
+        "gold": "#c9a227",
+        "ivory": "#fff6e8"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "8px",
+        "lg": "20px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "glaze": "0 1px 0 rgba(255,246,232,0.08) inset, 0 14px 34px rgba(0,0,0,0.5)",
+        "gilt": "0 0 0 1px #c9a227, 0 10px 26px rgba(140,31,63,0.3)"
+      },
+      "blur": {
+        "soft": "4px"
+      },
+      "font": {
+        "sans": "EB Garamond, Cormorant Garamond, serif",
+        "display": "Cormorant Garamond, EB Garamond, serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": ".75rem",
+        "sm": ".875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(.3,.6,.3,1)"
+      },
+      "extra": {
+        "gold-glaze": "radial-gradient(circle at 30% 0%, rgba(201,162,39,0.16), transparent 55%)",
+        "vine-border": "linear-gradient(180deg, #1f6b4a 0 8%, transparent 8% 92%, #1f6b4a 92% 100%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/pre-raphaelite.md"
+  },
+  {
+    "slug": "byzantine-mosaic",
+    "name": "Byzantine Mosaic",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Byzantine art",
+      "gold-ground mosaic",
+      "tesserae mosaic"
+    ],
+    "traits": [
+      "Gold-ground tesserae backgrounds with luminous, shimmering fields",
+      "Jewel-toned glass tile colors: deep sapphire, emerald, ruby",
+      "Rigid, frontal, hieratic figures with almond eyes",
+      "Geometric tessellated borders framing every panel"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0d1b3d",
+        "surface": "#142a5c",
+        "surface-2": "#1c3a7a",
+        "text": "#f5e6b8",
+        "text-muted": "#c9b57a",
+        "primary": "#d4af37",
+        "accent": "#7a1f3d",
+        "emerald-tile": "#1f6b4a",
+        "gold-ground": "#caa036"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "shadow-gold-glow": "0 0 20px rgba(212,175,55,0.40), 0 8px 20px rgba(0,0,0,0.45)",
+        "shadow-tile": "0 2px 0 rgba(0,0,0,0.35)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Cormorant Garamond', 'EB Garamond', serif",
+        "display": "'Cinzel', 'Cormorant Garamond', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.3, 0, 0.2, 1)"
+      },
+      "extra": {
+        "tesserae-gradient": "linear-gradient(135deg, #caa036 0%, #d4af37 20%, #b8860b 40%, #d4af37 60%, #caa036 80%, #b8860b 100%)",
+        "tile-grid": "repeating-linear-gradient(45deg, rgba(0,0,0,0.12) 0 2px, transparent 2px 8px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/byzantine-mosaic.md"
+  },
+  {
+    "slug": "chalkboard-lettering",
+    "name": "Chalkboard Lettering",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "chalk art",
+      "cafe chalkboard style",
+      "hand-lettered chalk"
+    ],
+    "traits": [
+      "Matte near-black or slate backgrounds with textured chalk-dust strokes",
+      "Playful hand-drawn display lettering with varied stroke weight",
+      "Doodled flourishes, underlines, and borders framing text",
+      "Slightly uneven, hand-drawn edges on every shape"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#1f2421",
+        "surface": "#262b27",
+        "surface-2": "#323830",
+        "text": "#f5f5f0",
+        "text-muted": "#b8bdb4",
+        "primary": "#f5f5f0",
+        "accent": "#f4a6c1",
+        "chalk-teal": "#8fd9c4",
+        "chalk-yellow": "#f5e08a"
+      },
+      "radius": {
+        "sm": "3px",
+        "md": "8px",
+        "lg": "16px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "shadow-chalk-dust": "0 2px 6px rgba(0,0,0,0.40)",
+        "shadow-chalk-glow": "0 0 8px rgba(245,245,240,0.18)"
+      },
+      "blur": {
+        "dust": "0.4px"
+      },
+      "font": {
+        "sans": "'Patrick Hand', 'Comic Neue', cursive",
+        "display": "'Caveat', 'Kalam', cursive",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.2, 0.64, 1)"
+      },
+      "extra": {
+        "chalk-texture": "radial-gradient(circle at 20% 30%, rgba(255,255,255,0.03) 0 1px, transparent 1px), radial-gradient(circle at 70% 60%, rgba(255,255,255,0.025) 0 1px, transparent 1px)",
+        "wobble": "rotate(-0.4deg)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/chalkboard-lettering.md"
+  },
+  {
+    "slug": "daguerreotype",
+    "name": "Daguerreotype",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "daguerrean portrait style",
+      "early photographic plate",
+      "tintype-adjacent"
+    ],
+    "traits": [
+      "Silvery monochrome tonal range with warm sepia-silver undertone",
+      "Soft vignette falloff darkening toward the edges",
+      "Oval or gilt-edge framing motifs around portraits and cards",
+      "Quiet, formal stillness — no grain, scratches, or VHS/CRT artifacts"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#d9d2c4",
+        "surface": "#eae5da",
+        "surface-2": "#c9c0ac",
+        "text": "#2b2621",
+        "text-muted": "#5c5347",
+        "primary": "#4a4238",
+        "accent": "#8a6d3a",
+        "silver": "#b8b2a0",
+        "sepia": "#6b5a3f"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "10px",
+        "lg": "40px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "shadow-vignette": "inset 0 0 60px rgba(20,16,10,0.45)",
+        "shadow-plate": "0 6px 20px rgba(20,16,10,0.30)"
+      },
+      "blur": {
+        "soft-focus": "6px"
+      },
+      "font": {
+        "sans": "'Cormorant', 'EB Garamond', serif",
+        "display": "'Playfair Display', 'Cormorant', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0.0, 0.2, 1)"
+      },
+      "extra": {
+        "vignette-gradient": "radial-gradient(ellipse at center, transparent 40%, rgba(20,16,10,0.55) 100%)",
+        "gilt-edge": "0 0 0 3px #8a6d3a, 0 0 0 5px #d9d2c4"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/daguerreotype.md"
+  },
+  {
+    "slug": "folk-art-naive",
+    "name": "Folk Art / Naive Art",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "naive art",
+      "outsider folk painting",
+      "self-taught art"
+    ],
+    "traits": [
+      "Flattened perspective with no attempt at photographic realism",
+      "Bold, saturated flat color fields",
+      "Decorative repeating motifs: flowers, animals, everyday scenes",
+      "Thick, confident hand-drawn outlines and warm handmade charm"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fbf1de",
+        "surface": "#fff8ec",
+        "surface-2": "#f3e2bf",
+        "text": "#3a2317",
+        "text-muted": "#6b4a35",
+        "primary": "#d63b2f",
+        "accent": "#2f7a63",
+        "mustard": "#e0a629",
+        "outline-ink": "#2b1a10"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "14px",
+        "lg": "24px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "shadow-outline": "0 3px 0 #2b1a10",
+        "shadow-outline-sm": "0 2px 0 #2b1a10"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Fredoka', 'Baloo 2', system-ui, sans-serif",
+        "display": "'Baloo 2', 'Fredoka', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      "extra": {
+        "motif-border": "repeating-linear-gradient(45deg, #d63b2f 0 6px, #e0a629 6px 12px, #2f7a63 12px 18px)",
+        "outline-stroke": "3px solid #2b1a10"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/folk-art-naive.md"
+  },
+  {
+    "slug": "persian-miniature",
+    "name": "Persian Miniature",
+    "category": "设计史与平面运动",
+    "aliases": [
+      "Persianate manuscript painting",
+      "Timurid/Safavid miniature",
+      "Islamic manuscript illustration"
+    ],
+    "traits": [
+      "Dense, intricate detail across flattened, multi-perspective compositions",
+      "Jewel-toned mineral pigments: lapis blue, vermillion, gold leaf",
+      "Ornamental floral (islimi) borders framing every panel",
+      "Fine, precise linework and delicate figure rendering"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f6ecd2",
+        "surface": "#fbf5e4",
+        "surface-2": "#ecdcb0",
+        "text": "#2a1a3d",
+        "text-muted": "#5c4a70",
+        "primary": "#1c398e",
+        "accent": "#a61b29",
+        "gold-leaf": "#c9972c",
+        "turquoise": "#2f7d6b"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "10px",
+        "lg": "20px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "shadow-gilt-frame": "0 0 0 3px #c9972c, 0 4px 14px rgba(42,26,61,0.25)",
+        "shadow-panel": "0 2px 10px rgba(42,26,61,0.18)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Cormorant Garamond', 'Scheherazade New', serif",
+        "display": "'Scheherazade New', 'Cormorant Garamond', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0.0, 0.2, 1)"
+      },
+      "extra": {
+        "islimi-border": "repeating-linear-gradient(90deg, #c9972c 0 3px, transparent 3px 14px)",
+        "lapis-vermillion-wash": "linear-gradient(135deg, rgba(28,57,142,0.08), rgba(166,27,41,0.08))"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/persian-miniature.md"
+  }
+]

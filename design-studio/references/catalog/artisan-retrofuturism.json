@@ -1,0 +1,2447 @@
+[
+  {
+    "slug": "afrofuturism",
+    "name": "Afrofuturism",
+    "category": "复古未来",
+    "aliases": [
+      "African futurism",
+      "Black futurist design"
+    ],
+    "traits": [
+      "Celestial black grounds with sun-gold and electric color",
+      "Strong radial systems, constellations, and orbit lines",
+      "A future that references lineage, craft, and celebration"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#100c1b",
+        "surface": "#1d1630",
+        "surface-2": "#2c2145",
+        "text": "#fff8df",
+        "text-muted": "#d3c6b2",
+        "primary": "#f4b942",
+        "accent": "#2dd4bf",
+        "violet": "#a78bfa"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "12px",
+        "lg": "24px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "glow": "0 0 0 1px rgba(244,185,66,.45), 0 18px 45px rgba(0,0,0,.35)",
+        "orbit": "0 0 28px rgba(45,212,191,.22)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "Inter, system-ui, sans-serif",
+        "display": "Georgia, serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": ".75rem",
+        "sm": ".875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(.22,.61,.36,1)"
+      },
+      "extra": {
+        "constellation": "radial-gradient(circle at 20% 15%, #f4b942 0 1px, transparent 2px), radial-gradient(circle at 78% 34%, #2dd4bf 0 1px, transparent 2px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/afrofuturism.md"
+  },
+  {
+    "slug": "space-western",
+    "name": "Space Western",
+    "category": "复古未来",
+    "aliases": [
+      "cosmic western",
+      "sci-fi western"
+    ],
+    "traits": [
+      "Dusty desert neutrals against nocturnal space",
+      "Stenciled utility type and star-map details",
+      "Weathered panels, stamped labels, and frontier red"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#17151a",
+        "surface": "#272129",
+        "surface-2": "#44363a",
+        "text": "#f5e5c8",
+        "text-muted": "#c6ae91",
+        "primary": "#d56b3e",
+        "accent": "#74bcc1",
+        "dust": "#b58b61"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "6px",
+        "lg": "12px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "panel": "0 1px 0 rgba(255,255,255,.18) inset, 0 8px 18px rgba(0,0,0,.3)",
+        "stamp": "3px 3px 0 #17151a"
+      },
+      "blur": {},
+      "font": {
+        "sans": "Arial, Helvetica, sans-serif",
+        "display": "Georgia, serif",
+        "mono": "'Courier New', monospace"
+      },
+      "text": {
+        "xs": ".75rem",
+        "sm": ".875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(.2,.75,.3,1)"
+      },
+      "extra": {
+        "dust-gradient": "linear-gradient(160deg, rgba(181,139,97,.28), transparent 52%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/space-western.md"
+  },
+  {
+    "slug": "cyberpunk",
+    "name": "Cyberpunk",
+    "category": "复古未来",
+    "aliases": [
+      "cyber",
+      "high tech low life",
+      "neon noir",
+      "赛博朋克"
+    ],
+    "traits": [
+      "Neon glow (cyan/magenta) on near-black",
+      "Dense HUD/glitch overlays, mono type, scanlines",
+      "Rain-slick megacity noir, holograms",
+      "High-contrast, dystopian, tech-saturated"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#05010d",
+        "surface": "#0d0221",
+        "surface-2": "#160a2b",
+        "text": "#e8f9ff",
+        "text-muted": "#7a8fa6",
+        "primary": "#00fff5",
+        "accent": "#ff003c",
+        "magenta": "#ff00e6",
+        "yellow": "#faff00",
+        "border": "#00fff5"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "2px",
+        "lg": "4px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "glow-cyan": "0 0 6px #00fff5, 0 0 18px rgba(0,255,245,0.6)",
+        "glow-magenta": "0 0 6px #ff00e6, 0 0 18px rgba(255,0,230,0.6)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Rajdhani', 'Chakra Petch', system-ui, sans-serif",
+        "display": "'Orbitron', 'Rajdhani', sans-serif",
+        "mono": "'Share Tech Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "steps(3, end)",
+        "glitch": "steps(2, jump-none)"
+      },
+      "extra": {
+        "scanline": "repeating-linear-gradient(0deg, rgba(0,255,245,0.05) 0 1px, transparent 1px 3px)",
+        "neon-border": "1px solid #00fff5"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/cyberpunk.md"
+  },
+  {
+    "slug": "solarpunk",
+    "name": "Solarpunk",
+    "category": "复古未来",
+    "aliases": [
+      "eco-futurism",
+      "太阳朋克"
+    ],
+    "traits": [
+      "Lush greenery fused with clean technology",
+      "Warm sunlit palette: greens, gold, sky blue, terracotta",
+      "Art-Nouveau-influenced organic linework",
+      "Hopeful, sustainable, community-centered"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f5f9e8",
+        "surface": "#ffffff",
+        "text": "#1f3a2e",
+        "text-muted": "#4f6f5f",
+        "primary": "#2f9e6e",
+        "accent": "#f4b23e",
+        "leaf": "#6cbf6c",
+        "sky": "#8fd0e6",
+        "clay": "#d98a5c"
+      },
+      "radius": {
+        "sm": "10px",
+        "md": "20px",
+        "lg": "32px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "soft": "0 8px 24px rgba(47,158,110,0.15)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Quicksand', 'Nunito', system-ui, sans-serif",
+        "display": "'Fraunces', 'Quicksand', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.2, 0.64, 1)"
+      },
+      "extra": {
+        "foliage": "radial-gradient(circle at 20% 10%, rgba(108,191,108,0.25), transparent 40%)",
+        "art-nouveau-line": "2px solid #2f9e6e"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/solarpunk.md"
+  },
+  {
+    "slug": "steampunk",
+    "name": "Steampunk",
+    "category": "复古未来",
+    "aliases": [
+      "Victorian sci-fi",
+      "gaslamp",
+      "蒸汽朋克"
+    ],
+    "traits": [
+      "Brass, copper, wood, leather materials",
+      "Exposed gears, cogs, rivets, pipes, gauges",
+      "Ornate Victorian serif type and filigree",
+      "Analog steam-powered anachronistic tech"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#241b12",
+        "surface": "#34281a",
+        "surface-strong": "#422f1c",
+        "border": "#8a6a3a",
+        "text": "#f2e2c4",
+        "text-muted": "#cbb188",
+        "primary": "#b5762b",
+        "accent": "#7a9e8e",
+        "brass": "#c99a3d",
+        "rivet": "#5a4326"
+      },
+      "radius": {
+        "sm": "3px",
+        "md": "6px",
+        "lg": "10px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 4px rgba(0,0,0,0.4)",
+        "md": "0 6px 14px rgba(0,0,0,0.5)",
+        "lg": "0 14px 30px rgba(0,0,0,0.55)",
+        "bevel": "inset 0 1px 0 rgba(255,229,173,0.25), inset 0 -2px 3px rgba(0,0,0,0.5)"
+      },
+      "font": {
+        "sans": "'Rockwell', 'Roboto Slab', Georgia, serif",
+        "display": "'Playfair Display', 'Old Standard TT', 'Georgia', serif",
+        "mono": "'Courier Prime', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "brass-sheen": "linear-gradient(160deg, #e0b563, var(--color-brass) 50%, #8f6a2a)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/steampunk.md"
+  },
+  {
+    "slug": "dieselpunk",
+    "name": "Dieselpunk",
+    "category": "复古未来",
+    "aliases": [
+      "interwar retrofuturism"
+    ],
+    "traits": [
+      "Interwar/WWII industrial machine age",
+      "Art Deco + military-industrial forms",
+      "Muted metals, propaganda-poster palette",
+      "Streamlined engines, zeppelins, riveted steel"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#23201a",
+        "surface": "#2e2a22",
+        "surface-strong": "#3a352b",
+        "border": "#6b5f45",
+        "text": "#ece3cf",
+        "text-muted": "#b8ab8c",
+        "primary": "#b5461f",
+        "accent": "#8a9a5b",
+        "rivet": "#4a4436"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "3px",
+        "lg": "4px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 3px rgba(0,0,0,0.5)",
+        "md": "0 4px 10px rgba(0,0,0,0.55)",
+        "lg": "0 10px 24px rgba(0,0,0,0.6)"
+      },
+      "font": {
+        "sans": "'Oswald', 'Bebas Neue', 'Arial Narrow', sans-serif",
+        "display": "'Bebas Neue', 'Oswald', sans-serif",
+        "mono": "'Courier New', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "rivet-dot": "radial-gradient(circle at 10px 10px, var(--color-rivet) 2px, transparent 2.4px)",
+        "hazard-stripe": "repeating-linear-gradient(45deg, var(--color-primary) 0 10px, var(--color-accent) 10px 20px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/dieselpunk.md"
+  },
+  {
+    "slug": "atompunk",
+    "name": "Atompunk",
+    "category": "复古未来",
+    "aliases": [
+      "atomic age",
+      "raygun gothic-adjacent"
+    ],
+    "traits": [
+      "Googie curves, boomerangs, starbursts",
+      "Space-race optimism, atoms and rockets",
+      "Teal, orange, chrome, formica",
+      "Populuxe consumer futurism"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f7ecd2",
+        "surface": "#ffffff",
+        "surface-strong": "#fdd9a5",
+        "border": "#1c3f4a",
+        "text": "#14262b",
+        "text-muted": "#3d5a61",
+        "primary": "#e0692b",
+        "accent": "#1c8c8c",
+        "chrome": "#9fb4b8"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "40px 4px 40px 4px",
+        "lg": "60px 8px 60px 8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(20,38,43,0.2)",
+        "md": "0 6px 16px rgba(20,38,43,0.24)",
+        "lg": "0 14px 30px rgba(20,38,43,0.28)"
+      },
+      "font": {
+        "sans": "'Century Gothic', 'Futura', 'Poppins', sans-serif",
+        "display": "'Trend Sans', 'Bank Gothic', 'Century Gothic', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.4, 0.64, 1)"
+      },
+      "extra": {
+        "chrome-stripe": "linear-gradient(180deg, #ffffff 0%, var(--color-chrome) 50%, #ffffff 100%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/atompunk.md"
+  },
+  {
+    "slug": "cassette-futurism",
+    "name": "Cassette Futurism",
+    "category": "复古未来",
+    "aliases": [
+      "cassette punk",
+      "analog sci-fi"
+    ],
+    "traits": [
+      "Chunky beige/grey plastic hardware",
+      "CRT monitors, blinking LEDs, physical switches",
+      "Monospace amber/green terminal type",
+      "Lo-fi analog 'future as imagined in 1979'"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#b8b09a",
+        "surface": "#c9c2ad",
+        "surface-strong": "#d9d2ba",
+        "border": "#8a8367",
+        "text": "#2a2820",
+        "text-muted": "#5b5641",
+        "primary": "#b5651d",
+        "accent": "#ffb000",
+        "screen": "#1a1c14",
+        "led": "#4caf50"
+      },
+      "radius": {
+        "sm": "3px",
+        "md": "6px",
+        "lg": "10px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "inset 0 1px 0 rgba(255,255,255,0.35), 0 1px 2px rgba(0,0,0,0.3)",
+        "md": "inset 0 1px 0 rgba(255,255,255,0.3), 0 3px 8px rgba(0,0,0,0.35)",
+        "lg": "inset 0 2px 0 rgba(255,255,255,0.25), 0 6px 16px rgba(0,0,0,0.4)"
+      },
+      "font": {
+        "sans": "'Eurostile', 'Helvetica Neue', system-ui, sans-serif",
+        "display": "'Eurostile', 'Bank Gothic', system-ui, sans-serif",
+        "mono": "'VT323', 'Courier New', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      },
+      "extra": {
+        "scanlines": "repeating-linear-gradient(0deg, rgba(0,0,0,0.15) 0px, rgba(0,0,0,0.15) 1px, transparent 1px, transparent 3px)",
+        "screen-glow": "0 0 12px rgba(255,176,0,0.35)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/cassette-futurism.md"
+  },
+  {
+    "slug": "biopunk",
+    "name": "Biopunk",
+    "category": "复古未来",
+    "aliases": [
+      "organic sci-fi",
+      "biotech"
+    ],
+    "traits": [
+      "Wet organic textures, flesh and fungus",
+      "Bio-luminescence, veins, membranes",
+      "Genetic/lab motifs",
+      "Body-horror-adjacent futurism"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0a1410",
+        "surface": "#10201a",
+        "surface-strong": "#16291f",
+        "border": "#2f6b4c",
+        "text": "#e6f5ea",
+        "text-muted": "#9fc9ac",
+        "primary": "#39ff8c",
+        "accent": "#d63bff",
+        "membrane": "#1f3d2c"
+      },
+      "radius": {
+        "sm": "40% 60% 55% 45% / 45% 40% 60% 55%",
+        "md": "60% 40% 55% 45% / 50% 55% 45% 50%",
+        "lg": "55% 45% 60% 40% / 45% 55% 40% 60%",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 0 10px rgba(57,255,140,0.25)",
+        "md": "0 0 22px rgba(57,255,140,0.3)",
+        "lg": "0 0 40px rgba(57,255,140,0.35)"
+      },
+      "font": {
+        "sans": "'Space Grotesk', 'IBM Plex Sans', system-ui, sans-serif",
+        "display": "'Space Grotesk', 'IBM Plex Mono', sans-serif",
+        "mono": "'IBM Plex Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "glow-border": "1px solid rgba(57,255,140,0.5)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/biopunk.md"
+  },
+  {
+    "slug": "nanopunk",
+    "name": "Nanopunk",
+    "category": "复古未来",
+    "aliases": [
+      "nanotech futurism"
+    ],
+    "traits": [
+      "Swarming particle/grey-goo motifs",
+      "Clinical near-future tech",
+      "Molecular grid overlays",
+      "Smart-material morphing surfaces"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#050a09",
+        "surface": "#0d1917",
+        "surface-strong": "#142622",
+        "border": "rgba(180, 255, 232, 0.22)",
+        "text": "#e6fff8",
+        "text-muted": "#8fc9bc",
+        "primary": "#33f2c0",
+        "accent": "#a6ff3d",
+        "swarm": "#5ad1ff",
+        "danger": "#ff4f6d"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "6px",
+        "lg": "12px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 0 8px rgba(51,242,192,0.18)",
+        "md": "0 0 22px rgba(51,242,192,0.22)",
+        "lg": "0 0 44px rgba(51,242,192,0.26)"
+      },
+      "font": {
+        "sans": "'Eurostile', 'Orbitron', system-ui, sans-serif",
+        "display": "'Orbitron', 'Eurostile', sans-serif",
+        "mono": "'Share Tech Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "molecular-grid": "radial-gradient(circle, rgba(51,242,192,0.28) 0.5px, transparent 0.6px) 0 0/14px 14px",
+        "scan-rule": "linear-gradient(90deg, transparent, var(--color-primary), transparent)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/nanopunk.md"
+  },
+  {
+    "slug": "y2k-futurism",
+    "name": "Y2K Futurism",
+    "category": "复古未来",
+    "aliases": [
+      "Y2K",
+      "millennium bug aesthetic",
+      "cyber-y2k",
+      "千禧",
+      "千禧未来",
+      "Y2K"
+    ],
+    "traits": [
+      "Glossy translucent 'blobjects' and chrome",
+      "Metallic silver, icy blues, hot pink accents",
+      "Bubble/inflatable UI, lens flares, starbursts",
+      "Techno-optimism, iMac G3 / bubble tech"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#dfe9f5",
+        "surface": "#ffffff",
+        "text": "#1b2a4a",
+        "text-muted": "#5a6b8c",
+        "primary": "#8ab6ff",
+        "accent": "#c0f0ff",
+        "silver": "#c7d2df",
+        "lilac": "#d6c7ff",
+        "hotpink": "#ff8fd6"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "18px",
+        "lg": "999px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "bubble": "inset 0 2px 6px rgba(255,255,255,0.9), 0 6px 14px rgba(120,160,220,0.4)",
+        "chrome": "inset 0 1px 0 #ffffff, inset 0 -3px 6px rgba(0,0,0,0.15)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Michroma', 'Eurostile', 'Arial', sans-serif",
+        "display": "'Michroma', 'Orbitron', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      "extra": {
+        "aqua-gel": "linear-gradient(180deg, #ffffff 0%, #c0f0ff 45%, #8ab6ff 100%)",
+        "chrome-metal": "linear-gradient(180deg, #f4f8ff, #c7d2df 50%, #9fb0c4 51%, #eef3fb)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/y2k-futurism.md"
+  },
+  {
+    "slug": "frutiger-aero",
+    "name": "Frutiger Aero",
+    "category": "复古未来",
+    "aliases": [
+      "Web 2.0 gloss",
+      "Aero",
+      "cleancore"
+    ],
+    "traits": [
+      "Glossy skeuomorphic bubbles and glass",
+      "Nature imagery: water, bubbles, grass, blue skies",
+      "Aqua gradients, lens flares, clean tech",
+      "Humanist Frutiger/Myriad type, auto-glow"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#eaf6ff",
+        "surface": "rgba(255,255,255,0.55)",
+        "text": "#0b3d2e",
+        "text-muted": "#2f6b57",
+        "primary": "#38b6ff",
+        "accent": "#7ed957",
+        "sky": "#8fd3ff",
+        "green": "#5bd06a",
+        "aqua": "#00c2c7"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "gloss": "inset 0 1px 0 rgba(255,255,255,0.9), 0 8px 20px rgba(56,182,255,0.25)",
+        "sm": "0 4px 12px rgba(56,182,255,0.2)"
+      },
+      "blur": {
+        "backdrop": "10px"
+      },
+      "font": {
+        "sans": "'Frutiger', 'Myriad Pro', 'Segoe UI', system-ui, sans-serif",
+        "display": "'Myriad Pro', 'Segoe UI', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "glossy": "linear-gradient(180deg, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.25) 50%, rgba(255,255,255,0.4) 51%, rgba(255,255,255,0.65) 100%)",
+        "sky-bg": "linear-gradient(180deg, #eaf6ff 0%, #bfe8ff 55%, #d9f7d0 100%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/frutiger-aero.md"
+  },
+  {
+    "slug": "vaporwave",
+    "name": "Vaporwave",
+    "category": "复古未来",
+    "aliases": [
+      "vapor",
+      "aesthetic (A E S T H E T I C)"
+    ],
+    "traits": [
+      "Roman busts, 80s/90s consumer nostalgia, glitch",
+      "Pink/purple/cyan sunset gradients",
+      "Japanese katakana, marble, palm trees, grids",
+      "Ironic, dreamy, mall-nostalgic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#1a0033",
+        "surface": "#2d0a4e",
+        "text": "#ffffff",
+        "text-muted": "#c9a6ff",
+        "primary": "#ff71ce",
+        "accent": "#01cdfe",
+        "purple": "#b967ff",
+        "mint": "#05ffa1",
+        "yellow": "#fffb96"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "6px",
+        "lg": "12px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "glow": "0 0 20px rgba(255,113,206,0.6)",
+        "text-chrome": "2px 2px 0 #01cdfe, -2px -2px 0 #ff71ce"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'VT323', 'Poppins', system-ui, sans-serif",
+        "display": "'Monoton', 'VT323', cursive",
+        "mono": "'VT323', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "linear"
+      },
+      "extra": {
+        "grid": "linear-gradient(#ff71ce 1px, transparent 1px), linear-gradient(90deg, #ff71ce 1px, transparent 1px)",
+        "sunset": "linear-gradient(180deg, #ff71ce, #ff9a5a, #fffb96)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/vaporwave.md"
+  },
+  {
+    "slug": "synthwave",
+    "name": "Synthwave / Outrun",
+    "category": "复古未来",
+    "aliases": [
+      "outrun",
+      "retrowave",
+      "retro-futurism 80s",
+      "合成波",
+      "霓虹复古"
+    ],
+    "traits": [
+      "Neon grid horizon and giant gradient sun",
+      "Magenta/cyan on deep blue-purple night",
+      "Chrome 80s type, palm trees, sports cars",
+      "Retro-futuristic, cinematic, VHS glow"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0d0221",
+        "surface": "#170a3a",
+        "text": "#f6f0ff",
+        "text-muted": "#9d8bd6",
+        "primary": "#ff2a6d",
+        "accent": "#05d9e8",
+        "purple": "#d300c5",
+        "orange": "#ff8b00",
+        "grid": "#ff2a6d"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "4px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "glow-pink": "0 0 8px #ff2a6d, 0 0 24px rgba(255,42,109,0.6)",
+        "glow-cyan": "0 0 8px #05d9e8, 0 0 24px rgba(5,217,232,0.6)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Kanit', 'Rajdhani', system-ui, sans-serif",
+        "display": "'Monoton', 'Audiowide', cursive",
+        "mono": "'Share Tech Mono', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "sun": "linear-gradient(180deg, #ff8b00 0%, #ff2a6d 60%, #d300c5 100%)",
+        "perspective-grid": "linear-gradient(#05d9e8 1px, transparent 1px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/synthwave.md"
+  },
+  {
+    "slug": "cyberprep",
+    "name": "Cyberprep",
+    "category": "复古未来",
+    "aliases": [
+      "optimistic cyberpunk"
+    ],
+    "traits": [
+      "Clean, bright, safe high-tech future",
+      "White/aqua/green, glossy surfaces",
+      "Seamless friendly tech integration",
+      "Utopian consumer sci-fi"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#eef9fb",
+        "surface": "#ffffff",
+        "surface-strong": "#dcf3f6",
+        "border": "#b7e6ec",
+        "text": "#0c3a3f",
+        "text-muted": "#3f6c70",
+        "primary": "#0fb5c4",
+        "accent": "#3ddc84",
+        "glossy-hi": "rgba(255, 255, 255, 0.85)"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "16px",
+        "lg": "28px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(15, 181, 196, 0.18)",
+        "md": "0 8px 20px rgba(15, 181, 196, 0.20)",
+        "lg": "0 16px 36px rgba(15, 181, 196, 0.22)",
+        "inset-hi": "inset 0 1px 0 rgba(255,255,255,0.9)"
+      },
+      "font": {
+        "sans": "'Segoe UI', 'Frutiger', system-ui, sans-serif",
+        "display": "'Eurostile', 'Segoe UI', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "entrance": "cubic-bezier(0, 0, 0, 1)",
+        "exit": "cubic-bezier(0.3, 0, 1, 1)"
+      },
+      "extra": {
+        "glossy-fill": "linear-gradient(180deg, var(--color-glossy-hi) 0%, var(--color-surface) 45%, var(--color-surface-strong) 100%)",
+        "aqua-gradient": "linear-gradient(135deg, var(--color-primary), var(--color-accent))"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/cyberprep.md"
+  },
+  {
+    "slug": "dreampunk",
+    "name": "Dreampunk",
+    "category": "复古未来",
+    "aliases": [
+      "oneiric aesthetic"
+    ],
+    "traits": [
+      "Hazy, ethereal, foggy gradients",
+      "Soft glow, indistinct forms",
+      "Liminal, otherworldly calm",
+      "Ambient, hypnagogic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#171b2e",
+        "surface": "rgba(255, 255, 255, 0.06)",
+        "surface-strong": "rgba(255, 255, 255, 0.11)",
+        "border": "rgba(180, 200, 255, 0.22)",
+        "text": "#eef1ff",
+        "text-muted": "rgba(238, 241, 255, 0.68)",
+        "primary": "#7c9cff",
+        "accent": "#9df0e0"
+      },
+      "radius": {
+        "sm": "12px",
+        "md": "20px",
+        "lg": "32px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 14px rgba(90, 110, 220, 0.20)",
+        "md": "0 10px 40px rgba(90, 110, 220, 0.28)",
+        "lg": "0 24px 70px rgba(90, 110, 220, 0.34)"
+      },
+      "blur": {
+        "backdrop": "22px"
+      },
+      "font": {
+        "sans": "'Nunito Sans', system-ui, sans-serif",
+        "display": "'Quicksand', 'Nunito Sans', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      "extra": {
+        "fog-fill": "linear-gradient(160deg, rgba(124,156,255,0.14), rgba(157,240,224,0.06))"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/dreampunk.md"
+  },
+  {
+    "slug": "raygun-gothic",
+    "name": "Raygun Gothic",
+    "category": "复古未来",
+    "aliases": [
+      "retro sci-fi",
+      "googie sci-fi"
+    ],
+    "traits": [
+      "Sleek rockets, ray guns, chrome fins",
+      "Streamlined optimistic space age",
+      "Bold geometric sans + starbursts",
+      "1950s 'World of Tomorrow' futurism"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0b1e3d",
+        "surface": "#12315e",
+        "surface-strong": "#1a4180",
+        "border": "#8fb4e6",
+        "text": "#f2f6ff",
+        "text-muted": "#aac2e8",
+        "primary": "#ff5a36",
+        "accent": "#2ee6d0",
+        "chrome": "#c9d6e8"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "12px",
+        "lg": "999px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(0,0,0,0.3)",
+        "md": "0 6px 18px rgba(0,0,0,0.4)",
+        "lg": "0 14px 36px rgba(0,0,0,0.5)"
+      },
+      "font": {
+        "sans": "'Century Gothic', 'Futura', 'Poppins', sans-serif",
+        "display": "'Broadway', 'Futura', 'Arial Black', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      "extra": {
+        "chrome-gradient": "linear-gradient(135deg, #eef3ff 0%, #9fb6d8 45%, #4a6a9c 55%, #eef3ff 100%)",
+        "starburst": "repeating-conic-gradient(from 0deg, rgba(46,230,208,0.10) 0deg 8deg, transparent 8deg 20deg)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/raygun-gothic.md"
+  },
+  {
+    "slug": "googie",
+    "name": "Googie",
+    "category": "复古未来",
+    "aliases": [
+      "populuxe",
+      "doo-wop architecture"
+    ],
+    "traits": [
+      "Upswept roofs, boomerangs, starbursts, atoms",
+      "Bold neon signage, cantilevers",
+      "Space-age optimism",
+      "Amoeba/kidney-bean shapes"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f5ede0",
+        "surface": "#ffffff",
+        "surface-strong": "#fff2df",
+        "border": "#1f2a44",
+        "text": "#1f2a44",
+        "text-muted": "#4c5878",
+        "primary": "#ff6b3d",
+        "accent": "#1fb6b0",
+        "gold": "#f0b429"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "4px 24px 4px 24px",
+        "lg": "8px 48px 8px 48px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "3px 3px 0 var(--color-border)",
+        "md": "5px 5px 0 var(--color-border)",
+        "lg": "8px 8px 0 var(--color-border)"
+      },
+      "font": {
+        "sans": "'Century Gothic', 'Avant Garde', 'Futura', sans-serif",
+        "display": "'Broadway', 'Cooper Black', 'Futura', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.5rem",
+        "2xl": "2rem",
+        "3xl": "2.75rem",
+        "4xl": "3.75rem",
+        "5xl": "5rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/googie.md"
+  },
+  {
+    "slug": "space-age",
+    "name": "Space Age Pop",
+    "category": "复古未来",
+    "aliases": [
+      "space age",
+      "1960s futurism"
+    ],
+    "traits": [
+      "Sleek white + primary pops, molded plastic",
+      "Spherical/pod forms, chrome",
+      "Op-art and geometric patterns",
+      "Astronaut-era optimism"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f4f2ec",
+        "surface": "#ffffff",
+        "surface-strong": "#eceae2",
+        "border": "#d8d4c6",
+        "text": "#1c1b17",
+        "text-muted": "#5a564a",
+        "primary": "#e8542a",
+        "accent": "#2f8fd4",
+        "chrome": "#c7ccd1",
+        "sun": "#f2b705"
+      },
+      "radius": {
+        "sm": "12px",
+        "md": "24px",
+        "lg": "48px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(28,27,23,0.10)",
+        "md": "0 8px 20px rgba(28,27,23,0.14)",
+        "lg": "0 18px 40px rgba(28,27,23,0.18)",
+        "chrome": "inset 0 1px 0 rgba(255,255,255,0.8), inset 0 -6px 10px rgba(0,0,0,0.08)"
+      },
+      "font": {
+        "sans": "'Century Gothic', 'Poppins', 'Futura', system-ui, sans-serif",
+        "display": "'Cooper Black', 'Baloo 2', 'Poppins', system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.2, 0.64, 1)",
+        "entrance": "cubic-bezier(0, 0, 0, 1)",
+        "exit": "cubic-bezier(0.3, 0, 1, 1)"
+      },
+      "extra": {
+        "starburst": "repeating-conic-gradient(from 0deg, var(--color-sun) 0deg 8deg, transparent 8deg 20deg)",
+        "chrome-gradient": "linear-gradient(135deg, #fdfdfd, #c7ccd1 45%, #fdfdfd 55%, #a9afb5)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/space-age.md"
+  },
+  {
+    "slug": "seapunk",
+    "name": "Seapunk",
+    "category": "复古未来",
+    "aliases": [
+      "aquatic vaporwave"
+    ],
+    "traits": [
+      "Aquatic teal/cyan, dolphins, waves",
+      "90s CGI/Web 1.0 nostalgia",
+      "Yin-yang, glitch, holographic",
+      "Watery, kitschy, ironic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#062c31",
+        "surface": "#0d4750",
+        "surface-strong": "#135b66",
+        "border": "#00e5ff",
+        "text": "#eafffc",
+        "text-muted": "#9fd9d4",
+        "primary": "#00e5ff",
+        "accent": "#ff6ec7",
+        "lime": "#a6ff3d"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "12px",
+        "lg": "24px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(0,229,255,0.25)",
+        "md": "0 8px 20px rgba(0,229,255,0.28)",
+        "lg": "0 18px 40px rgba(0,229,255,0.32)"
+      },
+      "font": {
+        "sans": "'Verdana', 'Geneva', sans-serif",
+        "display": "'Papyrus', 'Herculanum', 'Verdana', sans-serif",
+        "mono": "'Courier New', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "holo-gradient": "linear-gradient(120deg, #00e5ff, #ff6ec7, #a6ff3d, #00e5ff)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/seapunk.md"
+  },
+  {
+    "slug": "vectordelia",
+    "name": "Vectordelia",
+    "category": "复古未来",
+    "aliases": [
+      "Web 2.0 vectors",
+      "swirl graphics"
+    ],
+    "traits": [
+      "Swooping vector swirls and 'wirebirds'",
+      "Glossy gradients, floral flourishes",
+      "Bright saturated color",
+      "Adobe Illustrator flourish era"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#eaf6ff",
+        "surface": "#ffffff",
+        "surface-strong": "#f2fbff",
+        "text": "#0b2545",
+        "text-muted": "#45607e",
+        "primary": "#0ea5e9",
+        "accent": "#ec4899",
+        "lime": "#a3e635",
+        "violet": "#8b5cf6"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "14px",
+        "lg": "22px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(14, 165, 233, 0.18)",
+        "md": "0 6px 20px rgba(14, 165, 233, 0.24)",
+        "lg": "0 12px 36px rgba(14, 165, 233, 0.28)",
+        "inset-hi": "inset 0 1px 0 rgba(255, 255, 255, 0.8)"
+      },
+      "font": {
+        "sans": "'Myriad Pro', 'Segoe UI', -apple-system, sans-serif",
+        "display": "'Trebuchet MS', 'Segoe UI', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "entrance": "cubic-bezier(0, 0, 0, 1)",
+        "exit": "cubic-bezier(0.3, 0, 1, 1)",
+        "swirl-gradient": "linear-gradient(120deg, #0369a1 0%, #0e7490 30%, #6d28d9 65%, #be185d 100%)",
+        "gloss-sheen": "linear-gradient(180deg, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.12) 35%, rgba(255,255,255,0) 60%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/vectordelia.md"
+  },
+  {
+    "slug": "mcbling",
+    "name": "McBling",
+    "category": "复古未来",
+    "aliases": [
+      "bling era",
+      "2000s glam"
+    ],
+    "traits": [
+      "Rhinestones, glitter, hot pink, gold bling",
+      "Flip-phone/tabloid celebrity culture",
+      "Juicy/velour, Y2K glam",
+      "Ostentatious, playful excess"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#2a0a1f",
+        "surface": "#3d0f2c",
+        "surface-strong": "#52123c",
+        "border": "rgba(255, 214, 240, 0.35)",
+        "text": "#fff2fa",
+        "text-muted": "#e8b8d8",
+        "primary": "#ff2ea6",
+        "accent": "#ffd23f",
+        "rhinestone": "#9be8ff",
+        "gold": "#ffcf5c"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "16px",
+        "lg": "28px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(255,46,166,0.30)",
+        "md": "0 6px 20px rgba(255,46,166,0.35)",
+        "lg": "0 14px 40px rgba(255,46,166,0.40)",
+        "bling": "0 0 0 2px rgba(255,255,255,0.55) inset, 0 0 18px rgba(255,210,63,0.55)"
+      },
+      "font": {
+        "sans": "'Comic Sans MS', 'Chalkboard SE', system-ui, sans-serif",
+        "display": "'Curlz MT', 'Brush Script MT', cursive",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "glitter-fill": "linear-gradient(135deg, #ff2ea6 0%, #ff7ac6 35%, #ffd23f 100%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/mcbling.md"
+  },
+  {
+    "slug": "chromecore",
+    "name": "Chromecore",
+    "category": "复古未来",
+    "aliases": [
+      "liquid chrome",
+      "metal type"
+    ],
+    "traits": [
+      "Liquid/reflective chrome surfaces and type",
+      "Silver, mercury, iridescent reflections",
+      "Blobby metallic 3D forms",
+      "Futuristic, sleek, cold"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e8eaf0",
+        "surface": "#f4f5f9",
+        "surface-strong": "#ffffff",
+        "border": "#c3c8d6",
+        "text": "#1c1b2e",
+        "text-muted": "#4a4866",
+        "primary": "#a78bfa",
+        "accent": "#f472b6",
+        "mint": "#5eead4"
+      },
+      "radius": {
+        "sm": "16px",
+        "md": "28px",
+        "lg": "44px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(28,27,46,0.1)",
+        "md": "0 10px 26px rgba(167,139,250,0.22)",
+        "lg": "0 20px 48px rgba(244,114,182,0.24)"
+      },
+      "font": {
+        "sans": "'Segoe UI', 'Helvetica Neue', system-ui, sans-serif",
+        "display": "'Segoe UI', 'Trebuchet MS', system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      "extra": {
+        "iridescent": "linear-gradient(120deg, #a78bfa 0%, #f472b6 33%, #5eead4 66%, #a78bfa 100%)",
+        "mercury-sheen": "linear-gradient(160deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.2) 35%, rgba(255,255,255,0.7) 60%, rgba(255,255,255,0.1) 100%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/chromecore.md"
+  },
+  {
+    "slug": "silicon-dreams",
+    "name": "Silicon Dreams",
+    "category": "复古未来",
+    "aliases": [
+      "Frutiger Metro"
+    ],
+    "traits": [
+      "Dark glossy tech backgrounds",
+      "Blue glow, circuitry, HUD hints",
+      "Corporate futurism",
+      "Glass + neon-blue accents"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#050b14",
+        "surface": "#0d1b2a",
+        "surface-strong": "#132840",
+        "border": "#234a6b",
+        "text": "#eaf4ff",
+        "text-muted": "#8fb3d1",
+        "primary": "#2fb8ff",
+        "accent": "#6ee7ff",
+        "glow": "rgba(47,184,255,0.55)"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "12px",
+        "lg": "20px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(0,0,0,0.4)",
+        "md": "0 8px 24px rgba(0,0,0,0.5), 0 0 20px var(--color-glow)",
+        "lg": "0 18px 44px rgba(0,0,0,0.55), 0 0 32px var(--color-glow)"
+      },
+      "font": {
+        "sans": "'Frutiger', 'Segoe UI', system-ui, sans-serif",
+        "display": "'Frutiger', 'Eurostile', 'Segoe UI', sans-serif",
+        "mono": "'Consolas', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      },
+      "extra": {
+        "glass-sheen": "linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0) 40%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/silicon-dreams.md"
+  },
+  {
+    "slug": "laserwave",
+    "name": "Laserwave / Darksynth",
+    "category": "复古未来",
+    "aliases": [
+      "darksynth",
+      "dreamwave"
+    ],
+    "traits": [
+      "Aggressive neon on black, horror tones",
+      "Red/purple/cyan, chrome skulls",
+      "Cinematic, ominous",
+      "VHS grain and glow"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0a0014",
+        "surface": "#170a2e",
+        "surface-strong": "#23103f",
+        "border": "rgba(255,43,109,0.35)",
+        "text": "#f5e9ff",
+        "text-muted": "#b48ecf",
+        "primary": "#ff2b53",
+        "accent": "#9b30ff",
+        "glow-2": "#ff2b6d"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 0 8px rgba(255,43,83,0.45)",
+        "md": "0 0 20px rgba(255,43,83,0.5), 0 0 40px rgba(155,48,255,0.25)",
+        "lg": "0 0 32px rgba(255,43,83,0.6), 0 0 64px rgba(155,48,255,0.35)"
+      },
+      "font": {
+        "sans": "'Rajdhani', 'Barlow Condensed', system-ui, sans-serif",
+        "display": "'Orbitron', 'Rajdhani', system-ui, sans-serif",
+        "mono": "'Share Tech Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      },
+      "extra": {
+        "scanlines": "repeating-linear-gradient(0deg, rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 1px, transparent 1px, transparent 3px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/laserwave.md"
+  },
+  {
+    "slug": "clockpunk",
+    "name": "Clockpunk",
+    "category": "复古未来",
+    "aliases": [
+      "Renaissance punk",
+      "da Vinci punk"
+    ],
+    "traits": [
+      "Clockwork gears, springs, brass automata",
+      "Da Vinci-style sketches and mechanisms",
+      "Renaissance materials: wood, brass",
+      "Analog pre-steam mechanical fantasy"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#3b2b1a",
+        "surface": "#4f3a24",
+        "surface-strong": "#61472c",
+        "border": "#b08d4f",
+        "text": "#f2e6cc",
+        "text-muted": "#cbb489",
+        "primary": "#b08d4f",
+        "accent": "#7a9e7e"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "6px",
+        "lg": "12px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(0,0,0,0.4)",
+        "md": "0 6px 16px rgba(0,0,0,0.45)",
+        "lg": "0 14px 32px rgba(0,0,0,0.5)"
+      },
+      "font": {
+        "sans": "'Cormorant Garamond', Georgia, serif",
+        "display": "'Cormorant Garamond', 'Trajan Pro', Georgia, serif",
+        "mono": "'Courier Prime', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      },
+      "extra": {
+        "brass-gradient": "linear-gradient(180deg, #d8b968 0%, #b08d4f 45%, #8a6a35 100%)",
+        "gear-ring": "3px dashed var(--color-primary)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/clockpunk.md"
+  },
+  {
+    "slug": "stonepunk",
+    "name": "Stonepunk",
+    "category": "复古未来",
+    "aliases": [
+      "prehistoric punk"
+    ],
+    "traits": [
+      "Stone, bone, wood 'technology'",
+      "Earthy, rough, primitive materials",
+      "Cave-painting motifs",
+      "Anachronistic prehistoric tech"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#d8c9a8",
+        "surface": "#cabb96",
+        "surface-strong": "#b8a67d",
+        "border": "#7a6242",
+        "text": "#2c2013",
+        "text-muted": "#52422b",
+        "primary": "#8a3b1f",
+        "accent": "#4a6b4a",
+        "ochre": "#b5772b",
+        "char": "#2c2013"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "5px",
+        "lg": "9px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 3px rgba(44,32,19,0.35)",
+        "md": "0 5px 10px rgba(44,32,19,0.4)",
+        "lg": "0 12px 22px rgba(44,32,19,0.45)",
+        "carve": "inset 0 2px 3px rgba(44,32,19,0.4), inset 0 -1px 0 rgba(255,247,224,0.15)"
+      },
+      "font": {
+        "sans": "'Rockwell', 'Roboto Slab', Georgia, serif",
+        "display": "'Rock Salt', 'Kalam', 'Rockwell', serif",
+        "mono": "'Courier Prime', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "daub-texture": "repeating-linear-gradient(115deg, rgba(44,32,19,0.06) 0px, rgba(44,32,19,0.06) 2px, transparent 2px, transparent 6px)",
+        "char-mark": "linear-gradient(180deg, rgba(44,32,19,0.08), transparent 60%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/stonepunk.md"
+  },
+  {
+    "slug": "silkpunk",
+    "name": "Silkpunk",
+    "category": "复古未来",
+    "aliases": [
+      "East-Asian retrofuturism"
+    ],
+    "traits": [
+      "Bamboo, silk, paper, lacquer materials",
+      "Organic bio-mechanics (airships, kites)",
+      "Classical Chinese/Asian motifs",
+      "Elegant, flowing, nature-integrated tech"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f3ead9",
+        "surface": "#faf6ec",
+        "surface-strong": "#ece0c6",
+        "border": "#cbb98c",
+        "text": "#2b241c",
+        "text-muted": "#6c5f4c",
+        "primary": "#a3282c",
+        "accent": "#4f7a67",
+        "lacquer": "#7a1518"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "14px",
+        "lg": "32px 8px 32px 8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(43, 36, 28, 0.12)",
+        "md": "0 8px 18px rgba(43, 36, 28, 0.14)",
+        "lg": "0 18px 36px rgba(43, 36, 28, 0.16)"
+      },
+      "font": {
+        "sans": "'Noto Sans SC', 'Noto Sans', system-ui, sans-serif",
+        "display": "'Noto Serif SC', 'Songti SC', Georgia, serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      "extra": {
+        "lacquer-bar": "4px solid var(--color-lacquer)",
+        "silk-sheen": "linear-gradient(120deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 30%, rgba(255,255,255,0.25) 55%, rgba(255,255,255,0) 80%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/silkpunk.md"
+  },
+  {
+    "slug": "decopunk",
+    "name": "Decopunk",
+    "category": "复古未来",
+    "aliases": [
+      "Deco-punk",
+      "raygun deco"
+    ],
+    "traits": [
+      "Polished Art Deco chrome and glamour",
+      "Brighter palette than gritty dieselpunk",
+      "Streamlined luxury machine age",
+      "Gold, cream, chrome, geometric"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#12100a",
+        "surface": "#1c1811",
+        "surface-strong": "#262019",
+        "border": "#caa24b",
+        "text": "#f6ecd6",
+        "text-muted": "#cbb98f",
+        "primary": "#e3b23c",
+        "accent": "#6fd3c7",
+        "chrome": "#e9e4d8"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 4px rgba(0,0,0,0.4)",
+        "md": "0 4px 16px rgba(0,0,0,0.5)",
+        "lg": "0 12px 32px rgba(0,0,0,0.55)"
+      },
+      "font": {
+        "sans": "'Century Gothic', 'Futura', system-ui, sans-serif",
+        "display": "'Poiret One', 'Broadway', 'Futura', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      },
+      "extra": {
+        "gold-gradient": "linear-gradient(135deg, #f6d787, #caa24b 45%, #8a6a24 100%)",
+        "chevron-bg": "repeating-linear-gradient(115deg, rgba(202,162,75,0.08) 0 6px, transparent 6px 26px)",
+        "border-metal": "1px solid transparent"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/decopunk.md"
+  },
+  {
+    "slug": "tidalpunk",
+    "name": "Tidalpunk",
+    "category": "复古未来",
+    "aliases": [
+      "oceanpunk"
+    ],
+    "traits": [
+      "Ocean tech: wave/tidal energy, kelp, coral",
+      "Blues, teals, salvaged materials",
+      "Sustainable seafaring future",
+      "Hopeful, aquatic, resourceful"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0a3d3f",
+        "surface": "#0f4d4f",
+        "surface-strong": "#145e60",
+        "border": "#2f8b83",
+        "text": "#e8f6f3",
+        "text-muted": "#a9d6cf",
+        "primary": "#22b8a3",
+        "accent": "#d9a441",
+        "kelp": "#3f7d4a"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "14px",
+        "lg": "22px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(0,0,0,0.25)",
+        "md": "0 8px 20px rgba(0,0,0,0.30)",
+        "lg": "0 16px 40px rgba(0,0,0,0.35)"
+      },
+      "font": {
+        "sans": "'Space Grotesk', 'Inter', system-ui, sans-serif",
+        "display": "'Space Grotesk', 'Poppins', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "wave-crest": "radial-gradient(circle at 10px -6px, transparent 8px, var(--color-primary) 9px) 0 0/20px 12px repeat-x",
+        "kelp-fade": "linear-gradient(180deg, var(--color-surface) 0%, var(--color-bg) 100%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/tidalpunk.md"
+  },
+  {
+    "slug": "formicapunk",
+    "name": "Formicapunk",
+    "category": "复古未来",
+    "aliases": [
+      "1980s corporate futurism"
+    ],
+    "traits": [
+      "Formica, neon, geometric 80s corporate style",
+      "Miami-Vice pastels + chrome",
+      "Grid patterns, glass towers",
+      "Optimistic 80s consumer future"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#170f2e",
+        "surface": "#241a44",
+        "surface-strong": "#2e2158",
+        "border": "#5b4b96",
+        "text": "#f4eefe",
+        "text-muted": "#b6a7dd",
+        "primary": "#ff5fa2",
+        "accent": "#2fe6d8",
+        "chrome": "#c9c3e0"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 0 0 1px rgba(255,95,162,0.3), 0 2px 8px rgba(0,0,0,0.4)",
+        "md": "0 0 18px rgba(255,95,162,0.35), 0 8px 24px rgba(0,0,0,0.5)",
+        "lg": "0 0 32px rgba(47,230,216,0.3), 0 16px 40px rgba(0,0,0,0.55)"
+      },
+      "font": {
+        "sans": "'Eurostile', 'Avenir Next', 'Century Gothic', sans-serif",
+        "display": "'Eurostile Extended', 'Bank Gothic', 'Arial Narrow', sans-serif",
+        "mono": "'Space Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "bg-image": "linear-gradient(180deg, #170f2e 0%, #291a4e 55%, #170f2e 100%)",
+        "neon-edge": "linear-gradient(90deg, var(--color-primary), var(--color-accent))"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/formicapunk.md"
+  },
+  {
+    "slug": "lunarpunk",
+    "name": "Lunarpunk",
+    "category": "复古未来",
+    "aliases": [
+      "night solarpunk",
+      "moonpunk",
+      "dark solarpunk"
+    ],
+    "traits": [
+      "Moonlit bioluminescence over deep indigo/black",
+      "Dark botanical and celestial motifs (moths, moonflowers, star charts)",
+      "Appropriate-tech-at-night: solar batteries, glow-lanterns, quiet machinery",
+      "Soft glowing edges instead of hard neon; mystical over corporate"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0a0e1a",
+        "surface": "#12182b",
+        "surface-2": "#1a2340",
+        "text": "#e8ecf7",
+        "text-muted": "#9aa4c4",
+        "primary": "#2dd4bf",
+        "accent": "#a78bfa",
+        "moonsilver": "#c7d2e0",
+        "nightbloom": "#5b4b8a"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "16px",
+        "lg": "28px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "glow-teal": "0 0 24px rgba(45,212,191,0.35), 0 8px 24px rgba(0,0,0,0.4)",
+        "glow-violet": "0 0 20px rgba(167,139,250,0.30), 0 8px 20px rgba(0,0,0,0.4)"
+      },
+      "blur": {
+        "soft": "18px"
+      },
+      "font": {
+        "sans": "'Spectral', 'Cormorant Garamond', system-ui, serif",
+        "display": "'Cormorant Garamond', 'Spectral', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      "extra": {
+        "moonlight-gradient": "radial-gradient(circle at 80% 0%, rgba(199,210,224,0.18), transparent 45%)",
+        "bioluminescent-veil": "linear-gradient(180deg, rgba(45,212,191,0.08), rgba(167,139,250,0.08))"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/lunarpunk.md"
+  },
+  {
+    "slug": "teslapunk",
+    "name": "Teslapunk",
+    "category": "复古未来",
+    "aliases": [
+      "electropunk",
+      "wireless-age retrofuturism",
+      "arc-light futurism"
+    ],
+    "traits": [
+      "Crackling blue-white arc-lightning motifs",
+      "Polished copper and brass coil detailing",
+      "Deep midnight-blue backgrounds",
+      "Glowing filament/vacuum-tube light sources; wireless-electrical-future optimism"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#060b1a",
+        "surface": "#0d1830",
+        "surface-2": "#142544",
+        "text": "#eaf4ff",
+        "text-muted": "#9fb8d9",
+        "primary": "#4fd8ff",
+        "accent": "#d98a3d",
+        "brass": "#c9a24b",
+        "copper": "#a8622f"
+      },
+      "radius": {
+        "sm": "3px",
+        "md": "10px",
+        "lg": "22px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "arc": "0 0 22px rgba(79,216,255,0.45), 0 8px 22px rgba(0,0,0,0.5)",
+        "brass": "0 4px 12px rgba(201,162,75,0.25), inset 0 1px 0 rgba(255,255,255,0.15)"
+      },
+      "blur": {
+        "arc": "12px"
+      },
+      "font": {
+        "sans": "'Cormorant', 'EB Garamond', system-ui, serif",
+        "display": "'Cinzel', 'Cormorant', serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0.8, 0.3, 1)"
+      },
+      "extra": {
+        "arc-gradient": "radial-gradient(circle at 50% 0%, rgba(79,216,255,0.35), transparent 55%)",
+        "brass-trim": "linear-gradient(180deg, #e7c47a 0%, #c9a24b 45%, #8a6a2c 100%)",
+        "bg-image": "radial-gradient(140% 100% at 50% -10%, #142544 0%, #060b1a 60%, #030612 100%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/teslapunk.md"
+  }
+]

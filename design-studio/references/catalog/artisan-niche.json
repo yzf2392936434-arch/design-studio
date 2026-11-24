@@ -1,0 +1,4011 @@
+[
+  {
+    "slug": "lowrider",
+    "name": "Lowrider",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "lowrider art",
+      "Chicano lowrider"
+    ],
+    "traits": [
+      "Candy paint, chrome, and deep sunset color",
+      "Pinstripes, ornamental frames, and hand-lettered display type",
+      "Celebratory crafted detail rather than generic retro decoration"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#25071c",
+        "surface": "#3c0d30",
+        "surface-2": "#64143e",
+        "text": "#fff1d6",
+        "text-muted": "#e2b8c8",
+        "primary": "#f05a9f",
+        "accent": "#48d7df",
+        "gold": "#e6bc55"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "8px",
+        "lg": "18px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "candy": "0 2px 0 rgba(255,255,255,.35) inset, 0 12px 28px rgba(0,0,0,.35)",
+        "chrome": "0 0 0 1px #e6bc55, 0 0 0 4px #3c0d30, 0 0 0 5px #48d7df"
+      },
+      "blur": {},
+      "font": {
+        "sans": "Arial, Helvetica, sans-serif",
+        "display": "Georgia, serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": ".75rem",
+        "sm": ".875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(.2,.8,.2,1)"
+      },
+      "extra": {
+        "candy-gradient": "linear-gradient(135deg, #f05a9f, #64143e 52%, #48d7df)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/lowrider.md"
+  },
+  {
+    "slug": "cyber-sigilism",
+    "name": "Cyber Sigilism",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "cybersigilism",
+      "digital sigil"
+    ],
+    "traits": [
+      "Chrome ink on near-black grounds",
+      "Spined, thorned linework and circular seals",
+      "Tight ornamental density framed by generous dark space"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0e0e12",
+        "surface": "#17171d",
+        "surface-2": "#282832",
+        "text": "#ececf2",
+        "text-muted": "#aaaab8",
+        "primary": "#d6d8e4",
+        "accent": "#b068ff",
+        "chrome": "#7d8495"
+      },
+      "radius": {
+        "sm": "0",
+        "md": "2px",
+        "lg": "6px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "metal": "0 0 0 1px #7d8495, 0 12px 30px rgba(0,0,0,.45)",
+        "sigil": "0 0 22px rgba(176,104,255,.3)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "Arial, Helvetica, sans-serif",
+        "display": "Georgia, serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": ".75rem",
+        "sm": ".875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(.22,.61,.36,1)"
+      },
+      "extra": {
+        "sigil-grid": "conic-gradient(from 45deg, transparent 0 24%, rgba(214,216,228,.22) 25% 26%, transparent 27% 49%, rgba(176,104,255,.28) 50% 51%, transparent 52% 74%, rgba(214,216,228,.22) 75% 76%, transparent 77%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/cyber-sigilism.md"
+  },
+  {
+    "slug": "dark-academia",
+    "name": "Dark Academia",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "dark academic"
+    ],
+    "traits": [
+      "Moody browns, oxblood, forest green, cream",
+      "Serif type, old books, candlelight, tweed",
+      "Gothic/Ivy-League architecture motifs",
+      "Scholarly, nostalgic, melancholic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#1c1712",
+        "surface": "#26201a",
+        "surface-2": "#332a20",
+        "text": "#e8ddc7",
+        "text-muted": "#a99a7f",
+        "primary": "#8b5e34",
+        "accent": "#5a6b4f",
+        "oxblood": "#6e2b2b",
+        "gold": "#b89b5e"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "6px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(0,0,0,0.5)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'EB Garamond', Georgia, serif",
+        "display": "'Cormorant Garamond', 'EB Garamond', serif",
+        "mono": "'Courier Prime', monospace"
+      },
+      "text": {
+        "xs": "0.8rem",
+        "sm": "0.9rem",
+        "base": "1.05rem",
+        "lg": "1.3rem",
+        "xl": "1.7rem",
+        "2xl": "2.3rem",
+        "3xl": "3.1rem",
+        "4xl": "4.2rem",
+        "5xl": "5.6rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "paper": "#e8ddc7",
+        "rule": "1px solid #4a3f30"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/dark-academia.md"
+  },
+  {
+    "slug": "light-academia",
+    "name": "Light Academia",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "light academic"
+    ],
+    "traits": [
+      "Warm creams, beige, soft gold, sage",
+      "Sunlit libraries, linen, pastoral scholarship",
+      "Serif type, gentle and airy",
+      "Hopeful, romantic learning"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f7f0e3",
+        "surface": "#fffdf7",
+        "surface-strong": "#efe4c9",
+        "border": "#d8c9a3",
+        "text": "#3b3226",
+        "text-muted": "#7a6d55",
+        "primary": "#a97142",
+        "accent": "#7c8b5f",
+        "gold": "#c9a24a"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 3px rgba(59,50,38,0.10)",
+        "md": "0 6px 16px rgba(59,50,38,0.12)",
+        "lg": "0 14px 32px rgba(59,50,38,0.14)"
+      },
+      "font": {
+        "sans": "'Lora', 'Cormorant Garamond', Georgia, serif",
+        "display": "'Playfair Display', 'Cormorant Garamond', serif",
+        "mono": "'Courier Prime', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "bg-image": "radial-gradient(70% 50% at 50% 0%, rgba(201,162,74,0.16) 0%, transparent 65%), var(--color-bg)",
+        "gold-rule": "linear-gradient(90deg, transparent, var(--color-gold), transparent)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/light-academia.md"
+  },
+  {
+    "slug": "cottagecore",
+    "name": "Cottagecore",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "farmcore",
+      "countrycore"
+    ],
+    "traits": [
+      "Soft floral, gingham, pastoral palettes",
+      "Mushrooms, wildflowers, baking, cottages",
+      "Handwritten/serif type, warm nostalgia",
+      "Cozy, wholesome, slow-living"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f6f0e3",
+        "surface": "#fffdf7",
+        "surface-strong": "#ede2c8",
+        "border": "#b8a473",
+        "text": "#3f3423",
+        "text-muted": "#6b5c3f",
+        "primary": "#7a8450",
+        "accent": "#c1694f",
+        "gingham": "rgba(122, 132, 80, 0.16)"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "12px",
+        "lg": "20px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 5px rgba(63, 52, 35, 0.10)",
+        "md": "0 6px 14px rgba(63, 52, 35, 0.14)",
+        "lg": "0 12px 26px rgba(63, 52, 35, 0.16)"
+      },
+      "font": {
+        "sans": "'Nunito', system-ui, sans-serif",
+        "display": "'Playfair Display', 'Lora', Georgia, serif",
+        "script": "'Caveat', cursive",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "entrance": "cubic-bezier(0, 0, 0.2, 1)",
+        "exit": "cubic-bezier(0.4, 0, 1, 1)"
+      },
+      "extra": {
+        "stitch-border": "2px dashed var(--color-border)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/cottagecore.md"
+  },
+  {
+    "slug": "goblincore",
+    "name": "Goblincore",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "gremlincore"
+    ],
+    "traits": [
+      "Mushrooms, moss, frogs, snails, shiny trinkets",
+      "Muddy greens and browns",
+      "Chaotic natural collecting",
+      "Anti-perfection, whimsical"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#3a3222",
+        "surface": "#4a4128",
+        "surface-strong": "#574c2e",
+        "border": "#6b5c34",
+        "text": "#f1ead2",
+        "text-muted": "#c9bd97",
+        "primary": "#7c9a4a",
+        "accent": "#d4a72c",
+        "moss": "#556b2f"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "40% 60% 55% 45% / 45% 40% 60% 55%",
+        "lg": "55% 45% 40% 60% / 50% 55% 45% 50%",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(20,17,8,0.35)",
+        "md": "0 8px 20px rgba(20,17,8,0.4)",
+        "lg": "0 16px 36px rgba(20,17,8,0.45)"
+      },
+      "font": {
+        "sans": "'Atkinson Hyperlegible', 'Nunito', system-ui, sans-serif",
+        "display": "'Fredericka the Great', 'Amatic SC', 'Georgia', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.4, 0.64, 1)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/goblincore.md"
+  },
+  {
+    "slug": "webcore",
+    "name": "Webcore / Old Web",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "oldweb",
+      "internetcore",
+      "Web 1.0"
+    ],
+    "traits": [
+      "GeoCities clutter, tiled backgrounds, GIFs",
+      "Guestbooks, hit counters, 'under construction'",
+      "Comic Sans, marquee, bevel buttons",
+      "DIY, chaotic, nostalgic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ff00ff",
+        "surface": "#c0c0c0",
+        "surface-strong": "#e0e0e0",
+        "border": "#000080",
+        "text": "#000000",
+        "text-muted": "#333366",
+        "primary": "#0000ff",
+        "accent": "#00ff00",
+        "link-visited": "#800080"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "sm": "inset -1px -1px 0 #808080, inset 1px 1px 0 #ffffff",
+        "md": "inset -2px -2px 0 #808080, inset 2px 2px 0 #ffffff",
+        "lg": "4px 4px 0 #000000"
+      },
+      "font": {
+        "sans": "'Comic Sans MS', 'Comic Neue', cursive",
+        "display": "'Comic Sans MS', 'Impact', cursive",
+        "mono": "'Courier New', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "linear"
+      },
+      "extra": {
+        "tile-bg": "repeating-conic-gradient(#ff00ff 0% 25%, #cc00cc 0% 50%) 0 0/24px 24px",
+        "bevel-outset": "2px outset #c0c0c0",
+        "bevel-inset": "2px inset #c0c0c0"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/webcore.md"
+  },
+  {
+    "slug": "kidcore",
+    "name": "Kidcore",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "childcore"
+    ],
+    "traits": [
+      "Primary-color rainbows, stars, smileys",
+      "Toy/cartoon motifs, stickers",
+      "Chunky bubbly type",
+      "Playful, nostalgic, hyper"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fffdf0",
+        "surface": "#ffffff",
+        "surface-strong": "#fff6cf",
+        "border": "#1a1a1a",
+        "text": "#1a1a1a",
+        "text-muted": "#55524a",
+        "primary": "#ff5757",
+        "accent": "#3dd9eb",
+        "rainbow-1": "#ff5757",
+        "rainbow-2": "#ffb703",
+        "rainbow-3": "#ffe74c",
+        "rainbow-4": "#4dd671",
+        "rainbow-5": "#3dd9eb",
+        "rainbow-6": "#a06cff"
+      },
+      "radius": {
+        "sm": "10px",
+        "md": "16px",
+        "lg": "22px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "3px 3px 0 var(--color-border)",
+        "md": "5px 5px 0 var(--color-border)",
+        "lg": "8px 8px 0 var(--color-border)"
+      },
+      "font": {
+        "sans": "'Baloo 2', 'Comic Neue', system-ui, sans-serif",
+        "display": "'Fredoka', 'Baloo 2', system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.9rem",
+        "base": "1rem",
+        "lg": "1.15rem",
+        "xl": "1.5rem",
+        "2xl": "2rem",
+        "3xl": "2.75rem",
+        "4xl": "3.5rem",
+        "5xl": "4.5rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/kidcore.md"
+  },
+  {
+    "slug": "weirdcore",
+    "name": "Weirdcore",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "strangecore"
+    ],
+    "traits": [
+      "Low-quality nostalgic photos, distorted",
+      "Deliberately 'off', eerie, uncanny",
+      "Text overlays, arrows, dream-logic",
+      "Nostalgic dread"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#d8d3c4",
+        "surface": "#eae5d6",
+        "surface-strong": "#f4f0e4",
+        "border": "#6b6558",
+        "text": "#201f1a",
+        "text-muted": "#55523f",
+        "primary": "#c23b3b",
+        "accent": "#3b6fc2",
+        "sickly": "#a8b23f"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "2px",
+        "lg": "2px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 0 rgba(0,0,0,0.3)",
+        "md": "0 3px 0 rgba(0,0,0,0.3)",
+        "lg": "0 6px 10px rgba(0,0,0,0.35)"
+      },
+      "font": {
+        "sans": "'Times New Roman', 'Georgia', serif",
+        "display": "'Impact', 'Arial Narrow', sans-serif",
+        "mono": "'Courier New', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.6, 0, 0.4, 1)"
+      },
+      "extra": {
+        "grain-filter": "contrast(1.05) saturate(0.75) brightness(0.98)",
+        "tilt-off": "rotate(-0.6deg)",
+        "arrow-overlay": "\"→\""
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/weirdcore.md"
+  },
+  {
+    "slug": "dreamcore",
+    "name": "Dreamcore",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "oneiric core"
+    ],
+    "traits": [
+      "Hazy surreal dreamlike scenes",
+      "Nostalgic uncanny imagery",
+      "Soft glow, impossible spaces",
+      "Between comforting and unsettling"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f3e9f7",
+        "surface": "#fdf6ff",
+        "surface-strong": "#ecd9f2",
+        "border": "#d9b8e8",
+        "text": "#3a1f4d",
+        "text-muted": "#6d4a80",
+        "primary": "#c04fd6",
+        "accent": "#f4c96b",
+        "glow": "#ffe9a8"
+      },
+      "radius": {
+        "sm": "10px",
+        "md": "18px",
+        "lg": "28px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 10px rgba(150, 70, 170, 0.14)",
+        "md": "0 8px 28px rgba(150, 70, 170, 0.20)",
+        "lg": "0 20px 50px rgba(150, 70, 170, 0.26)",
+        "glow": "0 0 32px rgba(255, 233, 168, 0.55)"
+      },
+      "font": {
+        "sans": "'Quicksand', 'Comic Neue', system-ui, sans-serif",
+        "display": "'Cormorant Garamond', 'Playfair Display', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      },
+      "extra": {
+        "glow-ring": "0 0 0 6px rgba(255, 233, 168, 0.35)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/dreamcore.md"
+  },
+  {
+    "slug": "liminal-spaces",
+    "name": "Liminal Spaces",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "backrooms",
+      "liminal"
+    ],
+    "traits": [
+      "Empty familiar-yet-wrong places (malls, halls)",
+      "Fluorescent lighting, worn carpet",
+      "Uncanny emptiness and déjà-vu",
+      "Nostalgic unease"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#d9cf9a",
+        "surface": "#e7ddab",
+        "surface-strong": "#cfc188",
+        "border": "#b0a267",
+        "text": "#24211a",
+        "text-muted": "#565034",
+        "primary": "#8a6a3d",
+        "accent": "#5f6b3f",
+        "fluoro": "#eef0a8"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "2px",
+        "lg": "2px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 4px rgba(20,18,10,0.30)",
+        "md": "0 0 26px rgba(238,240,168,0.35), 0 2px 8px rgba(20,18,10,0.35)",
+        "lg": "0 0 40px rgba(238,240,168,0.4), 0 6px 18px rgba(20,18,10,0.4)"
+      },
+      "font": {
+        "sans": "'Arial', 'Helvetica Neue', system-ui, sans-serif",
+        "display": "'Arial', system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "vignette": "radial-gradient(120% 90% at 50% 30%, transparent 45%, rgba(10,9,4,0.30) 100%)",
+        "hum-line": "repeating-linear-gradient(180deg, rgba(238,240,168,0.05) 0px, transparent 2px, transparent 5px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/liminal-spaces.md"
+  },
+  {
+    "slug": "kawaii",
+    "name": "Kawaii",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "cute Japanese",
+      "chibi"
+    ],
+    "traits": [
+      "Round soft characters, big eyes",
+      "Pastel pinks and candy colors",
+      "Chubby friendly mascots",
+      "Sweet, playful, wholesome"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fff0f6",
+        "surface": "#ffffff",
+        "surface-strong": "#ffe1ec",
+        "border": "#ffb6d5",
+        "text": "#6b2447",
+        "text-muted": "#a45b82",
+        "primary": "#ff6fa5",
+        "accent": "#7fd8e8",
+        "candy": "#ffd166"
+      },
+      "radius": {
+        "sm": "12px",
+        "md": "20px",
+        "lg": "28px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(255,111,165,0.25)",
+        "md": "0 6px 18px rgba(255,111,165,0.30)",
+        "lg": "0 12px 32px rgba(255,111,165,0.32)"
+      },
+      "font": {
+        "sans": "'Baloo 2', 'Quicksand', system-ui, sans-serif",
+        "display": "'Baloo 2', 'Fredoka', system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      "extra": {
+        "dots": "radial-gradient(circle at 10px 10px, rgba(255,111,165,0.14) 2.5px, transparent 2.5px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/kawaii.md"
+  },
+  {
+    "slug": "fairycore",
+    "name": "Fairycore",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "faeriecore"
+    ],
+    "traits": [
+      "Ethereal pastels, wings, flowers, glow",
+      "Enchanted-forest whimsy",
+      "Sparkle and soft light",
+      "Dreamy, magical, delicate"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fdf3f8",
+        "bg-gradient-a": "#f6e3f5",
+        "bg-gradient-b": "#e3f0e6",
+        "surface": "#fffdfb",
+        "surface-strong": "#fbeaf3",
+        "border": "#e7bfd9",
+        "text": "#4a2b45",
+        "text-muted": "#7a5573",
+        "primary": "#c9679a",
+        "accent": "#8fb98a",
+        "glow": "#fff3c4"
+      },
+      "radius": {
+        "sm": "10px",
+        "md": "18px",
+        "lg": "28px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(201,103,154,0.16)",
+        "md": "0 8px 24px rgba(201,103,154,0.20)",
+        "lg": "0 16px 40px rgba(201,103,154,0.24)",
+        "glow": "0 0 24px rgba(255,243,196,0.55)"
+      },
+      "font": {
+        "sans": "'Quicksand', 'Nunito', system-ui, sans-serif",
+        "display": "'Cormorant Garamond', 'Parisienne', 'Georgia', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "entrance": "cubic-bezier(0, 0, 0, 1)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/fairycore.md"
+  },
+  {
+    "slug": "angelcore",
+    "name": "Angelcore",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "ethereal core"
+    ],
+    "traits": [
+      "Cherubs, clouds, soft gold light",
+      "White/cream/pale gold, halos",
+      "Renaissance-painting references",
+      "Divine, soft, romantic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fdf9f0",
+        "surface": "#ffffff",
+        "surface-strong": "#fbf1dc",
+        "border": "#e8d5a8",
+        "text": "#4a3f2a",
+        "text-muted": "#7a6849",
+        "primary": "#c9a24b",
+        "accent": "#f2c98a",
+        "halo": "#fff4d6"
+      },
+      "radius": {
+        "sm": "10px",
+        "md": "18px",
+        "lg": "28px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 12px rgba(201,162,75,0.15)",
+        "md": "0 10px 30px rgba(201,162,75,0.2)",
+        "lg": "0 24px 60px rgba(201,162,75,0.25)",
+        "halo": "0 0 0 8px rgba(242,201,138,0.22), 0 0 40px rgba(242,201,138,0.35)"
+      },
+      "font": {
+        "sans": "'Cormorant Garamond', 'Georgia', serif",
+        "display": "'Cormorant Garamond', 'Playfair Display', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.9rem",
+        "base": "1.05rem",
+        "lg": "1.2rem",
+        "xl": "1.5rem",
+        "2xl": "1.9rem",
+        "3xl": "2.5rem",
+        "4xl": "3.4rem",
+        "5xl": "4.6rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      "extra": {
+        "bg-image": "radial-gradient(60% 40% at 50% 0%, #fff4d6 0%, transparent 65%), var(--color-bg)",
+        "halo-ring": "radial-gradient(circle, rgba(242,201,138,0.5) 0%, rgba(242,201,138,0) 70%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/angelcore.md"
+  },
+  {
+    "slug": "acid-graphics",
+    "name": "Acid Graphics / Acid Design",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "acid design",
+      "psybient graphics",
+      "Y2K acid"
+    ],
+    "traits": [
+      "Melted chrome type, distorted 3D blobs",
+      "Toxic greens, purples, chrome",
+      "Trippy warped compositions",
+      "Rave/underground energy"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0a0510",
+        "surface": "#1a0f2e",
+        "surface-strong": "#2a1a45",
+        "border": "#ccff00",
+        "text": "#eafff0",
+        "text-muted": "rgba(234, 255, 240, 0.68)",
+        "primary": "#ccff00",
+        "accent": "#ff2ee0",
+        "toxic-green": "#7cff2e"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "10px",
+        "lg": "18px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 10px rgba(204, 255, 0, 0.18)",
+        "md": "0 8px 28px rgba(255, 46, 224, 0.25), 0 0 0 1px rgba(204,255,0,0.15)",
+        "lg": "0 18px 48px rgba(124, 255, 46, 0.22), 0 0 0 1px rgba(255,46,224,0.2)"
+      },
+      "font": {
+        "sans": "'Space Grotesk', 'Helvetica Neue', system-ui, sans-serif",
+        "display": "'Chrome', 'Arial Black', 'Space Grotesk', sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.6, 0, 0.2, 1.4)",
+        "entrance": "cubic-bezier(0.2, 1.4, 0.4, 1)",
+        "exit": "cubic-bezier(0.6, 0, 1, 1)"
+      },
+      "extra": {
+        "chrome-gradient": "linear-gradient(120deg, #eafff0 0%, #ccff00 22%, #ff2ee0 50%, #7cff2e 74%, #eafff0 100%)",
+        "bg-image": "radial-gradient(140% 100% at 10% -10%, #2a1a45 0%, #0a0510 55%, #150826 100%)",
+        "warp": "skewY(-1.4deg) rotate(-0.6deg)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/acid-graphics.md"
+  },
+  {
+    "slug": "brat",
+    "name": "Brat",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "brat green",
+      "Charli XCX green"
+    ],
+    "traits": [
+      "Single toxic lime-green (#8ACE00-ish) field",
+      "Low-res stretched Arial-style text",
+      "Deliberately blunt and lo-fi",
+      "Confrontational, cool, ironic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#8ace00",
+        "surface": "#97d611",
+        "surface-strong": "#a4e022",
+        "border": "#111111",
+        "text": "#0e0e0e",
+        "text-muted": "#2c2c2c",
+        "primary": "#0e0e0e",
+        "accent": "#ffffff"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "sm": "none",
+        "md": "none",
+        "lg": "none"
+      },
+      "font": {
+        "sans": "Arial, 'Helvetica Neue', sans-serif",
+        "display": "Arial, 'Helvetica Neue', sans-serif",
+        "mono": "'Courier New', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3.25rem",
+        "5xl": "4.5rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "linear"
+      },
+      "extra": {
+        "blur": "blur(0.4px)",
+        "stretch": "scaleX(1.12)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/brat.md"
+  },
+  {
+    "slug": "coquette",
+    "name": "Coquette",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "coquettecore",
+      "balletcore-adjacent"
+    ],
+    "traits": [
+      "Soft pinks, cream, lace, ribbon bows",
+      "Delicate serif/script type",
+      "Vintage romance, pearls, ballet",
+      "Dainty, flirtatious, nostalgic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fdf1f3",
+        "surface": "#fffafb",
+        "surface-strong": "#fbe4e9",
+        "border": "#e8b6c3",
+        "text": "#5c2a37",
+        "text-muted": "#8a5a67",
+        "primary": "#d6486a",
+        "accent": "#c98fae",
+        "lace": "rgba(232, 182, 195, 0.55)"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "14px",
+        "lg": "22px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(92, 42, 55, 0.10)",
+        "md": "0 6px 18px rgba(92, 42, 55, 0.14)",
+        "lg": "0 12px 30px rgba(92, 42, 55, 0.16)"
+      },
+      "font": {
+        "sans": "'Poppins', system-ui, -apple-system, sans-serif",
+        "display": "'Playfair Display', 'Cormorant Garamond', Georgia, serif",
+        "script": "'Dancing Script', cursive",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "entrance": "cubic-bezier(0, 0, 0.2, 1)",
+        "exit": "cubic-bezier(0.4, 0, 1, 1)"
+      },
+      "extra": {
+        "lace-border": "2px dotted var(--color-border)",
+        "ribbon-underline": "linear-gradient(90deg, var(--color-primary), var(--color-accent))"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/coquette.md"
+  },
+  {
+    "slug": "barbiecore",
+    "name": "Barbiecore",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "Barbie pink"
+    ],
+    "traits": [
+      "Saturated hot/bubblegum pink everywhere",
+      "Glossy plastic, glam, playful",
+      "Bold sans display type",
+      "Fun, femme, unapologetic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ff2e93",
+        "surface": "#ffffff",
+        "surface-strong": "#ffd6ec",
+        "border": "#ffffff",
+        "text": "#3a0021",
+        "text-muted": "#7a0a45",
+        "primary": "#ff0080",
+        "accent": "#ffe600"
+      },
+      "radius": {
+        "sm": "12px",
+        "md": "20px",
+        "lg": "32px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 4px 10px rgba(122,10,69,0.25)",
+        "md": "0 10px 26px rgba(122,10,69,0.3)",
+        "lg": "0 20px 46px rgba(122,10,69,0.34)"
+      },
+      "font": {
+        "sans": "'Poppins', 'Baloo 2', system-ui, sans-serif",
+        "display": "'Baloo 2', 'Poppins', system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      "extra": {
+        "gloss-shine": "linear-gradient(115deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0) 35%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/barbiecore.md"
+  },
+  {
+    "slug": "mallsoft",
+    "name": "Mallsoft",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "mall vaporwave"
+    ],
+    "traits": [
+      "Empty-mall photography, muzak nostalgia",
+      "Faded teal/beige 90s retail palette",
+      "Fountains, food courts, plants",
+      "Melancholic consumer nostalgia"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#2f3b3a",
+        "surface": "#3d4c48",
+        "surface-strong": "#4a5c56",
+        "border": "rgba(212, 196, 168, 0.28)",
+        "text": "#f1ead9",
+        "text-muted": "#c9c0a8",
+        "primary": "#d98fae",
+        "accent": "#6fb8ae",
+        "fountain": "#7fa39c",
+        "marquee": "#e0b060"
+      },
+      "radius": {
+        "sm": "3px",
+        "md": "6px",
+        "lg": "10px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(0,0,0,0.30)",
+        "md": "0 6px 18px rgba(0,0,0,0.36)",
+        "lg": "0 14px 34px rgba(0,0,0,0.42)",
+        "haze": "inset 0 0 40px rgba(217,143,174,0.10)"
+      },
+      "font": {
+        "sans": "'Century Gothic', 'Trebuchet MS', system-ui, sans-serif",
+        "display": "'Copperplate', 'Trebuchet MS', serif",
+        "mono": "'Courier New', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "bg-image": "radial-gradient(140% 100% at 50% -10%, #3d4c48 0%, #2f3b3a 60%, #24302f 100%)",
+        "haze-fill": "linear-gradient(160deg, rgba(111,184,174,0.12), rgba(217,143,174,0.06))",
+        "tile-line": "repeating-linear-gradient(90deg, rgba(212,196,168,0.05) 0 2px, transparent 2px 40px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/mallsoft.md"
+  },
+  {
+    "slug": "traumacore",
+    "name": "Traumacore",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "traumcore"
+    ],
+    "traits": [
+      "Childlike imagery (stickers, pastel) + heavy text",
+      "Faded nostalgic photos",
+      "Juxtaposition of innocence and distress",
+      "Emotionally raw"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f5e1ea",
+        "surface": "#fdf3f7",
+        "surface-strong": "#efd0de",
+        "border": "#1a1a1a",
+        "text": "#1a1a1a",
+        "text-muted": "#6b5560",
+        "primary": "#ff4d6d",
+        "accent": "#9ec9e8",
+        "sticker": "#fff27a"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "6px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "2px 2px 0 #1a1a1a",
+        "md": "4px 4px 0 #1a1a1a",
+        "lg": "6px 6px 0 #1a1a1a"
+      },
+      "font": {
+        "sans": "'Comic Neue', 'Chalkboard', 'Comic Sans MS', sans-serif",
+        "display": "'Permanent Marker', 'Caveat', cursive",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "scrawl-border": "3px solid #1a1a1a",
+        "faded-photo": "sepia(0.15) contrast(0.92) brightness(1.04) saturate(1.1)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/traumacore.md"
+  },
+  {
+    "slug": "nostalgiacore",
+    "name": "Nostalgiacore",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "memorycore"
+    ],
+    "traits": [
+      "Faded photos of childhood/00s ephemera",
+      "Warm degraded color, timestamps",
+      "Familiar objects and places",
+      "Wistful, comforting"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e8dcc8",
+        "surface": "#f2e9d8",
+        "surface-strong": "#ede0c4",
+        "border": "#b8a37e",
+        "text": "#4a3d2c",
+        "text-muted": "#7a6a52",
+        "primary": "#c17a4e",
+        "accent": "#8a9a6b",
+        "sepia-tint": "rgba(163, 120, 63, 0.18)",
+        "timestamp": "#e8622c"
+      },
+      "radius": {
+        "sm": "3px",
+        "md": "6px",
+        "lg": "10px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 3px rgba(74, 61, 44, 0.22)",
+        "md": "0 4px 10px rgba(74, 61, 44, 0.26)",
+        "lg": "0 10px 24px rgba(74, 61, 44, 0.3)"
+      },
+      "font": {
+        "sans": "'Century Gothic', 'Trebuchet MS', system-ui, sans-serif",
+        "display": "'Courier New', 'Trebuchet MS', monospace",
+        "mono": "'Courier New', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "grain-overlay": "repeating-radial-gradient(circle at 20% 30%, rgba(74,61,44,0.04) 0px, transparent 2px), repeating-radial-gradient(circle at 70% 80%, rgba(74,61,44,0.03) 0px, transparent 2px)",
+        "photo-vignette": "radial-gradient(120% 100% at 50% 40%, transparent 55%, rgba(74,61,44,0.14) 100%)",
+        "timestamp-font": "'Courier New', monospace"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/nostalgiacore.md"
+  },
+  {
+    "slug": "clowncore",
+    "name": "Clowncore",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "clown aesthetic"
+    ],
+    "traits": [
+      "Primary + rainbow clash, polka dots, stripes",
+      "Ruffles, checkerboard, harlequin",
+      "Playful-creepy circus motifs",
+      "Chaotic, loud, campy"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fef7e0",
+        "surface": "#ffffff",
+        "surface-strong": "#fff2f8",
+        "border": "#16161d",
+        "text": "#16161d",
+        "text-muted": "#514f5c",
+        "primary": "#ff2d55",
+        "accent": "#ffd400",
+        "blue": "#2f6fed",
+        "green": "#17b26a"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "20px",
+        "lg": "32px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "3px 3px 0 var(--color-border)",
+        "md": "5px 5px 0 var(--color-border)",
+        "lg": "8px 8px 0 var(--color-border)"
+      },
+      "font": {
+        "sans": "'Baloo 2', 'Comic Neue', system-ui, sans-serif",
+        "display": "'Fredoka', 'Baloo 2', system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      "extra": {
+        "polka-dots": "radial-gradient(circle, var(--color-primary) 2px, transparent 2.5px)",
+        "rainbow-stripe": "linear-gradient(90deg, #ff2d55, #ffd400, #17b26a, #2f6fed, #ff2d55)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/clowncore.md"
+  },
+  {
+    "slug": "witchcore",
+    "name": "Witchcore / Witchy",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "witchy aesthetic",
+      "goth-witch"
+    ],
+    "traits": [
+      "Crystals, herbs, candles, tarot, moons",
+      "Deep purples, black, forest green, gold",
+      "Celestial and botanical symbols",
+      "Mystical, earthy, cozy-dark"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#1a1523",
+        "surface": "#241d31",
+        "surface-strong": "#2e2540",
+        "border": "#6b4f9e",
+        "text": "#ece6f5",
+        "text-muted": "#b6a8d1",
+        "primary": "#7e57c2",
+        "accent": "#c9a24b",
+        "forest": "#2f5233"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "12px",
+        "lg": "20px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(0,0,0,0.4)",
+        "md": "0 8px 24px rgba(0,0,0,0.5)",
+        "lg": "0 16px 40px rgba(0,0,0,0.55)",
+        "glow": "0 0 18px rgba(201,162,75,0.25)"
+      },
+      "font": {
+        "sans": "'Cormorant Garamond', 'Georgia', serif",
+        "display": "'UnifrakturCook', 'Cinzel', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.3, 0, 0.2, 1)"
+      },
+      "extra": {
+        "moon-phase": "radial-gradient(circle at 70% 30%, var(--color-accent) 0 10%, transparent 11%)",
+        "celestial-border": "1px solid var(--color-border)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/witchcore.md"
+  },
+  {
+    "slug": "goth",
+    "name": "Goth / Gothic",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "gothcore",
+      "dark aesthetic"
+    ],
+    "traits": [
+      "Black-dominant, deep reds/purples",
+      "Ornate Victorian/ecclesiastical motifs",
+      "Blackletter/serif type, crosses, roses",
+      "Romantic, dark, dramatic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0a0508",
+        "surface": "#150c11",
+        "surface-strong": "#1f1218",
+        "border": "#4a1f2e",
+        "text": "#ece3e6",
+        "text-muted": "#b79aa5",
+        "primary": "#7a1128",
+        "accent": "#9c6b3f",
+        "blood": "#5c0e1f",
+        "rose": "#b83a52"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "6px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(0,0,0,0.6)",
+        "md": "0 6px 20px rgba(0,0,0,0.7)",
+        "lg": "0 14px 40px rgba(0,0,0,0.8)",
+        "ecclesiastic": "inset 0 0 0 1px rgba(156,107,63,0.35)"
+      },
+      "font": {
+        "sans": "'Cormorant Garamond', 'EB Garamond', Georgia, serif",
+        "display": "'UnifrakturCook', 'Pirata One', 'Cinzel Decorative', serif",
+        "mono": "'Courier Prime', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "border-filigree": "1px solid var(--color-border)",
+        "hairline-gradient": "linear-gradient(90deg, transparent, var(--color-accent) 50%, transparent)",
+        "bg-image": "radial-gradient(90% 60% at 50% -10%, #1f0c14 0%, #0a0508 60%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/goth.md"
+  },
+  {
+    "slug": "cybergoth",
+    "name": "Cybergoth",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "cyber goth",
+      "rivethead-adjacent"
+    ],
+    "traits": [
+      "Black + toxic neon (green, UV pink)",
+      "Industrial, PVC, goggles, dreads",
+      "Rave energy meets goth darkness",
+      "Aggressive, futuristic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#08070a",
+        "surface": "#131018",
+        "surface-strong": "#1c1724",
+        "border": "#3a2f47",
+        "text": "#f1e9ff",
+        "text-muted": "#b9a9d6",
+        "primary": "#b6ff1a",
+        "accent": "#ff2fd0",
+        "uv": "#33f0ff",
+        "toxic-glow": "rgba(182, 255, 26, 0.35)"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "6px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 0 6px var(--color-toxic-glow)",
+        "md": "0 0 16px var(--color-toxic-glow), 0 4px 12px rgba(0,0,0,0.6)",
+        "lg": "0 0 32px var(--color-toxic-glow), 0 8px 24px rgba(0,0,0,0.7)"
+      },
+      "font": {
+        "sans": "'Rubik', 'Eurostile', system-ui, sans-serif",
+        "display": "'Orbitron', 'Rubik', sans-serif",
+        "mono": "'Share Tech Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      "extra": {
+        "neon-edge": "1px solid var(--color-primary)",
+        "hazard-stripe": "repeating-linear-gradient(45deg, var(--color-accent) 0 6px, transparent 6px 12px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/cybergoth.md"
+  },
+  {
+    "slug": "scene-emo",
+    "name": "Scene / Emo",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "scene aesthetic",
+      "emo",
+      "2000s scene"
+    ],
+    "traits": [
+      "Neon + black, hot pink, leopard, checkerboard",
+      "Choppy hair, glittery graphics, hearts/skulls",
+      "Comic-sans-adjacent chaos, sparkles",
+      "Loud, angsty, DIY"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0a0a0c",
+        "surface": "#17151c",
+        "surface-strong": "#211c29",
+        "border": "#ff2fb0",
+        "text": "#f5f2fa",
+        "text-muted": "#b9aecb",
+        "primary": "#ff2fb0",
+        "accent": "#ccff00",
+        "electric": "#7a2fff"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "10px",
+        "lg": "18px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 0 6px rgba(255,47,176,0.45)",
+        "md": "0 0 18px rgba(255,47,176,0.5), 0 4px 14px rgba(0,0,0,0.6)",
+        "lg": "0 0 32px rgba(255,47,176,0.55), 0 10px 26px rgba(0,0,0,0.7)"
+      },
+      "font": {
+        "sans": "'Comic Sans MS', 'Chalkboard SE', 'Trebuchet MS', sans-serif",
+        "display": "'Jokerman', 'Impact', 'Trebuchet MS', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      "extra": {
+        "checkerboard": "repeating-conic-gradient(#1c1822 0% 25%, #0a0a0c 0% 50%) 0 0 / 16px 16px",
+        "neon-text-glow": "0 0 8px rgba(255,47,176,0.8), 0 0 18px rgba(255,47,176,0.4)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/scene-emo.md"
+  },
+  {
+    "slug": "indie-sleaze",
+    "name": "Indie Sleaze",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "hipster 2008",
+      "blog-house"
+    ],
+    "traits": [
+      "Harsh on-camera flash photography",
+      "Grainy, messy, American Apparel era",
+      "Neon-on-black party grit",
+      "Ironic, hedonistic, lo-fi"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0c0c0c",
+        "surface": "#161616",
+        "surface-strong": "#1f1f1f",
+        "border": "#3a3a3a",
+        "text": "#f5f5f2",
+        "text-muted": "#b8b3ad",
+        "primary": "#ff2d9c",
+        "accent": "#ccff00",
+        "flash": "#ffffff"
+      },
+      "radius": {
+        "sm": "1px",
+        "md": "2px",
+        "lg": "3px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 0 0 1px rgba(255,255,255,0.08), 0 2px 10px rgba(0,0,0,0.6)",
+        "md": "0 0 24px rgba(255,255,255,0.14), 0 8px 24px rgba(0,0,0,0.7)",
+        "lg": "0 0 40px rgba(255,255,255,0.18), 0 16px 40px rgba(0,0,0,0.75)"
+      },
+      "font": {
+        "sans": "'Helvetica Neue', Arial, sans-serif",
+        "display": "'Impact', 'Arial Black', sans-serif",
+        "mono": "'Courier New', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.85rem",
+        "3xl": "2.5rem",
+        "4xl": "3.4rem",
+        "5xl": "4.6rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.3, 0, 0.4, 1)",
+        "flash-grain": "url(\"data:image/svg+xml",
+        "collage-tilt": "rotate(-1.5deg)",
+        "collage-tilt-alt": "rotate(1deg)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/indie-sleaze.md"
+  },
+  {
+    "slug": "normcore",
+    "name": "Normcore",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "anti-fashion minimal"
+    ],
+    "traits": [
+      "Neutral, generic, unbranded plainness",
+      "Beige/gray/denim ordinariness",
+      "Anti-trend, blends in",
+      "Comfort over statement"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e9e7e2",
+        "surface": "#f5f4f1",
+        "surface-strong": "#dcdad4",
+        "border": "#b8b5ad",
+        "text": "#2f2e2b",
+        "text-muted": "#6a6862",
+        "primary": "#4a5568",
+        "accent": "#7c8a99",
+        "denim": "#5c7189"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "6px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(47,46,43,0.08)",
+        "md": "0 2px 6px rgba(47,46,43,0.1)",
+        "lg": "0 6px 14px rgba(47,46,43,0.12)"
+      },
+      "font": {
+        "sans": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif",
+        "display": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif",
+        "mono": "ui-monospace, 'Courier New', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "2rem",
+        "4xl": "2.5rem",
+        "5xl": "3.25rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "ease",
+        "plain-rule": "1px solid var(--color-border)",
+        "generic-accent-line": "2px solid var(--color-denim)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/normcore.md"
+  },
+  {
+    "slug": "grandmillennial",
+    "name": "Grandmillennial",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "granny chic",
+      "grandmacore"
+    ],
+    "traits": [
+      "Chintz florals, ruffles, needlepoint",
+      "Scalloped edges, toile, warm traditional",
+      "Ornate but cozy",
+      "Nostalgic maximal comfort"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#faf3e8",
+        "surface": "#fffaf1",
+        "surface-strong": "#f5e6d3",
+        "border": "#d8b892",
+        "text": "#3f2e22",
+        "text-muted": "#6f5a45",
+        "primary": "#b3435a",
+        "accent": "#4f7a5c",
+        "gold": "#c8933f"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "16px",
+        "lg": "28px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(63,46,34,0.12)",
+        "md": "0 8px 18px rgba(63,46,34,0.16)",
+        "lg": "0 16px 34px rgba(63,46,34,0.2)"
+      },
+      "font": {
+        "sans": "'Libre Franklin', 'Century Gothic', sans-serif",
+        "display": "'Playfair Display', 'Cormorant Garamond', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "scallop-edge": "radial-gradient(circle at 10px 0, transparent 9px, var(--color-surface) 9.5px) 0 0/20px 12px repeat-x"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/grandmillennial.md"
+  },
+  {
+    "slug": "tiki-tropical",
+    "name": "Tiki / Tropical",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "tropical",
+      "exotica",
+      "tiki bar"
+    ],
+    "traits": [
+      "Bamboo, palms, hibiscus, tiki masks",
+      "Sunset oranges, teal, wood tones",
+      "Exotica lounge vibe",
+      "Escapist, kitschy, warm"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f2d9a8",
+        "surface": "#f8e6c4",
+        "surface-strong": "#eccb92",
+        "border": "#a9631f",
+        "text": "#2e1a0f",
+        "text-muted": "#6b4526",
+        "primary": "#e0631f",
+        "accent": "#1f7a6c",
+        "hibiscus": "#d92b52"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "12px",
+        "lg": "20px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(46,26,15,0.18)",
+        "md": "0 6px 18px rgba(46,26,15,0.24)",
+        "lg": "0 14px 36px rgba(46,26,15,0.30)"
+      },
+      "font": {
+        "sans": "'Poppins', 'Futura', system-ui, sans-serif",
+        "display": "'Bungee', 'Baloo 2', cursive",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "bamboo-stripe": "repeating-linear-gradient(90deg, #a9631f 0 6px, #7a4515 6px 8px, #c17a30 8px 14px)",
+        "sunset-fade": "linear-gradient(180deg, #e0631f 0%, #d92b52 60%, #7a1f4a 100%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/tiki-tropical.md"
+  },
+  {
+    "slug": "americana-diner",
+    "name": "Retro Americana / Diner",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "diner",
+      "50s Americana",
+      "rockabilly"
+    ],
+    "traits": [
+      "Chrome, red vinyl, checkerboard floors",
+      "Neon signage, script + bold slab type",
+      "Cherry red, cream, turquoise",
+      "Nostalgic, wholesome, kitsch"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fdf6e3",
+        "surface": "#ffffff",
+        "surface-strong": "#fff8ea",
+        "border": "#1a1a1a",
+        "text": "#1a1a1a",
+        "text-muted": "#5c5346",
+        "primary": "#d62828",
+        "accent": "#1fb6b0",
+        "chrome": "#c9ccd1"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "10px",
+        "lg": "18px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 0 rgba(26,26,26,0.9)",
+        "md": "0 4px 0 rgba(26,26,26,0.9)",
+        "lg": "0 8px 0 rgba(26,26,26,0.9)",
+        "neon": "0 0 6px rgba(31,182,176,0.7), 0 0 16px rgba(31,182,176,0.4)"
+      },
+      "font": {
+        "sans": "'Helvetica Neue', Arial, sans-serif",
+        "display": "'Pacifico', 'Brush Script MT', cursive",
+        "mono": "'Courier New', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      "extra": {
+        "checker": "repeating-linear-gradient(45deg, #1a1a1a 0 10px, #fdf6e3 10px 20px)",
+        "chrome-edge": "linear-gradient(180deg, #f4f4f4, #b8bcc2 50%, #f4f4f4)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/americana-diner.md"
+  },
+  {
+    "slug": "art-hoe",
+    "name": "Art Hoe",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "artsy aesthetic"
+    ],
+    "traits": [
+      "Van Gogh/sunflower motifs, paint splatter",
+      "Warm earthy + bright accents",
+      "Journals, film photos, collage",
+      "Creative, expressive, personal"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f5ead9",
+        "surface": "#fdf3e0",
+        "surface-strong": "#f7e2c3",
+        "border": "#3a2b1e",
+        "text": "#3a2b1e",
+        "text-muted": "#6b5847",
+        "primary": "#c1440e",
+        "accent": "#d4a017",
+        "olive": "#6b7a3f",
+        "clay": "#b5651d"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "12px",
+        "lg": "18px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(58,43,30,0.14)",
+        "md": "0 8px 20px rgba(58,43,30,0.18)",
+        "lg": "0 16px 36px rgba(58,43,30,0.22)"
+      },
+      "font": {
+        "sans": "'Nunito Sans', 'Avenir Next', system-ui, sans-serif",
+        "display": "'Playfair Display', 'Cormorant Garamond', Georgia, serif",
+        "mono": "'Courier Prime', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.33, 1, 0.68, 1)",
+        "tilt-card": "rotate(-1.2deg)",
+        "tilt-badge": "rotate(2deg)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/art-hoe.md"
+  },
+  {
+    "slug": "gorpcore",
+    "name": "Gorpcore",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "outdoorsy",
+      "techwear-lite"
+    ],
+    "traits": [
+      "Technical outdoor apparel as everyday style",
+      "Earthy + hi-vis accent palette",
+      "Functional, rugged, utilitarian",
+      "Trail/mountain aesthetic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e8e4d8",
+        "surface": "#f2efe6",
+        "surface-strong": "#ddd7c4",
+        "border": "#4a4638",
+        "text": "#24221b",
+        "text-muted": "#565243",
+        "primary": "#3c5a3e",
+        "accent": "#e8630a",
+        "hi-vis": "#d7ff3f"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "6px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(36,34,27,0.2)",
+        "md": "0 4px 12px rgba(36,34,27,0.24)",
+        "lg": "0 10px 24px rgba(36,34,27,0.28)"
+      },
+      "font": {
+        "sans": "'Helvetica Neue', 'Inter', Arial, sans-serif",
+        "display": "'Bebas Neue', 'Oswald', Arial, sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "stitch-line": "repeating-linear-gradient(90deg, var(--color-hi-vis) 0 6px, transparent 6px 12px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/gorpcore.md"
+  },
+  {
+    "slug": "techwear",
+    "name": "Techwear",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "cyber-utility",
+      "dark ninja"
+    ],
+    "traits": [
+      "All-black technical fabrics, straps, buckles",
+      "Cyberpunk-utility silhouette",
+      "Matte, tactical, waterproof",
+      "Urban-ninja futurism"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0b0c0d",
+        "surface": "#17181a",
+        "surface-strong": "#212325",
+        "border": "#35383b",
+        "text": "#eceeef",
+        "text-muted": "#9aa0a4",
+        "primary": "#c8ff3d",
+        "accent": "#ff5b2e",
+        "strap": "#55595c"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 3px rgba(0,0,0,0.5)",
+        "md": "0 4px 10px rgba(0,0,0,0.55)",
+        "lg": "0 12px 28px rgba(0,0,0,0.6)"
+      },
+      "font": {
+        "sans": "'Neue Haas Grotesk', 'Inter', system-ui, sans-serif",
+        "display": "'Eurostile', 'Oswald', 'Inter', sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.3, 0, 0.15, 1)"
+      },
+      "extra": {
+        "stitch-line": "repeating-linear-gradient(90deg, var(--color-strap) 0 6px, transparent 6px 11px)",
+        "buckle-notch": "linear-gradient(135deg, transparent 8px, var(--color-border) 8px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/techwear.md"
+  },
+  {
+    "slug": "quiet-luxury",
+    "name": "Quiet Luxury / Old Money",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "old money",
+      "stealth wealth",
+      "静奢",
+      "低调奢华",
+      "轻奢"
+    ],
+    "traits": [
+      "Understated neutral tones: camel, cream, navy",
+      "No visible branding; quality materials",
+      "Serif type, restrained elegance",
+      "Timeless, expensive-looking calm"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f6f2e9",
+        "surface": "#fffdf8",
+        "surface-strong": "#ece3d1",
+        "border": "#d9cdad",
+        "text": "#2a2620",
+        "text-muted": "#6b6153",
+        "primary": "#1f2a44",
+        "accent": "#a9825c",
+        "hairline": "#b8a575"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "6px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(42, 38, 32, 0.06)",
+        "md": "0 4px 12px rgba(42, 38, 32, 0.08)",
+        "lg": "0 12px 28px rgba(42, 38, 32, 0.10)"
+      },
+      "font": {
+        "sans": "'Neue Haas Grotesk', 'Helvetica Neue', system-ui, sans-serif",
+        "display": "'Canela', 'Times New Roman', Georgia, serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "hairline": "1px solid var(--color-hairline)",
+        "letterspace-label": "0.08em"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/quiet-luxury.md"
+  },
+  {
+    "slug": "that-girl",
+    "name": "That Girl / Clean Girl",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "clean girl",
+      "cleanfluencer"
+    ],
+    "traits": [
+      "Airy neutrals: beige, white, sage",
+      "Minimal, clean, aspirational-wellness",
+      "Soft serif + clean sans",
+      "Matcha, journaling, gym, 'wellness'"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f7f3ec",
+        "surface": "#ffffff",
+        "surface-strong": "#f0ebe1",
+        "border": "#e4dcc9",
+        "text": "#4a4238",
+        "text-muted": "#8a7f6d",
+        "primary": "#9caf88",
+        "accent": "#c99f7a"
+      },
+      "radius": {
+        "sm": "10px",
+        "md": "16px",
+        "lg": "24px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(74,66,56,0.05)",
+        "md": "0 8px 24px rgba(74,66,56,0.08)",
+        "lg": "0 16px 40px rgba(74,66,56,0.10)"
+      },
+      "font": {
+        "sans": "'Inter', 'Helvetica Neue', system-ui, sans-serif",
+        "display": "'Fraunces', 'Georgia', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "air-wash": "linear-gradient(180deg, #fbf9f4 0%, #f7f3ec 100%)",
+        "sage-ring": "0 0 0 3px rgba(156,175,136,0.18)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/that-girl.md"
+  },
+  {
+    "slug": "cluttercore",
+    "name": "Cluttercore",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "more is more decor",
+      "maximal cozy"
+    ],
+    "traits": [
+      "Densely layered objects, books, trinkets",
+      "Warm eclectic clutter, no empty space",
+      "Personal, lived-in, collected",
+      "Comfort in abundance"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e8d9c0",
+        "surface": "#fff8ec",
+        "surface-strong": "#f4e8d0",
+        "border": "#2b1d14",
+        "text": "#2b1d14",
+        "text-muted": "#5c4632",
+        "primary": "#b23a48",
+        "accent": "#d99a2b",
+        "teal": "#2f6f6a",
+        "forest": "#4c7a5e"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "14px",
+        "lg": "22px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "2px 2px 0 var(--color-border), 5px 5px 0 rgba(43,29,20,0.15)",
+        "md": "3px 3px 0 var(--color-border), 8px 8px 0 rgba(43,29,20,0.15), 12px 12px 0 rgba(43,29,20,0.08)",
+        "lg": "4px 4px 0 var(--color-border), 11px 11px 0 rgba(43,29,20,0.16), 18px 18px 0 rgba(43,29,20,0.08)"
+      },
+      "font": {
+        "sans": "'Nunito', 'Poppins', system-ui, sans-serif",
+        "display": "'Fraunces', 'DM Serif Display', Georgia, serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "sticker-tilt": "rotate(-4deg)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/cluttercore.md"
+  },
+  {
+    "slug": "acubi",
+    "name": "Acubi",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "Y2K minimal",
+      "cyber-y2k fashion"
+    ],
+    "traits": [
+      "Cool-toned grey, silver, black, white",
+      "Minimal cyber-Y2K, low-rise sleek",
+      "Metallic + muted, clean lines",
+      "Edgy, futuristic, understated"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#121316",
+        "surface": "#1c1e22",
+        "surface-strong": "#26282d",
+        "border": "#35383f",
+        "text": "#f2f3f5",
+        "text-muted": "#a7abb3",
+        "primary": "#c7ccd4",
+        "accent": "#7dd3fc"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 3px rgba(0,0,0,0.4)",
+        "md": "0 6px 20px rgba(0,0,0,0.5)",
+        "lg": "0 16px 40px rgba(0,0,0,0.55)"
+      },
+      "font": {
+        "sans": "'Helvetica Neue', 'Pretendard', system-ui, sans-serif",
+        "display": "'Helvetica Neue', 'Pretendard', sans-serif",
+        "mono": "'IBM Plex Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.85rem",
+        "base": "0.95rem",
+        "lg": "1.1rem",
+        "xl": "1.3rem",
+        "2xl": "1.7rem",
+        "3xl": "2.2rem",
+        "4xl": "2.9rem",
+        "5xl": "3.8rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "metal-gradient": "linear-gradient(135deg, #7d828c 0%, #dde1e6 22%, #6b6f78 48%, #c7ccd4 74%, #7d828c 100%)",
+        "hairline": "1px solid var(--color-border)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/acubi.md"
+  },
+  {
+    "slug": "danish-pastel",
+    "name": "Danish Pastel",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "pastel maximal"
+    ],
+    "traits": [
+      "Soft multicolor pastels mixed freely",
+      "Checkerboard, wavy mirrors, smiley motifs",
+      "Cheerful cluttered coziness",
+      "Retro-playful decor"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fdeef2",
+        "surface": "#ffffff",
+        "surface-strong": "#fff1c6",
+        "border": "#2b2b2b",
+        "text": "#2b2b2b",
+        "text-muted": "#5b5450",
+        "primary": "#ff8fb1",
+        "accent": "#8fd3f4",
+        "lilac": "#cdb7f6",
+        "mint": "#a8e6c1",
+        "yellow": "#ffe27a"
+      },
+      "radius": {
+        "sm": "10px",
+        "md": "18px",
+        "lg": "28px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "3px 3px 0 var(--color-border)",
+        "md": "5px 5px 0 var(--color-border)",
+        "lg": "8px 8px 0 var(--color-border)"
+      },
+      "font": {
+        "sans": "'Quicksand', 'Nunito', system-ui, sans-serif",
+        "display": "'Fredoka', 'Baloo 2', 'Quicksand', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      "extra": {
+        "checker": "conic-gradient(var(--color-lilac) 90deg, transparent 90deg 180deg, var(--color-lilac) 180deg 270deg, transparent 270deg)",
+        "checker-size": "24px 24px"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/danish-pastel.md"
+  },
+  {
+    "slug": "balletcore",
+    "name": "Balletcore",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "coquette ballet"
+    ],
+    "traits": [
+      "Soft pinks, cream, tulle, ribbon",
+      "Delicate, graceful, romantic",
+      "Serif/script accents",
+      "Ethereal femininity"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fdf3f1",
+        "surface": "#fffbfa",
+        "surface-strong": "#fbe4e3",
+        "border": "#e7b8bd",
+        "text": "#5a3a3f",
+        "text-muted": "#8a6266",
+        "primary": "#c98a9c",
+        "accent": "#b9a6d9"
+      },
+      "radius": {
+        "sm": "10px",
+        "md": "18px",
+        "lg": "28px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(90,58,63,0.1)",
+        "md": "0 8px 20px rgba(90,58,63,0.12)",
+        "lg": "0 16px 36px rgba(90,58,63,0.14)"
+      },
+      "font": {
+        "sans": "'Nunito', 'Quicksand', system-ui, sans-serif",
+        "display": "'Cormorant Garamond', 'Playfair Display', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.2, 0.64, 1)"
+      },
+      "extra": {
+        "ribbon-border": "2px dashed var(--color-border)",
+        "satin-fill": "linear-gradient(160deg, #fffbfa 0%, #fce8e7 100%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/balletcore.md"
+  },
+  {
+    "slug": "regencycore",
+    "name": "Regencycore",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "Bridgerton aesthetic",
+      "Regency"
+    ],
+    "traits": [
+      "Pastel florals, empire silhouettes, pearls",
+      "Ornate script, gilt frames",
+      "Soft romantic period palette",
+      "Aristocratic, dreamy, floral"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fbeef0",
+        "surface": "#fffaf6",
+        "surface-strong": "#f6e0e4",
+        "border": "#e3b8c2",
+        "text": "#4a2c3a",
+        "text-muted": "#8a6274",
+        "primary": "#c1436a",
+        "accent": "#c9a35c",
+        "sage": "#8fa583"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "16px",
+        "lg": "28px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(193, 67, 106, 0.10)",
+        "md": "0 8px 20px rgba(193, 67, 106, 0.14)",
+        "lg": "0 18px 36px rgba(193, 67, 106, 0.16)"
+      },
+      "font": {
+        "sans": "'Cormorant Garamond', Georgia, serif",
+        "display": "'Great Vibes', 'Snell Roundhand', cursive",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.25, 0.1, 0.25, 1)"
+      },
+      "extra": {
+        "gilt-frame": "1px solid var(--color-accent)",
+        "gilt-outer": "2px solid var(--color-border)",
+        "floral-wash": "radial-gradient(120% 100% at 100% 0%, rgba(201,163,92,0.14), transparent 55%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/regencycore.md"
+  },
+  {
+    "slug": "vsco-girl",
+    "name": "VSCO Girl",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "2019 aesthetic",
+      "soft summer"
+    ],
+    "traits": [
+      "Faded warm film-filter photos",
+      "Scrunchies, Hydro Flasks, seashells",
+      "Beige/teal beachy palette",
+      "Casual, sunny, laid-back"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f3ece1",
+        "surface": "#fbf7f0",
+        "surface-strong": "#ece2d0",
+        "border": "#d8c9ae",
+        "text": "#4a4038",
+        "text-muted": "#8a7c68",
+        "primary": "#6fa8a3",
+        "accent": "#e8a598",
+        "shell": "#f0d9c0"
+      },
+      "radius": {
+        "sm": "10px",
+        "md": "18px",
+        "lg": "28px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(74,64,56,0.08)",
+        "md": "0 6px 18px rgba(74,64,56,0.12)",
+        "lg": "0 12px 32px rgba(74,64,56,0.15)"
+      },
+      "font": {
+        "sans": "'Poppins', 'Segoe UI', sans-serif",
+        "display": "'Caveat', 'Poppins', cursive",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.3, 0, 0.2, 1)"
+      },
+      "extra": {
+        "faded-wash": "linear-gradient(135deg, rgba(255,255,255,0.5), rgba(232,165,152,0.15))",
+        "scrunchie-underline": "3px dashed var(--color-accent)",
+        "film-grain-opacity": "0.05"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/vsco-girl.md"
+  },
+  {
+    "slug": "hyperpop",
+    "name": "Hyperpop Visuals",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "hyperpop",
+      "glitchcore pop"
+    ],
+    "traits": [
+      "Oversaturated candy + glitch chaos",
+      "3D chrome, distorted type, motion blur",
+      "Ironic maximal internet-native energy",
+      "Loud, fast, chaotic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0d0018",
+        "surface": "#1a0330",
+        "surface-strong": "#290548",
+        "border": "#ff2fd0",
+        "text": "#fbf3ff",
+        "text-muted": "#d6a9f0",
+        "primary": "#ff2fd0",
+        "accent": "#2ff3ff",
+        "lime": "#c6ff2f"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "10px",
+        "lg": "18px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 0 0 2px var(--color-primary), 0 0 14px rgba(255,47,208,0.5)",
+        "md": "-2px 0 0 var(--color-accent), 2px 0 0 var(--color-primary), 0 8px 24px rgba(255,47,208,0.35)",
+        "lg": "-3px 0 0 var(--color-accent), 3px 0 0 var(--color-primary), 0 16px 42px rgba(255,47,208,0.4)"
+      },
+      "font": {
+        "sans": "'Space Grotesk', 'Arial', sans-serif",
+        "display": "'Rubik', 'Chrome Bold', 'Arial Black', sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.4rem",
+        "2xl": "1.9rem",
+        "3xl": "2.6rem",
+        "4xl": "3.6rem",
+        "5xl": "5.2rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.68, -0.55, 0.27, 1.55)",
+        "candy-gradient": "linear-gradient(120deg, var(--color-primary), var(--color-accent) 50%, var(--color-lime))",
+        "glitch-text-shadow": "-1px 0 var(--color-accent), 1px 0 var(--color-primary)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/hyperpop.md"
+  },
+  {
+    "slug": "talavera",
+    "name": "Talavera",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "Talavera poblana",
+      "Mexican majolica",
+      "tin-glazed ceramic"
+    ],
+    "traits": [
+      "Bold cobalt blue and white base with vivid multicolor floral/geometric motifs",
+      "Glossy, glazed-tile surface sheen",
+      "Thick, confident hand-painted outlines and cheerful maximalist ornament edge-to-edge"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f5f2ea",
+        "surface": "#ffffff",
+        "surface-2": "#e7edf2",
+        "text": "#0b2f52",
+        "text-muted": "#3d5a75",
+        "primary": "#0b2f52",
+        "accent": "#d94f2b",
+        "yellow": "#f2b705",
+        "green": "#3f7d4c"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "16px",
+        "lg": "28px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "glaze": "0 12px 28px rgba(11,47,82,0.16), inset 0 1px 0 rgba(255,255,255,0.6)",
+        "glaze-sm": "0 4px 12px rgba(11,47,82,0.14)"
+      },
+      "blur": {
+        "none": "0px"
+      },
+      "font": {
+        "sans": "'Fraunces', 'Playfair Display', system-ui, serif",
+        "display": "'Playfair Display', 'Fraunces', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.2, 0.4, 1)"
+      },
+      "extra": {
+        "glaze-sheen": "linear-gradient(135deg, rgba(255,255,255,0.55) 0%, transparent 35%)",
+        "tile-border": "repeating-linear-gradient(90deg, #0b2f52 0 4px, #f2b705 4px 8px, #d94f2b 8px 12px, #3f7d4c 12px 16px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/talavera.md"
+  },
+  {
+    "slug": "nautical-maritime",
+    "name": "Nautical / Maritime",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "yacht club style",
+      "sailing aesthetic",
+      "naval design"
+    ],
+    "traits": [
+      "Navy and white stripe fields as the primary pattern language",
+      "Rope-texture borders and brass/rope-tan accent color",
+      "Anchor and signal-flag iconography with crisp deck-of-a-ship precision"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f4f6f8",
+        "surface": "#ffffff",
+        "surface-2": "#e4e9ee",
+        "text": "#0b1f38",
+        "text-muted": "#51667e",
+        "primary": "#0b1f38",
+        "accent": "#b3391f",
+        "brass": "#b8873a",
+        "rope-tan": "#d9c49a"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "6px",
+        "lg": "12px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "deck": "0 8px 20px rgba(11,31,56,0.14)",
+        "deck-sm": "0 3px 10px rgba(11,31,56,0.12)"
+      },
+      "blur": {
+        "none": "0px"
+      },
+      "font": {
+        "sans": "'Inter', 'Helvetica Neue', system-ui, sans-serif",
+        "display": "'Oswald', 'Helvetica Neue', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0.1, 1)"
+      },
+      "extra": {
+        "stripe-field": "repeating-linear-gradient(90deg, #0b1f38 0 14px, #ffffff 14px 28px)",
+        "rope-border": "repeating-linear-gradient(135deg, #b8873a 0 3px, #d9c49a 3px 6px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/nautical-maritime.md"
+  },
+  {
+    "slug": "old-west-saloon",
+    "name": "Old West / Saloon",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "wanted poster style",
+      "wild west",
+      "frontier design"
+    ],
+    "traits": [
+      "Distressed wood-grain and aged-paper textures on every surface",
+      "Deep burnt-sienna and dusty-gold palette",
+      "Tall condensed wood-type display lettering, star-badge and rope-border motifs"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e8d9b8",
+        "surface": "#f0e4c8",
+        "surface-2": "#d8c397",
+        "text": "#2c1608",
+        "text-muted": "#6b4a28",
+        "primary": "#7a2e17",
+        "accent": "#c99a3b",
+        "sienna": "#8a3d1f",
+        "star": "#3a3226"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "weathered": "0 8px 20px rgba(44,22,8,0.28)",
+        "weathered-sm": "0 3px 10px rgba(44,22,8,0.24)"
+      },
+      "blur": {
+        "none": "0px"
+      },
+      "font": {
+        "sans": "'Roboto Slab', 'Georgia', serif",
+        "display": "'Rye', 'Ultra', 'Impact', 'Arial Black', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.3, 0, 0.2, 1)"
+      },
+      "extra": {
+        "paper-grain": "repeating-radial-gradient(circle at 25% 30%, rgba(44,22,8,0.06) 0px, transparent 3px, transparent 9px), repeating-linear-gradient(4deg, rgba(44,22,8,0.04) 0 1px, transparent 1px 6px)",
+        "rope-frame": "repeating-linear-gradient(135deg, #7a2e17 0 3px, #c99a3b 3px 6px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/old-west-saloon.md"
+  },
+  {
+    "slug": "circus-carnival",
+    "name": "Circus / Carnival Poster",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "circus poster",
+      "carnival midway",
+      "big top lettering",
+      "showman advertising"
+    ],
+    "traits": [
+      "Bold red/gold/cream striped and starburst backgrounds",
+      "Tall theatrical condensed display lettering (bill/showman type)",
+      "Ornate double-line scrolled borders",
+      "High-energy showman excitement — 'step right up' urgency"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f2e6c9",
+        "surface": "#fdf8ec",
+        "surface-2": "#e8d6a8",
+        "text": "#241812",
+        "text-muted": "#5c4429",
+        "primary": "#c81d25",
+        "accent": "#d4a017",
+        "navy": "#1c2a52",
+        "cream": "#f2e6c9"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "6px",
+        "lg": "14px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "poster": "0 6px 0 #1c2a52, 0 10px 18px rgba(28,19,10,0.35)",
+        "poster-sm": "0 3px 0 #1c2a52, 0 4px 10px rgba(28,19,10,0.3)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Josefin Sans', 'Oswald', system-ui, sans-serif",
+        "display": "'Bebas Neue', 'Oswald', 'Arial Narrow', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      "extra": {
+        "stripe-pattern": "repeating-linear-gradient(135deg, #c81d25 0 22px, #f2e6c9 22px 44px)",
+        "starburst-gradient": "radial-gradient(circle at 50% 0%, rgba(212,160,23,0.35), transparent 55%)",
+        "scroll-border": "3px double #1c2a52"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/circus-carnival.md"
+  },
+  {
+    "slug": "pulp-magazine",
+    "name": "Pulp Magazine Cover Art",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "pulp fiction cover art",
+      "pulp illustration",
+      "lurid pulp painting",
+      "newsstand pulp"
+    ],
+    "traits": [
+      "Dramatic, high-contrast painted single-image illustration (not sequential panels)",
+      "Saturated primary colors against heavy black shadow",
+      "Bold slab/condensed masthead display type",
+      "Lurid, melodramatic newsstand energy"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#1a1210",
+        "surface": "#241a17",
+        "surface-2": "#33231e",
+        "text": "#f5e6d3",
+        "text-muted": "#c9ad8f",
+        "primary": "#d4361f",
+        "accent": "#f2b705",
+        "pulp-blue": "#1c4f8c",
+        "shadow-ink": "#0c0806"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "10px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "lurid": "6px 6px 0 #0c0806",
+        "lurid-sm": "3px 3px 0 #0c0806"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'PT Sans', 'Helvetica Neue', system-ui, sans-serif",
+        "display": "'Anton', 'Oswald', 'Arial Black', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.5, 0, 0.15, 1)"
+      },
+      "extra": {
+        "painted-vignette": "radial-gradient(120% 90% at 50% 20%, rgba(212,54,31,0.22), transparent 60%), radial-gradient(140% 100% at 50% 100%, rgba(0,0,0,0.55), transparent 55%)",
+        "masthead-shadow": "4px 4px 0 #0c0806, 8px 8px 0 rgba(0,0,0,0.25)",
+        "bg-image": "linear-gradient(180deg, #241a17 0%, #1a1210 60%, #0c0806 100%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/pulp-magazine.md"
+  },
+  {
+    "slug": "lowbrow-pop-surrealism",
+    "name": "Lowbrow / Pop Surrealism",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "pop surrealism",
+      "lowbrow art",
+      "kustom-kulture illustration",
+      "cartoon surrealism"
+    ],
+    "traits": [
+      "Hyper-detailed cartoon-surrealist illustration with glossy airbrushed rendering",
+      "Playful-but-unsettling juxtapositions (cute rendering, uncanny subject)",
+      "Candy-bright palette against a dark or muted ground",
+      "Kustom-kulture/hot-rod-adjacent thick black linework (keyline)"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#17151f",
+        "surface": "#201c2c",
+        "surface-2": "#2c2740",
+        "text": "#f4eefc",
+        "text-muted": "#b8aed0",
+        "primary": "#ff5fa2",
+        "accent": "#4fd8e0",
+        "gold": "#ffcc33",
+        "lineweight": "#0e0c14"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "16px",
+        "lg": "32px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "glossy": "0 10px 30px rgba(255,95,162,0.25), 0 2px 0 #0e0c14",
+        "glossy-sm": "0 4px 14px rgba(79,216,224,0.25), 0 1px 0 #0e0c14"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Baloo 2', 'Nunito', system-ui, sans-serif",
+        "display": "'Bungee', 'Baloo 2', 'Arial Rounded MT Bold', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.4, 0.3, 1)"
+      },
+      "extra": {
+        "candy-sheen": "radial-gradient(60% 45% at 30% 20%, rgba(255,255,255,0.35), transparent 60%)",
+        "keyline-outline": "0 0 0 3px #0e0c14",
+        "bg-image": "radial-gradient(120% 90% at 80% -10%, #2c2740 0%, #17151f 55%, #0e0c14 100%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/lowbrow-pop-surrealism.md"
+  },
+  {
+    "slug": "street-art-graffiti",
+    "name": "Street Art / Graffiti",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "graffiti art",
+      "wildstyle lettering",
+      "spray-can art",
+      "writer culture"
+    ],
+    "traits": [
+      "Bold interlocking outlined 'bubble' or 'wildstyle' letterforms",
+      "Drip and spray-can grain texture",
+      "High-contrast fill colors with hard black keyline outlines",
+      "Energetic, tagging-inspired composition on a concrete-grey ground"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#2b2b2b",
+        "surface": "#383838",
+        "surface-2": "#454545",
+        "text": "#f5f5f0",
+        "text-muted": "#b8b8b0",
+        "primary": "#ff3b3b",
+        "accent": "#ffd400",
+        "cyan": "#26c6da",
+        "keyline": "#0a0a0a"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "8px",
+        "lg": "18px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "spray": "0 0 0 4px #0a0a0a, 0 10px 24px rgba(0,0,0,0.45)",
+        "drip": "0 8px 0 -2px rgba(255,59,59,0.35), 0 12px 4px -4px rgba(0,0,0,0.4)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Archivo Black', 'Helvetica Neue', system-ui, sans-serif",
+        "display": "'Titan One', 'Archivo Black', 'Impact', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.3, 0.9, 0.4, 1.2)"
+      },
+      "extra": {
+        "spray-texture": "radial-gradient(circle at 20% 30%, rgba(255,255,255,0.05) 0, transparent 3%), radial-gradient(circle at 70% 60%, rgba(255,255,255,0.04) 0, transparent 4%), radial-gradient(circle at 40% 80%, rgba(255,255,255,0.04) 0, transparent 3%)",
+        "wildstyle-outline": "0 0 0 3px #0a0a0a, 0 0 0 5px #ffd400",
+        "bg-image": "linear-gradient(165deg, #383838 0%, #2b2b2b 55%, #1f1f1f 100%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/street-art-graffiti.md"
+  },
+  {
+    "slug": "amiga-workbench",
+    "name": "Amiga Workbench",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "Workbench UI",
+      "AmigaOS desktop",
+      "Topaz UI"
+    ],
+    "traits": [
+      "Chunky low-res pixel icons and blocky bitmap system font (Topaz)",
+      "Tight saturated 4-8 color core palette: orange, blue, white, black",
+      "Thick flat 3D-beveled window/button chrome, no gradients",
+      "Cheerful, toy-like chunky-pixel charm"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#a8a8a8",
+        "surface": "#ffffff",
+        "surface-2": "#d4d4d4",
+        "text": "#000000",
+        "text-muted": "#4a4a4a",
+        "primary": "#0055aa",
+        "accent": "#ff8800",
+        "bevel-light": "#ffffff",
+        "bevel-dark": "#555555",
+        "titlebar": "#0055aa"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "bevel-out": "inset 2px 2px 0 #ffffff, inset -2px -2px 0 #555555",
+        "bevel-in": "inset -2px -2px 0 #ffffff, inset 2px 2px 0 #555555"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Topaz New', 'Press Start 2P', 'Courier New', monospace",
+        "display": "'Topaz New', 'Press Start 2P', monospace",
+        "mono": "'Topaz New', 'Courier New', monospace"
+      },
+      "text": {
+        "xs": "0.625rem",
+        "sm": "0.75rem",
+        "base": "0.875rem",
+        "lg": "1rem",
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "2rem",
+        "4xl": "2.5rem",
+        "5xl": "3rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "steps(1, end)"
+      },
+      "extra": {
+        "titlebar-stripes": "repeating-linear-gradient(90deg, #ff8800 0 4px, #0055aa 4px 8px)",
+        "bg-image": "none"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/amiga-workbench.md"
+  },
+  {
+    "slug": "teletext",
+    "name": "Teletext",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "Ceefax UI",
+      "videotex",
+      "viewdata graphics"
+    ],
+    "traits": [
+      "Extremely low-res blocky mosaic character graphics",
+      "Strict 7-color palette (black + red/green/yellow/blue/magenta/cyan/white), no gradients",
+      "Monospaced blocky type only, no anti-aliasing",
+      "Page-number navigation motif"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#000000",
+        "surface": "#000000",
+        "surface-2": "#1a1a1a",
+        "text": "#ffffff",
+        "text-muted": "#00ff00",
+        "primary": "#00ff00",
+        "red": "#ff0000",
+        "yellow": "#ffff00",
+        "blue": "#0000ff",
+        "magenta": "#ff00ff",
+        "cyan": "#00ffff",
+        "white": "#ffffff"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "block": "none"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Bedstead', 'Courier New', monospace",
+        "display": "'Bedstead', 'Courier New', monospace",
+        "mono": "'Bedstead', 'Courier New', monospace"
+      },
+      "text": {
+        "xs": "0.875rem",
+        "sm": "1rem",
+        "base": "1.125rem",
+        "lg": "1.25rem",
+        "xl": "1.5rem",
+        "2xl": "1.875rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "3.75rem"
+      },
+      "space": {
+        "1": "8px",
+        "2": "16px",
+        "3": "20px",
+        "4": "24px",
+        "6": "32px",
+        "8": "40px",
+        "12": "56px",
+        "16": "72px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "steps(1, end)"
+      },
+      "extra": {
+        "mosaic-block": "repeating-linear-gradient(0deg, currentColor 0 2px, transparent 2px 4px)",
+        "bg-image": "none"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/teletext.md"
+  },
+  {
+    "slug": "winamp-skin",
+    "name": "Winamp Skin",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "skinnable media player UI",
+      "brushed-metal player chrome"
+    ],
+    "traits": [
+      "Brushed-metal or chrome-gradient panel chrome throughout",
+      "Tiny, pixel-precise controls (buttons, sliders, knobs)",
+      "Neon-green LED-style level meters/visualizer accents",
+      "Dense, more-controls-than-space skeuomorphic hardware-panel layout"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0c0d10",
+        "surface": "#26292e",
+        "surface-2": "#34383f",
+        "text": "#d8dde3",
+        "text-muted": "#8b929c",
+        "primary": "#39ff6a",
+        "primary-dim": "#1c8f3b",
+        "accent": "#ffb347",
+        "led-red": "#ff4d4d",
+        "chrome-hi": "#eef1f4",
+        "chrome-lo": "#14161a"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "3px",
+        "lg": "6px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "panel": "inset 0 1px 0 rgba(255,255,255,0.15), inset 0 -1px 0 rgba(0,0,0,0.6), 0 2px 4px rgba(0,0,0,0.5)",
+        "inset": "inset 0 2px 3px rgba(0,0,0,0.7), inset 0 -1px 0 rgba(255,255,255,0.06)",
+        "led": "0 0 6px rgba(57,255,106,0.8)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Arial', 'Tahoma', sans-serif",
+        "display": "'Arial Narrow', 'Tahoma', sans-serif",
+        "mono": "'Fixedsys', 'Courier New', monospace"
+      },
+      "text": {
+        "xs": "0.625rem",
+        "sm": "0.6875rem",
+        "base": "0.75rem",
+        "lg": "0.875rem",
+        "xl": "1rem",
+        "2xl": "1.25rem",
+        "3xl": "1.75rem",
+        "4xl": "2.25rem",
+        "5xl": "3rem"
+      },
+      "space": {
+        "1": "2px",
+        "2": "4px",
+        "3": "6px",
+        "4": "10px",
+        "6": "16px",
+        "8": "22px",
+        "12": "32px",
+        "16": "48px",
+        "24": "72px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "brushed-metal": "repeating-linear-gradient(180deg, #2d3037 0 1px, #24272c 1px 2px)",
+        "chrome-gradient": "linear-gradient(180deg, #eef1f4 0%, #9aa1ab 45%, #14161a 51%, #3a3e46 100%)",
+        "led-meter": "linear-gradient(90deg, #1c8f3b 0%, #39ff6a 70%, #ffb347 88%, #ff4d4d 100%)",
+        "bg-image": "none"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/winamp-skin.md"
+  },
+  {
+    "slug": "ansi-bbs-art",
+    "name": "ANSI / BBS Art",
+    "category": "亚文化与趣味设计",
+    "aliases": [
+      "ANSI art",
+      "BBS splash art",
+      "TheDraw art",
+      "CP437 mosaic"
+    ],
+    "traits": [
+      "16-color ANSI/CP437 block-character art (half-blocks, shading glyphs)",
+      "Saturated primary/neon palette on black, no gradients",
+      "Blocky extended-ASCII border and shading characters (double-line boxes)",
+      "Monospaced type only, never anti-aliased"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#000000",
+        "surface": "#0a0a0a",
+        "surface-2": "#1c1c1c",
+        "text": "#c0c0c0",
+        "text-muted": "#808080",
+        "primary": "#ff5555",
+        "accent": "#55ffff",
+        "yellow": "#ffff55",
+        "green": "#55ff55",
+        "magenta": "#ff55ff",
+        "blue": "#5555ff",
+        "white": "#ffffff",
+        "red-dark": "#aa0000"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "none": "none"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Perfect DOS VGA 437', 'Courier New', monospace",
+        "display": "'Perfect DOS VGA 437', 'Courier New', monospace",
+        "mono": "'Perfect DOS VGA 437', 'Courier New', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "3.75rem"
+      },
+      "space": {
+        "1": "1ch",
+        "2": "2ch",
+        "3": "3ch",
+        "4": "4ch",
+        "6": "6ch",
+        "8": "8ch",
+        "12": "12ch",
+        "16": "16ch",
+        "24": "24ch"
+      },
+      "ease": {
+        "standard": "steps(1, end)"
+      },
+      "extra": {
+        "box-double": "3px double #55ffff",
+        "shade-block": "repeating-linear-gradient(45deg, currentColor 0 1px, transparent 1px 3px)",
+        "bg-image": "none"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/ansi-bbs-art.md"
+  }
+]

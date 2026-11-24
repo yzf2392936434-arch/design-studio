@@ -1,0 +1,1260 @@
+[
+  {
+    "slug": "kinetic-typography",
+    "name": "Kinetic Typography",
+    "category": "极简极繁与有机",
+    "aliases": [
+      "motion type",
+      "animated type"
+    ],
+    "traits": [
+      "Oversized type is the interface",
+      "Sharp typographic contrast and directional rules",
+      "Motion is purposeful, legible, and optional"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f8f6ef",
+        "surface": "#ffffff",
+        "surface-2": "#e9e5da",
+        "text": "#121212",
+        "text-muted": "#5d5b55",
+        "primary": "#ff3b30",
+        "accent": "#1455d9",
+        "lime": "#c8ff00"
+      },
+      "radius": {
+        "sm": "0",
+        "md": "0",
+        "lg": "0",
+        "pill": "0"
+      },
+      "shadow": {
+        "type": "6px 6px 0 #121212",
+        "rule": "0 2px 0 #121212"
+      },
+      "blur": {},
+      "font": {
+        "sans": "Arial Black, Arial, sans-serif",
+        "display": "Arial Black, Arial, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": ".75rem",
+        "sm": ".875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(.16,1,.3,1)"
+      },
+      "extra": {
+        "marquee-gradient": "linear-gradient(90deg, #ff3b30, #c8ff00, #1455d9, #ff3b30)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/kinetic-typography.md"
+  },
+  {
+    "slug": "monastic-minimalism",
+    "name": "Monastic Minimalism",
+    "category": "极简极繁与有机",
+    "aliases": [
+      "monastic design",
+      "contemplative minimalism"
+    ],
+    "traits": [
+      "Limestone, ink, and a single oxidized-metal accent",
+      "Deep whitespace and measured vertical rhythm",
+      "Tactile rules and recessed surfaces instead of decoration"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e9e6de",
+        "surface": "#f6f4ee",
+        "surface-2": "#d8d3c8",
+        "text": "#292822",
+        "text-muted": "#6b685f",
+        "primary": "#515c4d",
+        "accent": "#8f3e32",
+        "stone": "#b9b3a7"
+      },
+      "radius": {
+        "sm": "0",
+        "md": "2px",
+        "lg": "4px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "recessed": "inset 0 1px 2px rgba(41,40,34,.16)",
+        "quiet": "0 8px 20px rgba(41,40,34,.08)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "Arial, Helvetica, sans-serif",
+        "display": "Georgia, serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": ".75rem",
+        "sm": ".875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(.4,0,.2,1)"
+      },
+      "extra": {
+        "rule": "linear-gradient(90deg, transparent, #b9b3a7, transparent)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/monastic-minimalism.md"
+  },
+  {
+    "slug": "minimalism",
+    "name": "Minimalism",
+    "category": "极简极繁与有机",
+    "aliases": [
+      "minimal",
+      "less is more",
+      "极简主义",
+      "极简"
+    ],
+    "traits": [
+      "Extreme restraint: whitespace, few elements",
+      "Limited (often monochrome) palette",
+      "Strong typographic hierarchy carries design",
+      "Every element earns its place"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#ffffff",
+        "surface-2": "#fafafa",
+        "text": "#111111",
+        "text-muted": "#767676",
+        "primary": "#111111",
+        "accent": "#111111",
+        "border": "#e6e6e6"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "none": "none",
+        "sm": "0 1px 2px rgba(0,0,0,0.04)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Inter', 'Helvetica Neue', system-ui, sans-serif",
+        "display": "'Inter', system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "8px",
+        "2": "16px",
+        "3": "24px",
+        "4": "32px",
+        "6": "48px",
+        "8": "64px",
+        "12": "96px",
+        "16": "128px",
+        "24": "192px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "hairline": "1px solid #e6e6e6"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/minimalism.md"
+  },
+  {
+    "slug": "maximalism",
+    "name": "Maximalism",
+    "category": "极简极繁与有机",
+    "aliases": [
+      "more is more",
+      "maximal",
+      "极繁主义",
+      "繁复主义"
+    ],
+    "traits": [
+      "Dense layering, clashing color and pattern",
+      "Big expressive type, many focal points",
+      "Ornament, texture, collage, saturation",
+      "Bold, joyful visual overload"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#14002e",
+        "surface": "#2a0a52",
+        "text": "#fff6d5",
+        "text-muted": "#f2c9ff",
+        "primary": "#ff007a",
+        "accent": "#ffd400",
+        "lime": "#aaff00",
+        "cyan": "#00e5ff",
+        "orange": "#ff6a00"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "16px",
+        "lg": "28px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "pop": "8px 8px 0 #ffd400, 16px 16px 0 #ff007a",
+        "glow": "0 0 24px rgba(255,0,122,0.6)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Fraunces', 'Poppins', system-ui, sans-serif",
+        "display": "'Rubik Mono One', 'Fraunces', serif",
+        "mono": "'Space Mono', monospace"
+      },
+      "text": {
+        "xs": "0.8rem",
+        "sm": "1rem",
+        "base": "1.15rem",
+        "lg": "1.5rem",
+        "xl": "2.1rem",
+        "2xl": "3rem",
+        "3xl": "4.2rem",
+        "4xl": "6rem",
+        "5xl": "8.5rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      "extra": {
+        "clash": "linear-gradient(135deg, #ff007a, #ffd400, #00e5ff)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/maximalism.md"
+  },
+  {
+    "slug": "bento-grid",
+    "name": "Bento Grid",
+    "category": "极简极繁与有机",
+    "aliases": [
+      "bento box layout",
+      "bento UI",
+      "便当网格",
+      "便当布局",
+      "Bento"
+    ],
+    "traits": [
+      "Modular rounded-rectangle cells of varied sizes",
+      "Each cell one idea/feature; dense but tidy",
+      "Consistent gaps, mixed media per cell",
+      "Scannable dashboard-like composition"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0b0b0f",
+        "surface": "#16161d",
+        "surface-2": "#1f1f28",
+        "text": "#f5f5f7",
+        "text-muted": "#a1a1aa",
+        "primary": "#0a84ff",
+        "accent": "#30d158",
+        "border": "rgba(255,255,255,0.08)"
+      },
+      "radius": {
+        "sm": "14px",
+        "md": "20px",
+        "lg": "28px",
+        "cell": "24px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(0,0,0,0.4)",
+        "cell": "0 8px 30px rgba(0,0,0,0.35)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Inter', 'SF Pro Text', system-ui, sans-serif",
+        "display": "'Inter Display', 'SF Pro Display', system-ui, sans-serif",
+        "mono": "'JetBrains Mono', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      },
+      "extra": {
+        "grid-gap": "16px",
+        "cell-padding": "24px"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/bento-grid.md"
+  },
+  {
+    "slug": "organic-design",
+    "name": "Organic / Biomorphic",
+    "category": "极简极繁与有机",
+    "aliases": [
+      "biomorphic",
+      "nature-inspired",
+      "有机设计",
+      "自然风",
+      "有机"
+    ],
+    "traits": [
+      "Flowing curves and asymmetric blobs",
+      "Soft natural palettes",
+      "Fluid, hand-tuned layouts",
+      "Wave dividers, rounded everything"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f6f1e7",
+        "surface": "#ffffff",
+        "surface-strong": "#eee6d6",
+        "border": "#dccdb0",
+        "text": "#2f3b2a",
+        "text-muted": "#5c6b53",
+        "primary": "#6f8f4e",
+        "accent": "#d98b5f",
+        "clay": "#e7c9a9"
+      },
+      "radius": {
+        "sm": "16px",
+        "md": "28px",
+        "lg": "44px",
+        "pill": "999px",
+        "blob": "60% 40% 55% 45% / 45% 55% 40% 60%"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(47, 59, 42, 0.08)",
+        "md": "0 8px 24px rgba(47, 59, 42, 0.12)",
+        "lg": "0 20px 48px rgba(47, 59, 42, 0.16)"
+      },
+      "font": {
+        "sans": "'Quicksand', 'Nunito', system-ui, sans-serif",
+        "display": "'Fraunces', Georgia, serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.2, 0.4, 1)"
+      },
+      "extra": {
+        "wave-divider": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 20' preserveAspectRatio='none'%3E%3Cpath d='M0 10 Q 25 0 50 10 T 100 10 T 150 10 T 200 10 V20 H0 Z' fill='%23f6f1e7'/%3E%3C/svg%3E\")"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/organic-design.md"
+  },
+  {
+    "slug": "blobmorphism",
+    "name": "Blobmorphism",
+    "category": "极简极繁与有机",
+    "aliases": [
+      "blob design",
+      "blob shapes"
+    ],
+    "traits": [
+      "Irregular gooey blob backgrounds and masks",
+      "Bright gradient-filled blobs",
+      "Playful, friendly, soft",
+      "Animated morphing shapes"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fef6ef",
+        "surface": "#ffffff",
+        "surface-strong": "#fff0e0",
+        "border": "#ffd9b8",
+        "text": "#2c1e3a",
+        "text-muted": "#6b5a7d",
+        "primary": "#ff6b6b",
+        "accent": "#4ecdc4",
+        "yellow": "#ffd93d"
+      },
+      "radius": {
+        "sm": "14px",
+        "md": "32px 48px 28px 40px",
+        "lg": "56px 40px 64px 36px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 4px 12px rgba(255,107,107,0.18)",
+        "md": "0 12px 28px rgba(78,205,196,0.22)",
+        "lg": "0 20px 44px rgba(255,107,107,0.24)"
+      },
+      "font": {
+        "sans": "'Quicksand', 'Baloo 2', system-ui, sans-serif",
+        "display": "'Baloo 2', 'Fredoka', system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "entrance": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "exit": "cubic-bezier(0.5, 0, 0.75, 0)"
+      },
+      "extra": {
+        "blob-gradient": "linear-gradient(135deg, #ff6b6b 0%, #ffd93d 50%, #4ecdc4 100%)",
+        "blob-shape-a": "32px 48px 28px 40px",
+        "blob-shape-b": "48px 28px 40px 32px"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/blobmorphism.md"
+  },
+  {
+    "slug": "scandinavian",
+    "name": "Scandinavian / Nordic",
+    "category": "极简极繁与有机",
+    "aliases": [
+      "Nordic design",
+      "hygge",
+      "北欧",
+      "北欧风",
+      "斯堪的纳维亚"
+    ],
+    "traits": [
+      "Warm minimalism: light woods, soft neutrals",
+      "Functional, cozy (hygge), uncluttered",
+      "Natural materials and muted accents",
+      "Human-centered simplicity"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f7f4ef",
+        "surface": "#ffffff",
+        "surface-2": "#efe9e1",
+        "text": "#2b2b2b",
+        "text-muted": "#6f6a63",
+        "primary": "#3a5a40",
+        "accent": "#c98a6a",
+        "sky": "#a8c5d6",
+        "wood": "#d8b8a0"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "12px",
+        "lg": "20px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "soft": "0 6px 20px rgba(43,43,43,0.06)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Poppins', 'Work Sans', system-ui, sans-serif",
+        "display": "'Fraunces', 'Poppins', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "8px",
+        "2": "16px",
+        "3": "24px",
+        "4": "32px",
+        "6": "48px",
+        "8": "64px",
+        "12": "96px",
+        "16": "128px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "hairline": "1px solid #e4ddd2"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/scandinavian.md"
+  },
+  {
+    "slug": "japandi",
+    "name": "Japandi",
+    "category": "极简极繁与有机",
+    "aliases": [
+      "Japanese Scandinavian",
+      "日式北欧",
+      "日式混北欧"
+    ],
+    "traits": [
+      "Muted earthy neutrals, natural materials",
+      "Calm, warm, functional restraint",
+      "Handcraft imperfection (wabi-sabi)",
+      "Negative space and balance"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f1ece2",
+        "surface": "#faf7f0",
+        "surface-strong": "#e8e0d0",
+        "border": "#d8cdb8",
+        "text": "#2f2a22",
+        "text-muted": "#6b6153",
+        "primary": "#8a6b4a",
+        "accent": "#7c8a6f",
+        "ink": "#3d3527"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "6px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(47,42,34,0.08)",
+        "md": "0 4px 10px rgba(47,42,34,0.10)",
+        "lg": "0 10px 24px rgba(47,42,34,0.12)"
+      },
+      "font": {
+        "sans": "'Zen Kaku Gothic New', 'Work Sans', system-ui, sans-serif",
+        "display": "'Shippori Mincho', 'Noto Serif JP', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "grain": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E\")",
+        "brush-line": "linear-gradient(90deg, var(--color-primary) 0%, var(--color-primary) 40%, transparent 40%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/japandi.md"
+  },
+  {
+    "slug": "zen-wabisabi",
+    "name": "Zen / Wabi-Sabi / Ma",
+    "category": "极简极繁与有机",
+    "aliases": [
+      "wabi-sabi",
+      "ma",
+      "Japanese minimalism",
+      "侘寂",
+      "日式禅意",
+      "留白"
+    ],
+    "traits": [
+      "Embraces imperfection, age, asymmetry",
+      "Generous negative space ('ma')",
+      "Muted natural, earthen tones",
+      "Calm, contemplative, handmade"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f2ede4",
+        "surface": "#e9e1d2",
+        "surface-strong": "#ded2ba",
+        "border": "#c9bea9",
+        "text": "#33302a",
+        "text-muted": "#71685c",
+        "primary": "#7a4f36",
+        "accent": "#566349",
+        "ink": "#4a4740"
+      },
+      "radius": {
+        "sm": "3px",
+        "md": "10px",
+        "lg": "18px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 3px rgba(51, 48, 42, 0.08)",
+        "md": "0 3px 10px rgba(51, 48, 42, 0.10)",
+        "lg": "0 6px 20px rgba(51, 48, 42, 0.12)",
+        "none": "none"
+      },
+      "font": {
+        "sans": "'Shippori Mincho', 'Noto Serif JP', 'Iowan Old Style', Georgia, serif",
+        "display": "'Shippori Mincho', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "6px",
+        "2": "12px",
+        "3": "18px",
+        "4": "28px",
+        "6": "40px",
+        "8": "56px",
+        "12": "80px",
+        "16": "112px",
+        "24": "160px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "entrance": "cubic-bezier(0, 0, 0.2, 1)",
+        "exit": "cubic-bezier(0.4, 0, 1, 1)",
+        "organic-radius": "22px 6px 26px 4px / 14px 20px 8px 24px",
+        "organic-radius-inverse": "6px 22px 4px 26px / 20px 14px 24px 8px",
+        "hairline-crack": "1px solid var(--color-border)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/zen-wabisabi.md"
+  },
+  {
+    "slug": "editorial-layout",
+    "name": "Editorial / Magazine",
+    "category": "极简极繁与有机",
+    "aliases": [
+      "editorial design",
+      "magazine layout",
+      "杂志排版",
+      "编辑设计",
+      "编辑风"
+    ],
+    "traits": [
+      "Strong typographic hierarchy, pull quotes",
+      "Multi-column grids, large imagery",
+      "Drop caps, captions, art-directed spreads",
+      "Reading-first rhythm"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#faf7f2",
+        "surface": "#ffffff",
+        "surface-strong": "#f0ebe1",
+        "border": "#d8cfbe",
+        "text": "#211d17",
+        "text-muted": "#665c4a",
+        "primary": "#8a2a1e",
+        "accent": "#1e4f4a"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "3px",
+        "lg": "4px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 3px rgba(33,29,23,0.08)",
+        "md": "0 4px 14px rgba(33,29,23,0.10)",
+        "lg": "0 12px 32px rgba(33,29,23,0.14)"
+      },
+      "font": {
+        "sans": "'Helvetica Neue', system-ui, sans-serif",
+        "display": "'Playfair Display', 'Georgia', serif",
+        "mono": "'Courier New', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1.0625rem",
+        "lg": "1.25rem",
+        "xl": "1.5rem",
+        "2xl": "2rem",
+        "3xl": "2.75rem",
+        "4xl": "3.75rem",
+        "5xl": "5rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "dropcap-font": "var(--font-display)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/editorial-layout.md"
+  },
+  {
+    "slug": "asymmetric-layout",
+    "name": "Asymmetric / Broken Grid",
+    "category": "极简极繁与有机",
+    "aliases": [
+      "broken grid",
+      "offset layout"
+    ],
+    "traits": [
+      "Intentional off-grid, overlapping elements",
+      "Dynamic tension and asymmetry",
+      "Layered z-depth, diagonal flow",
+      "Editorial, expressive"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f5f4f0",
+        "surface": "#ffffff",
+        "surface-strong": "#101010",
+        "border": "#101010",
+        "text": "#101010",
+        "text-muted": "#55534c",
+        "primary": "#ff3d1a",
+        "accent": "#1a1aff"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "4px 4px 0 rgba(16,16,16,0.9)",
+        "md": "8px 8px 0 rgba(16,16,16,0.9)",
+        "lg": "14px 14px 0 rgba(16,16,16,0.9)"
+      },
+      "font": {
+        "sans": "'Neue Haas Grotesk', 'Helvetica Neue', Arial, sans-serif",
+        "display": "'Neue Haas Grotesk', 'Helvetica Neue', Arial, sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      "extra": {
+        "tilt-1": "rotate(-1.4deg)",
+        "tilt-2": "rotate(1.1deg)",
+        "overlap": "-14px"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/asymmetric-layout.md"
+  },
+  {
+    "slug": "dark-mode",
+    "name": "Dark Mode",
+    "category": "极简极繁与有机",
+    "aliases": [
+      "dark theme",
+      "night mode"
+    ],
+    "traits": [
+      "Dark neutral backgrounds (#0d0d12-ish, not pure black)",
+      "Desaturated accent colors to avoid vibration",
+      "Elevation via lighter surfaces, not shadow",
+      "Reduced eye strain, OLED-friendly"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0c0c10",
+        "surface": "#16161c",
+        "surface-strong": "#1e1e26",
+        "border": "rgba(255,255,255,0.09)",
+        "text": "#e8e8ec",
+        "text-muted": "#9a9aa5",
+        "primary": "#7c9cff",
+        "accent": "#7fd9c4"
+      },
+      "radius": {
+        "sm": "0 1px 2px rgba(0,0,0,0.4)",
+        "md": "0 4px 10px rgba(0,0,0,0.45)",
+        "lg": "0 12px 28px rgba(0,0,0,0.5)",
+        "pill": "999px"
+      },
+      "font": {
+        "sans": "'Inter', -apple-system, system-ui, sans-serif",
+        "display": "'Inter', system-ui, sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "elevation-0": "var(--color-bg)",
+        "elevation-1": "var(--color-surface)",
+        "elevation-2": "var(--color-surface-strong)",
+        "elevation-3": "#26262f"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/dark-mode.md"
+  },
+  {
+    "slug": "monochrome",
+    "name": "Monochrome / Grayscale",
+    "category": "极简极繁与有机",
+    "aliases": [
+      "black and white",
+      "single-hue"
+    ],
+    "traits": [
+      "Single hue or pure grayscale",
+      "Contrast and texture do the work",
+      "Photography-forward, elegant",
+      "Optional single accent color"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#f4f4f4",
+        "surface-strong": "#e6e6e6",
+        "border": "#c9c9c9",
+        "text": "#0a0a0a",
+        "text-muted": "#5a5a5a",
+        "primary": "#0a0a0a",
+        "accent": "#d0021b"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "2px",
+        "lg": "4px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(0,0,0,0.08)",
+        "md": "0 4px 10px rgba(0,0,0,0.10)",
+        "lg": "0 12px 28px rgba(0,0,0,0.14)"
+      },
+      "font": {
+        "sans": "'Helvetica Neue', 'Inter', Arial, sans-serif",
+        "display": "'Times New Roman', 'Georgia', serif",
+        "mono": "ui-monospace, 'Courier New', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "grain": "repeating-conic-gradient(from 0deg, rgba(0,0,0,0.015) 0deg 1deg, transparent 1deg 2deg)",
+        "hairline": "1px solid var(--color-text)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/monochrome.md"
+  },
+  {
+    "slug": "editorial-brutalist-minimal",
+    "name": "Brutalist Minimalism",
+    "category": "极简极繁与有机",
+    "aliases": [
+      "minimal brutalism",
+      "编辑粗野主义"
+    ],
+    "traits": [
+      "Big type, hairline rules, monospace accents",
+      "Lots of whitespace, few colors",
+      "Exposed structure without decoration",
+      "Cold, confident, editorial"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#ffffff",
+        "surface-strong": "#f2f2f0",
+        "border": "#111111",
+        "text": "#0a0a0a",
+        "text-muted": "#6b6b6b",
+        "primary": "#0a0a0a",
+        "accent": "#ff3b1f"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "sm": "none",
+        "md": "none",
+        "lg": "none"
+      },
+      "font": {
+        "sans": "'Helvetica Neue', 'Arial', sans-serif",
+        "display": "'Helvetica Neue', 'Arial', sans-serif",
+        "mono": "'IBM Plex Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.5rem",
+        "2xl": "2rem",
+        "3xl": "2.75rem",
+        "4xl": "4rem",
+        "5xl": "5.5rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "40px",
+        "12": "64px",
+        "16": "96px",
+        "24": "144px"
+      },
+      "ease": {
+        "standard": "linear"
+      },
+      "extra": {
+        "hairline": "1px solid var(--color-border)",
+        "tag-font": "700 var(--text-xs) var(--font-mono)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/editorial-brutalist-minimal.md"
+  },
+  {
+    "slug": "corporate-memphis",
+    "name": "Corporate Memphis",
+    "category": "极简极繁与有机",
+    "aliases": [
+      "Alegria",
+      "big tech illustration",
+      "flat humano"
+    ],
+    "traits": [
+      "Flat vector people with tiny heads, long bendy limbs",
+      "Simple geometric bodies, bold flat colors",
+      "Friendly, inclusive, generic illustration",
+      "Soft rounded UI around it"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#f7f5ff",
+        "surface-2": "#eef0ff",
+        "text": "#1f2233",
+        "text-muted": "#5b607a",
+        "primary": "#6c5ce7",
+        "accent": "#ff7a8a",
+        "secondary": "#00b894",
+        "yellow": "#ffd166"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 4px 12px rgba(108,92,231,0.10)",
+        "md": "0 10px 30px rgba(108,92,231,0.14)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Poppins', 'Circular', system-ui, sans-serif",
+        "display": "'Poppins', system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "blob": "radial-gradient(circle at 30% 30%, #ff7a8a, #6c5ce7)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/corporate-memphis.md"
+  },
+  {
+    "slug": "typographic",
+    "name": "Typography-Driven",
+    "category": "极简极繁与有机",
+    "aliases": [
+      "type-only",
+      "typographic layout",
+      "big type"
+    ],
+    "traits": [
+      "Oversized expressive typography as the design",
+      "Minimal imagery; type carries everything",
+      "Variable fonts, kinetic type",
+      "Bold, confident, editorial"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f4f4f0",
+        "surface": "#ffffff",
+        "surface-strong": "#eaeae4",
+        "border": "#0f0f0f",
+        "text": "#0f0f0f",
+        "text-muted": "#55554e",
+        "primary": "#0f0f0f",
+        "accent": "#ff3d00"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "none",
+        "md": "none",
+        "lg": "none"
+      },
+      "font": {
+        "sans": "'Neue Haas Grotesk', 'Helvetica Neue', Arial, sans-serif",
+        "display": "'Söhne', 'Neue Haas Grotesk Display', 'Helvetica Neue', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.25rem",
+        "xl": "1.75rem",
+        "2xl": "2.75rem",
+        "3xl": "4.25rem",
+        "4xl": "6.5rem",
+        "5xl": "9rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "tight-tracking": "-0.03em",
+        "rule": "3px solid var(--color-text)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/typographic.md"
+  }
+]

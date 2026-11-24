@@ -1,0 +1,612 @@
+[
+  {
+    "slug": "architecture",
+    "name": "架构图",
+    "category": "图表与示意图",
+    "aliases": [
+      "系统拓扑",
+      "architecture"
+    ],
+    "use": "系统组成、服务边界与通信。",
+    "layout": "按层或域分组，给跨域连线写上协议或数据名称。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-architecture.md"
+  },
+  {
+    "slug": "architecture-delta",
+    "name": "架构变更对照",
+    "category": "图表与示意图",
+    "aliases": [
+      "架构对比",
+      "before after"
+    ],
+    "use": "比较两个版本的系统拓扑。",
+    "layout": "前后布局尽量同位，用图例区别新增、删除与移动。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-architecture-delta.md"
+  },
+  {
+    "slug": "it-state",
+    "name": "现状 IT 全景",
+    "category": "图表与示意图",
+    "aliases": [
+      "现状图",
+      "系统现状"
+    ],
+    "use": "盘点现有应用和技术栈。",
+    "layout": "按部门或阶段分栏，区分系统、流程和外部依赖。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-it-state.md"
+  },
+  {
+    "slug": "flowchart",
+    "name": "流程图",
+    "category": "图表与示意图",
+    "aliases": [
+      "分支图",
+      "业务流程",
+      "决策树"
+    ],
+    "use": "有选择、分支和回路的处理步骤。",
+    "layout": "给决策边明确的条件，检查所有路径都有去处。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-flowchart.md"
+  },
+  {
+    "slug": "sequence",
+    "name": "时序图",
+    "category": "图表与示意图",
+    "aliases": [
+      "交互时序",
+      "sequence diagram"
+    ],
+    "use": "说明多方消息与响应的先后。",
+    "layout": "参与者在顶部，沿时间轴标调用、返回和异常。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-sequence.md"
+  },
+  {
+    "slug": "state",
+    "name": "状态机",
+    "category": "图表与示意图",
+    "aliases": [
+      "状态图",
+      "state machine"
+    ],
+    "use": "描述状态变化与触发条件。",
+    "layout": "有起点、有终止或回到稳定状态的路径。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-state.md"
+  },
+  {
+    "slug": "er",
+    "name": "实体关系图",
+    "category": "图表与示意图",
+    "aliases": [
+      "ER图",
+      "数据模型"
+    ],
+    "use": "解释实体、属性和基数。",
+    "layout": "展示关键实体与关系，注明一对多或多对多。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-er.md"
+  },
+  {
+    "slug": "steps",
+    "name": "步骤图",
+    "category": "图表与示意图",
+    "aliases": [
+      "操作步骤",
+      "步骤说明",
+      "SOP"
+    ],
+    "use": "把固定的操作方法讲给读者。",
+    "layout": "每步用简短动词与一个说明，顺序清楚。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-steps.md"
+  },
+  {
+    "slug": "timeline",
+    "name": "时间线",
+    "category": "图表与示意图",
+    "aliases": [
+      "时间轴",
+      "里程碑"
+    ],
+    "use": "展示里程碑与发生时间。",
+    "layout": "区分具体日期和不确定区间。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-timeline.md"
+  },
+  {
+    "slug": "swimlane",
+    "name": "泳道图",
+    "category": "图表与示意图",
+    "aliases": [
+      "职责流程",
+      "泳道",
+      "跨部门流程"
+    ],
+    "use": "明确多方职责与交接。",
+    "layout": "每个责任方一条泳道，跨道线标交接对象。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-swimlane.md"
+  },
+  {
+    "slug": "quadrant",
+    "name": "四象限图",
+    "category": "图表与示意图",
+    "aliases": [
+      "四象限",
+      "优先级矩阵"
+    ],
+    "use": "按两个维度定位事物。",
+    "layout": "写出轴的方向与分界线含义。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-quadrant.md"
+  },
+  {
+    "slug": "radar",
+    "name": "雷达图",
+    "category": "图表与示意图",
+    "aliases": [
+      "蜘蛛图",
+      "多指标"
+    ],
+    "use": "用少数指标概览多个维度。",
+    "layout": "统一方向和尺度，限制叠加系列。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-radar.md"
+  },
+  {
+    "slug": "polar",
+    "name": "极坐标图",
+    "category": "图表与示意图",
+    "aliases": [
+      "极区图",
+      "玫瑰图"
+    ],
+    "use": "呈现季节、方向等周期维度。",
+    "layout": "角度与类别一一对应，刻度定义一致。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-polar.md"
+  },
+  {
+    "slug": "loop",
+    "name": "循环图",
+    "category": "图表与示意图",
+    "aliases": [
+      "反馈回路",
+      "循环"
+    ],
+    "use": "说明一个反馈过程怎样反复发生。",
+    "layout": "在返回路径标明会影响下一轮的量或状态。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-loop.md"
+  },
+  {
+    "slug": "nested",
+    "name": "嵌套关系图",
+    "category": "图表与示意图",
+    "aliases": [
+      "包含",
+      "嵌套"
+    ],
+    "use": "表示包含关系与边界。",
+    "layout": "用包含表达范围，另标跨边界的关系。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-nested.md"
+  },
+  {
+    "slug": "tree",
+    "name": "树图",
+    "category": "图表与示意图",
+    "aliases": [
+      "层级图",
+      "树状图"
+    ],
+    "use": "展示从父节点到子节点的层级。",
+    "layout": "从根开始，按真实层级排列。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-tree.md"
+  },
+  {
+    "slug": "org-chart",
+    "name": "组织结构图",
+    "category": "图表与示意图",
+    "aliases": [
+      "组织架构",
+      "汇报关系"
+    ],
+    "use": "表达组织责任和汇报关系。",
+    "layout": "保持同层一致，区分直属与协作。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-org-chart.md"
+  },
+  {
+    "slug": "layers",
+    "name": "层叠图",
+    "category": "图表与示意图",
+    "aliases": [
+      "分层",
+      "层级栈"
+    ],
+    "use": "说明分层抽象或能力栈。",
+    "layout": "各层采用平行结构，注明上下依赖。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-layers.md"
+  },
+  {
+    "slug": "exploded",
+    "name": "爆炸分解图",
+    "category": "图表与示意图",
+    "aliases": [
+      "分解",
+      "装配图"
+    ],
+    "use": "拆解一个对象的构件和装配顺序。",
+    "layout": "沿同一方向拆开部件，标位置和对应关系。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-exploded.md"
+  },
+  {
+    "slug": "axonometric-plan",
+    "name": "轴测平面图",
+    "category": "图表与示意图",
+    "aliases": [
+      "等轴测",
+      "平面布置"
+    ],
+    "use": "展示场地或楼层的空间关系。",
+    "layout": "坐标与比例保持一致，重点区块单独标注。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-axonometric-plan.md"
+  },
+  {
+    "slug": "venn",
+    "name": "韦恩图",
+    "category": "图表与示意图",
+    "aliases": [
+      "交集",
+      "集合图"
+    ],
+    "use": "说明集合的交集或差集。",
+    "layout": "每个重叠区有明确语义，面积若无比例可注明。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-venn.md"
+  },
+  {
+    "slug": "pyramid",
+    "name": "金字塔或漏斗图",
+    "category": "图表与示意图",
+    "aliases": [
+      "漏斗图",
+      "转化漏斗",
+      "金字塔"
+    ],
+    "use": "呈现等级结构或转化阶段。",
+    "layout": "金字塔明确等级，漏斗标阶段量与转换口径。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-pyramid.md"
+  },
+  {
+    "slug": "bar",
+    "name": "条形图",
+    "category": "图表与示意图",
+    "aliases": [
+      "柱状图",
+      "柱形图",
+      "比较"
+    ],
+    "use": "比较不同类目的数值。",
+    "layout": "优先零基线，保留单位，排序服务结论。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-bar.md"
+  },
+  {
+    "slug": "waterfall",
+    "name": "瀑布图",
+    "category": "图表与示意图",
+    "aliases": [
+      "桥接图",
+      "增减项"
+    ],
+    "use": "解释从起点到终点的加减项。",
+    "layout": "区分增量、减量和合计，核对总额。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-waterfall.md"
+  },
+  {
+    "slug": "treemap",
+    "name": "矩形树图",
+    "category": "图表与示意图",
+    "aliases": [
+      "面积占比",
+      "矩形树",
+      "构成"
+    ],
+    "use": "用面积表达部分占整体的比例。",
+    "layout": "用总量分配面积，直接标主类和单位。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-treemap.md"
+  },
+  {
+    "slug": "heatmap",
+    "name": "热力图",
+    "category": "图表与示意图",
+    "aliases": [
+      "热图",
+      "矩阵强度"
+    ],
+    "use": "看二维分类下的强度或集中。",
+    "layout": "固定色标范围，缺失值使用独立样式。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-heatmap.md"
+  },
+  {
+    "slug": "line",
+    "name": "折线图",
+    "category": "图表与示意图",
+    "aliases": [
+      "趋势图",
+      "变化趋势",
+      "斜率图"
+    ],
+    "use": "显示时间或有序轴上的趋势。",
+    "layout": "时间尺度一致，缺失值留空并标注。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-line.md"
+  },
+  {
+    "slug": "gantt",
+    "name": "甘特图",
+    "category": "图表与示意图",
+    "aliases": [
+      "项目排期",
+      "计划表"
+    ],
+    "use": "表示任务、起止时间与依赖。",
+    "layout": "时间按真实尺度绘制，标里程碑与关键依赖。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-gantt.md"
+  },
+  {
+    "slug": "scatter",
+    "name": "散点图",
+    "category": "图表与示意图",
+    "aliases": [
+      "相关性",
+      "分布图",
+      "气泡图"
+    ],
+    "use": "观察两个变量的关系或分布。",
+    "layout": "分别标轴和单位，密集时减小点或调整透明度。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-scatter.md"
+  },
+  {
+    "slug": "high-level",
+    "name": "高层数据平台图",
+    "category": "图表与示意图",
+    "aliases": [
+      "数据平台总览",
+      "高层架构"
+    ],
+    "use": "解释数据平台主要阶段和容器范围。",
+    "layout": "从来源到服务按层组织，注明数据方向。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-high-level.md"
+  },
+  {
+    "slug": "process",
+    "name": "多方业务过程图",
+    "category": "图表与示意图",
+    "aliases": [
+      "过程图",
+      "数据交接"
+    ],
+    "use": "追踪步骤之间的资源与信息交接。",
+    "layout": "沿同一方向展示步骤、角色和交接内容。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-process.md"
+  },
+  {
+    "slug": "medallion",
+    "name": "湖仓分层图",
+    "category": "图表与示意图",
+    "aliases": [
+      "湖仓",
+      "铜银金"
+    ],
+    "use": "表示多层数据质量与治理。",
+    "layout": "标记原始、清洗、汇总层和各自的用途。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-medallion.md"
+  },
+  {
+    "slug": "data-flow",
+    "name": "数据流图",
+    "category": "图表与示意图",
+    "aliases": [
+      "数据流",
+      "DFD"
+    ],
+    "use": "交代数据从何处来、如何处理、流向哪里。",
+    "layout": "标清数据、处理过程、存储与方向。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-data-flow.md"
+  },
+  {
+    "slug": "dp-integration",
+    "name": "数据平台集成图",
+    "category": "图表与示意图",
+    "aliases": [
+      "数据集成",
+      "平台集成"
+    ],
+    "use": "展示数据源、集成层和消费方。",
+    "layout": "区分进出方向并标注批处理或实时方式。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-dp-integration.md"
+  },
+  {
+    "slug": "dp-security-matrix",
+    "name": "数据访问权限矩阵",
+    "category": "图表与示意图",
+    "aliases": [
+      "权限矩阵",
+      "访问控制"
+    ],
+    "use": "对照各角色和资源的权限。",
+    "layout": "用行列呈现角色与对象，清楚说明权限标记。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-dp-security-matrix.md"
+  },
+  {
+    "slug": "sankey",
+    "name": "桑基图",
+    "category": "图表与示意图",
+    "aliases": [
+      "流量图",
+      "流向图"
+    ],
+    "use": "展示数量在不同阶段的分流与汇合。",
+    "layout": "线宽与数量成比例，核对流入流出和损耗。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-sankey.md"
+  },
+  {
+    "slug": "fishbone",
+    "name": "鱼骨图",
+    "category": "图表与示意图",
+    "aliases": [
+      "因果图",
+      "归因",
+      "石川图"
+    ],
+    "use": "组织影响某个结果的可能原因。",
+    "layout": "把原因分组并标注已知证据。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-fishbone.md"
+  },
+  {
+    "slug": "wardley",
+    "name": "沃德利地图",
+    "category": "图表与示意图",
+    "aliases": [
+      "Wardley",
+      "价值链演化"
+    ],
+    "use": "按价值链和成熟度展示业务能力。",
+    "layout": "写清横轴的演化阶段以及需求方。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-wardley.md"
+  },
+  {
+    "slug": "kanban",
+    "name": "看板",
+    "category": "图表与示意图",
+    "aliases": [
+      "任务看板",
+      "工作流看板"
+    ],
+    "use": "展示事项在各工作阶段的状态。",
+    "layout": "每列名称清楚，突出阻塞与在制限制。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-kanban.md"
+  },
+  {
+    "slug": "journey",
+    "name": "用户旅程图",
+    "category": "图表与示意图",
+    "aliases": [
+      "用户旅程",
+      "体验地图",
+      "客户旅程"
+    ],
+    "use": "表示体验阶段、行为和痛点。",
+    "layout": "明确同一角色，区分观察和假设。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-journey.md"
+  },
+  {
+    "slug": "service-blueprint",
+    "name": "服务蓝图",
+    "category": "图表与示意图",
+    "aliases": [
+      "服务设计",
+      "服务流程"
+    ],
+    "use": "把前台体验、后台服务和支撑流程对齐。",
+    "layout": "以可见性线分开前台与后台，连接真实交接。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-service-blueprint.md"
+  },
+  {
+    "slug": "deployment",
+    "name": "部署图",
+    "category": "图表与示意图",
+    "aliases": [
+      "部署架构",
+      "基础设施"
+    ],
+    "use": "说明软件在何处运行。",
+    "layout": "标环境、网络或主机边界，显示部署与通信关系。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-deployment.md"
+  },
+  {
+    "slug": "dependency",
+    "name": "依赖图",
+    "category": "图表与示意图",
+    "aliases": [
+      "依赖关系",
+      "依赖网络"
+    ],
+    "use": "解释多个对象之间的依赖关系。",
+    "layout": "箭头方向统一，有循环时突出循环节点。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-dependency.md"
+  },
+  {
+    "slug": "uml-class",
+    "name": "UML 类图",
+    "category": "图表与示意图",
+    "aliases": [
+      "类图",
+      "UML"
+    ],
+    "use": "说明类型、操作和相互关系。",
+    "layout": "选择必要属性，使用对应的继承与聚合符号。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-uml-class.md"
+  },
+  {
+    "slug": "story-map",
+    "name": "故事地图",
+    "category": "图表与示意图",
+    "aliases": [
+      "用户故事地图",
+      "版本切片"
+    ],
+    "use": "按用户活动把功能拆进不同发布批次。",
+    "layout": "顶层沿活动顺序，向下按发布范围切分。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-story-map.md"
+  },
+  {
+    "slug": "db-schema",
+    "name": "数据库模式图",
+    "category": "图表与示意图",
+    "aliases": [
+      "数据库结构",
+      "表结构",
+      "数据表关系"
+    ],
+    "use": "描绘物理表、字段与约束。",
+    "layout": "明确 PK、FK、数据类型和多对多中间表。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-db-schema.md"
+  },
+  {
+    "slug": "sbgn",
+    "name": "生物过程示意图",
+    "category": "图表与示意图",
+    "aliases": [
+      "SBGN"
+    ],
+    "use": "用标准符号表达参与对象和抽象关系。",
+    "layout": "按照适用的表示标准绘制，标清对象角色。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-sbgn.md"
+  },
+  {
+    "slug": "requirement-traceability",
+    "name": "需求追踪矩阵",
+    "category": "图表与示意图",
+    "aliases": [
+      "需求可追踪",
+      "追溯矩阵"
+    ],
+    "use": "让需求、实现和验证逐项对得上。",
+    "layout": "使用稳定标识，明确缺口和待验证项。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-requirement-traceability.md"
+  },
+  {
+    "slug": "event-modeling",
+    "name": "事件建模图",
+    "category": "图表与示意图",
+    "aliases": [
+      "事件风暴",
+      "event model"
+    ],
+    "use": "表现命令、事件与读模型的顺序。",
+    "layout": "区分触发、已发生事件和可读状态。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-event-modeling.md"
+  },
+  {
+    "slug": "unit-grid",
+    "name": "单位网格图",
+    "category": "图表与示意图",
+    "aliases": [
+      "百分比网格",
+      "华夫图"
+    ],
+    "use": "用等大格子呈现整体中的数量比例。",
+    "layout": "每个格子等值，标明整体和每格代表的数量。",
+    "reference": "https://github.com/cathrynlavery/diagram-design/blob/f6db0decea96de66b901331a0f79a8d4b147ebae/skills/diagram-design/references/type-unit-grid.md"
+  }
+]

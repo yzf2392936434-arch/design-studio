@@ -1,0 +1,575 @@
+[
+  {
+    "slug": "glassmorphism",
+    "name": "Glassmorphism",
+    "category": "玻璃与透明",
+    "aliases": [
+      "glass UI",
+      "frosted glass",
+      "glass morphism",
+      "玻璃拟态",
+      "玻璃风"
+    ],
+    "traits": [
+      "Frosted translucent panels via background blur",
+      "Thin light border + subtle inner highlight",
+      "Vivid colorful background shows through",
+      "Layered floating cards with depth"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0f172a",
+        "bg-gradient-a": "#1e3a8a",
+        "bg-gradient-b": "#7c3aed",
+        "surface": "rgba(255, 255, 255, 0.10)",
+        "surface-strong": "rgba(255, 255, 255, 0.18)",
+        "border": "rgba(255, 255, 255, 0.22)",
+        "text": "#f8fafc",
+        "text-muted": "rgba(248, 250, 252, 0.72)",
+        "primary": "#38bdf8",
+        "accent": "#e879f9"
+      },
+      "radius": {
+        "sm": "10px",
+        "md": "16px",
+        "lg": "24px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 4px 16px rgba(0,0,0,0.18)",
+        "md": "0 8px 32px rgba(0,0,0,0.28)",
+        "lg": "0 16px 48px rgba(0,0,0,0.36)",
+        "inset-hi": "inset 0 1px 0 rgba(255,255,255,0.35)"
+      },
+      "blur": {
+        "backdrop": "16px",
+        "backdrop-strong": "28px"
+      },
+      "font": {
+        "sans": "'Inter', system-ui, -apple-system, sans-serif",
+        "display": "'Inter', system-ui, sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "entrance": "cubic-bezier(0, 0, 0, 1)",
+        "exit": "cubic-bezier(0.3, 0, 1, 1)"
+      },
+      "extra": {
+        "bg-image": "radial-gradient(120% 120% at 0% 0%, #1e3a8a 0%, #0f172a 55%, #7c3aed 120%)",
+        "glass-fill": "linear-gradient(135deg, rgba(255,255,255,0.18), rgba(255,255,255,0.06))",
+        "glass-border": "1px solid rgba(255,255,255,0.22)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/glassmorphism.md"
+  },
+  {
+    "slug": "liquid-glass",
+    "name": "Liquid Glass",
+    "category": "玻璃与透明",
+    "aliases": [
+      "Apple Liquid Glass",
+      "iOS 26 glass",
+      "液态玻璃"
+    ],
+    "traits": [
+      "Dynamic 'meta-material' that bends and refracts light like a lens",
+      "Specular edge highlights and real-time refraction of content behind",
+      "Hierarchy through depth, not color/size",
+      "Fluid, springy motion; concentric rounded shapes matching hardware"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#000000",
+        "surface": "rgba(255,255,255,0.06)",
+        "surface-strong": "rgba(255,255,255,0.14)",
+        "border": "rgba(255,255,255,0.30)",
+        "specular": "rgba(255,255,255,0.65)",
+        "text": "#ffffff",
+        "text-muted": "rgba(235,235,245,0.60)",
+        "primary": "#0a84ff",
+        "accent": "#64d2ff",
+        "scrim": "rgba(0,0,0,0.35)"
+      },
+      "radius": {
+        "sm": "12px",
+        "md": "20px",
+        "lg": "28px",
+        "pill": "999px",
+        "concentric": "22px"
+      },
+      "shadow": {
+        "sm": "0 2px 10px rgba(0,0,0,0.25)",
+        "md": "0 10px 40px rgba(0,0,0,0.35)",
+        "lg": "0 20px 60px rgba(0,0,0,0.45)",
+        "edge": "inset 0 1px 0 rgba(255,255,255,0.55), inset 0 -1px 0 rgba(255,255,255,0.10)"
+      },
+      "blur": {
+        "backdrop": "20px",
+        "backdrop-thick": "40px"
+      },
+      "font": {
+        "sans": "-apple-system, 'SF Pro Text', system-ui, sans-serif",
+        "display": "-apple-system, 'SF Pro Display', system-ui, sans-serif",
+        "mono": "'SF Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "spring": "cubic-bezier(0.2, 0.9, 0.1, 1.1)",
+        "entrance": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      "extra": {
+        "lens-highlight": "linear-gradient(135deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.05) 40%, rgba(255,255,255,0) 70%)",
+        "refraction": "saturate(1.8) brightness(1.1)",
+        "glass-border": "1px solid rgba(255,255,255,0.30)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/liquid-glass.md"
+  },
+  {
+    "slug": "aero-glass",
+    "name": "Windows Aero Glass",
+    "category": "玻璃与透明",
+    "aliases": [
+      "Aero",
+      "Vista glass",
+      "Aero Glass"
+    ],
+    "traits": [
+      "Translucent window chrome with Gaussian blur",
+      "Colored glass tint with reflective sheen",
+      "Rounded window corners and glow",
+      "Live thumbnails / Flip 3D"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0d2a4a",
+        "bg-gradient-a": "#14406e",
+        "bg-gradient-b": "#0a1c33",
+        "surface": "rgba(173, 216, 255, 0.22)",
+        "surface-strong": "rgba(173, 216, 255, 0.35)",
+        "border": "rgba(255, 255, 255, 0.55)",
+        "text": "#f3faff",
+        "text-muted": "rgba(243, 250, 255, 0.78)",
+        "primary": "#3d8eeb",
+        "accent": "#8fd7ff"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "10px",
+        "lg": "14px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(0,0,0,0.3)",
+        "md": "0 8px 24px rgba(0,0,0,0.4), 0 0 12px rgba(141,206,255,0.3)",
+        "lg": "0 20px 50px rgba(0,0,0,0.45), 0 0 24px rgba(141,206,255,0.35)",
+        "inset-hi": "inset 0 1px 0 rgba(255,255,255,0.7)"
+      },
+      "blur": {
+        "backdrop": "12px"
+      },
+      "font": {
+        "sans": "'Segoe UI', Tahoma, system-ui, sans-serif",
+        "display": "'Segoe UI', Tahoma, sans-serif",
+        "mono": "'Consolas', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0.1, 1)"
+      },
+      "extra": {
+        "bg-image": "radial-gradient(120% 100% at 50% -20%, #1f5794 0%, #0d2a4a 55%, #071829 100%)",
+        "glass-fill": "linear-gradient(180deg, rgba(210,235,255,0.4) 0%, rgba(173,216,255,0.15) 45%, rgba(120,170,220,0.1) 100%)",
+        "glass-sheen": "linear-gradient(to bottom, rgba(255,255,255,0.65) 0%, rgba(255,255,255,0.08) 40%, rgba(255,255,255,0) 70%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/aero-glass.md"
+  },
+  {
+    "slug": "acrylic-fluent",
+    "name": "Acrylic (Fluent Material)",
+    "category": "玻璃与透明",
+    "aliases": [
+      "Fluent acrylic",
+      "Windows 11 acrylic"
+    ],
+    "traits": [
+      "Translucency + blur + subtle noise texture",
+      "Light-dismiss transient surfaces (menus, flyouts)",
+      "Mode-aware (light/dark)",
+      "Sits beneath interactive UI as a base layer"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f3f3f3",
+        "surface": "rgba(255, 255, 255, 0.65)",
+        "surface-strong": "rgba(255, 255, 255, 0.85)",
+        "border": "rgba(0, 0, 0, 0.08)",
+        "text": "#1b1b1b",
+        "text-muted": "#5c5c5c",
+        "primary": "#0067c0",
+        "accent": "#744da9"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "12px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(0,0,0,0.08)",
+        "md": "0 4px 16px rgba(0,0,0,0.10), 0 0 0 1px rgba(0,0,0,0.04)",
+        "lg": "0 12px 32px rgba(0,0,0,0.14)"
+      },
+      "blur": {
+        "backdrop": "30px",
+        "backdrop-strong": "40px"
+      },
+      "font": {
+        "sans": "'Segoe UI Variable', 'Segoe UI', system-ui, sans-serif",
+        "display": "'Segoe UI Variable Display', 'Segoe UI', sans-serif",
+        "mono": "'Cascadia Code', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.8, 0, 0.2, 1)",
+        "entrance": "cubic-bezier(0.1, 0.9, 0.2, 1)",
+        "exit": "cubic-bezier(0.7, 0, 0.84, 0)"
+      },
+      "extra": {
+        "acrylic-tint": "linear-gradient(180deg, rgba(255,255,255,0.75), rgba(255,255,255,0.45))",
+        "acrylic-noise": "repeating-conic-gradient(rgba(0,0,0,0.015) 0% 0.5%, transparent 0% 1%)",
+        "acrylic-border": "1px solid rgba(255,255,255,0.5)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/acrylic-fluent.md"
+  },
+  {
+    "slug": "macos-vibrancy",
+    "name": "macOS Vibrancy / Translucency",
+    "category": "玻璃与透明",
+    "aliases": [
+      "vibrancy",
+      "NSVisualEffectView"
+    ],
+    "traits": [
+      "Sidebar/toolbar materials that sample and blur the desktop",
+      "Vibrant text/icons that adapt to backdrop",
+      "Subtle luminance blending",
+      "System-level material tiers (menu, sidebar, HUD)"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#dfe6ee",
+        "surface": "rgba(255,255,255,0.55)",
+        "surface-strong": "rgba(255,255,255,0.78)",
+        "border": "rgba(0,0,0,0.08)",
+        "text": "#1d1d1f",
+        "text-muted": "rgba(29,29,31,0.6)",
+        "primary": "#007aff",
+        "accent": "#ff9f0a",
+        "scrim": "rgba(255,255,255,0.4)"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "10px",
+        "lg": "14px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(0,0,0,0.06)",
+        "md": "0 8px 24px rgba(0,0,0,0.10)",
+        "lg": "0 20px 48px rgba(0,0,0,0.14)",
+        "inset-hi": "inset 0 1px 0 rgba(255,255,255,0.6)"
+      },
+      "blur": {
+        "backdrop": "20px",
+        "backdrop-strong": "30px"
+      },
+      "font": {
+        "sans": "-apple-system, 'SF Pro Text', 'Helvetica Neue', system-ui, sans-serif",
+        "display": "-apple-system, 'SF Pro Display', system-ui, sans-serif",
+        "mono": "'SF Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      },
+      "extra": {
+        "bg-image": "linear-gradient(160deg, #a7c6f2 0%, #dfe6ee 45%, #f3d9c4 100%)",
+        "vibrancy": "blur(var(--blur-backdrop)) saturate(1.8)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/macos-vibrancy.md"
+  },
+  {
+    "slug": "frosted-glass",
+    "name": "Frosted Glass",
+    "category": "玻璃与透明",
+    "aliases": [
+      "frosted panel",
+      "blur overlay",
+      "磨砂玻璃",
+      "毛玻璃"
+    ],
+    "traits": [
+      "Simple backdrop-filter blur behind modals/overlays",
+      "Semi-opaque white or dark scrim",
+      "Content legibility via blur + tint",
+      "No strong refraction or edge lighting"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#7c8a99",
+        "bg-photo-a": "#93a2b0",
+        "bg-photo-b": "#5c6b7a",
+        "surface": "rgba(255, 255, 255, 0.55)",
+        "surface-strong": "rgba(255, 255, 255, 0.72)",
+        "border": "rgba(255, 255, 255, 0.4)",
+        "text": "#16202b",
+        "text-muted": "#3d4a58",
+        "primary": "#1f6feb",
+        "accent": "#1a1f26"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "14px",
+        "lg": "20px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(10,16,24,0.18)",
+        "md": "0 6px 20px rgba(10,16,24,0.22)",
+        "lg": "0 14px 36px rgba(10,16,24,0.26)"
+      },
+      "blur": {
+        "backdrop": "12px"
+      },
+      "font": {
+        "sans": "'SF Pro Text', -apple-system, system-ui, sans-serif",
+        "display": "'SF Pro Display', -apple-system, system-ui, sans-serif",
+        "mono": "'SF Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "bg-image": "linear-gradient(160deg, var(--color-bg-photo-a) 0%, var(--color-bg-photo-b) 100%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/frosted-glass.md"
+  },
+  {
+    "slug": "spatial-visionos",
+    "name": "Spatial / visionOS",
+    "category": "玻璃与透明",
+    "aliases": [
+      "spatial design",
+      "visionOS",
+      "mixed reality UI"
+    ],
+    "traits": [
+      "Floating glass panels in 3D space",
+      "Depth, parallax, and light-based hierarchy",
+      "Eye/hand-driven interaction affordances",
+      "Translucent materials over the real world"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#05070c",
+        "bg-gradient-a": "#0a1220",
+        "bg-gradient-b": "#141b2e",
+        "surface": "rgba(255, 255, 255, 0.08)",
+        "surface-strong": "rgba(255, 255, 255, 0.14)",
+        "border": "rgba(255, 255, 255, 0.16)",
+        "text": "#f5f7fa",
+        "text-muted": "rgba(245, 247, 250, 0.70)",
+        "primary": "#4da3ff",
+        "accent": "#b98cff",
+        "glow": "rgba(77, 163, 255, 0.35)"
+      },
+      "radius": {
+        "sm": "14px",
+        "md": "22px",
+        "lg": "32px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 6px 18px rgba(0,0,0,0.35)",
+        "md": "0 16px 40px rgba(0,0,0,0.45)",
+        "lg": "0 32px 80px rgba(0,0,0,0.55)",
+        "inset-hi": "inset 0 1px 0 rgba(255,255,255,0.28)"
+      },
+      "blur": {
+        "backdrop": "24px",
+        "backdrop-strong": "40px"
+      },
+      "font": {
+        "sans": "'SF Pro Display', 'Inter', system-ui, -apple-system, sans-serif",
+        "display": "'SF Pro Display', system-ui, sans-serif",
+        "mono": "'SF Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "entrance": "cubic-bezier(0, 0, 0, 1)",
+        "exit": "cubic-bezier(0.4, 0, 1, 1)"
+      },
+      "extra": {
+        "bg-image": "radial-gradient(90% 70% at 30% 0%, var(--color-bg-gradient-b) 0%, var(--color-bg-gradient-a) 45%, var(--color-bg) 100%)",
+        "glass-fill": "linear-gradient(160deg, rgba(255,255,255,0.14), rgba(255,255,255,0.03))",
+        "glass-border": "1px solid var(--color-border)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/spatial-visionos.md"
+  }
+]

@@ -1,0 +1,797 @@
+[
+  {
+    "slug": "geist",
+    "name": "Geist",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "precise",
+      "technical",
+      "calm",
+      "tech",
+      "software",
+      "gaming",
+      "product",
+      "service",
+      "Geist Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Geist",
+        "sans": "Geist",
+        "mono": "Geist Mono"
+      }
+    }
+  },
+  {
+    "slug": "host",
+    "name": "Host Grotesk",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "calm",
+      "precise",
+      "tech",
+      "software",
+      "service",
+      "product",
+      "JetBrains Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Host Grotesk",
+        "sans": "Host Grotesk",
+        "mono": "JetBrains Mono"
+      }
+    }
+  },
+  {
+    "slug": "instrument",
+    "name": "Instrument Sans",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "precise",
+      "friendly",
+      "calm",
+      "tech",
+      "software",
+      "product",
+      "service",
+      "DM Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Instrument Sans",
+        "sans": "Instrument Sans",
+        "mono": "DM Mono"
+      }
+    }
+  },
+  {
+    "slug": "mona",
+    "name": "Mona Sans",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "technical",
+      "bold",
+      "precise",
+      "tech",
+      "software",
+      "gaming",
+      "product",
+      "Geist Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Mona Sans",
+        "sans": "Mona Sans",
+        "mono": "Geist Mono"
+      }
+    }
+  },
+  {
+    "slug": "hanken",
+    "name": "Hanken Grotesk",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "calm",
+      "trusted",
+      "software",
+      "product",
+      "service",
+      "DM Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Hanken Grotesk",
+        "sans": "Hanken Grotesk",
+        "mono": "DM Mono"
+      }
+    }
+  },
+  {
+    "slug": "schibsted",
+    "name": "Schibsted Grotesk",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "bold",
+      "trusted",
+      "software",
+      "service",
+      "product",
+      "JetBrains Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Schibsted Grotesk",
+        "sans": "Schibsted Grotesk",
+        "mono": "JetBrains Mono"
+      }
+    }
+  },
+  {
+    "slug": "onest",
+    "name": "Onest",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "calm",
+      "trusted",
+      "software",
+      "service",
+      "product",
+      "JetBrains Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Onest",
+        "sans": "Onest",
+        "mono": "JetBrains Mono"
+      }
+    }
+  },
+  {
+    "slug": "funnel",
+    "name": "Funnel Display / Funnel Sans",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "friendly",
+      "bold",
+      "software",
+      "product",
+      "gaming",
+      "service",
+      "DM Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Funnel Display",
+        "sans": "Funnel Sans",
+        "mono": "DM Mono"
+      }
+    }
+  },
+  {
+    "slug": "manrope",
+    "name": "Manrope",
+    "category": "字体组合",
+    "aliases": [
+      "geometric",
+      "precise",
+      "friendly",
+      "tech",
+      "software",
+      "product",
+      "service",
+      "JetBrains Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Manrope",
+        "sans": "Manrope",
+        "mono": "JetBrains Mono"
+      }
+    }
+  },
+  {
+    "slug": "plex",
+    "name": "IBM Plex Sans",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "technical",
+      "trusted",
+      "tech",
+      "software",
+      "service",
+      "IBM Plex Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "IBM Plex Sans",
+        "sans": "IBM Plex Sans",
+        "mono": "IBM Plex Mono"
+      }
+    }
+  },
+  {
+    "slug": "sora",
+    "name": "Sora / Figtree",
+    "category": "字体组合",
+    "aliases": [
+      "geometric",
+      "technical",
+      "bold",
+      "tech",
+      "gaming",
+      "software",
+      "Martian Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Sora",
+        "sans": "Figtree",
+        "mono": "Martian Mono"
+      }
+    }
+  },
+  {
+    "slug": "archivo",
+    "name": "Archivo",
+    "category": "字体组合",
+    "aliases": [
+      "wide",
+      "bold",
+      "technical",
+      "product",
+      "tech",
+      "gaming",
+      "service",
+      "Martian Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Archivo",
+        "sans": "Archivo",
+        "mono": "Martian Mono"
+      }
+    }
+  },
+  {
+    "slug": "anybody",
+    "name": "Anybody / Onest",
+    "category": "字体组合",
+    "aliases": [
+      "wide",
+      "playful",
+      "bold",
+      "gaming",
+      "Martian Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Anybody",
+        "sans": "Onest",
+        "mono": "Martian Mono"
+      }
+    }
+  },
+  {
+    "slug": "bricolage",
+    "name": "Bricolage Grotesque / Figtree",
+    "category": "字体组合",
+    "aliases": [
+      "grotesk-soft",
+      "friendly",
+      "playful",
+      "warm",
+      "software",
+      "product",
+      "service",
+      "gaming",
+      "DM Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Bricolage Grotesque",
+        "sans": "Figtree",
+        "mono": "DM Mono"
+      }
+    }
+  },
+  {
+    "slug": "red-hat",
+    "name": "Red Hat Display / Red Hat Text",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "trusted",
+      "friendly",
+      "service",
+      "software",
+      "product",
+      "IBM Plex Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Red Hat Display",
+        "sans": "Red Hat Text",
+        "mono": "IBM Plex Mono"
+      }
+    }
+  },
+  {
+    "slug": "gabarito",
+    "name": "Gabarito / Figtree",
+    "category": "字体组合",
+    "aliases": [
+      "geometric",
+      "friendly",
+      "playful",
+      "software",
+      "service",
+      "gaming",
+      "DM Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Gabarito",
+        "sans": "Figtree",
+        "mono": "DM Mono"
+      }
+    }
+  },
+  {
+    "slug": "chivo",
+    "name": "Chivo",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "technical",
+      "calm",
+      "tech",
+      "software",
+      "Chivo Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Chivo",
+        "sans": "Chivo",
+        "mono": "Chivo Mono"
+      }
+    }
+  },
+  {
+    "slug": "outfit",
+    "name": "Outfit",
+    "category": "字体组合",
+    "aliases": [
+      "geometric",
+      "friendly",
+      "precise",
+      "software",
+      "product",
+      "gaming",
+      "service",
+      "DM Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Outfit",
+        "sans": "Outfit",
+        "mono": "DM Mono"
+      }
+    }
+  },
+  {
+    "slug": "epilogue",
+    "name": "Epilogue",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "precise",
+      "bold",
+      "tech",
+      "software",
+      "gaming",
+      "product",
+      "JetBrains Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Epilogue",
+        "sans": "Epilogue",
+        "mono": "JetBrains Mono"
+      }
+    }
+  },
+  {
+    "slug": "familjen",
+    "name": "Familjen Grotesk",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "technical",
+      "calm",
+      "tech",
+      "software",
+      "gaming",
+      "product",
+      "IBM Plex Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Familjen Grotesk",
+        "sans": "Familjen Grotesk",
+        "mono": "IBM Plex Mono"
+      }
+    }
+  },
+  {
+    "slug": "urbanist",
+    "name": "Urbanist",
+    "category": "字体组合",
+    "aliases": [
+      "geometric",
+      "friendly",
+      "precise",
+      "tech",
+      "software",
+      "gaming",
+      "product",
+      "DM Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Urbanist",
+        "sans": "Urbanist",
+        "mono": "DM Mono"
+      }
+    }
+  },
+  {
+    "slug": "reddit",
+    "name": "Reddit Sans",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "calm",
+      "precise",
+      "tech",
+      "software",
+      "gaming",
+      "JetBrains Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Reddit Sans",
+        "sans": "Reddit Sans",
+        "mono": "JetBrains Mono"
+      }
+    }
+  },
+  {
+    "slug": "suse",
+    "name": "SUSE",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "technical",
+      "precise",
+      "tech",
+      "software",
+      "gaming",
+      "JetBrains Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "SUSE",
+        "sans": "SUSE",
+        "mono": "JetBrains Mono"
+      }
+    }
+  },
+  {
+    "slug": "albert",
+    "name": "Albert Sans",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "calm",
+      "refined",
+      "service",
+      "product",
+      "software",
+      "DM Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Albert Sans",
+        "sans": "Albert Sans",
+        "mono": "DM Mono"
+      }
+    }
+  },
+  {
+    "slug": "figtree",
+    "name": "Figtree",
+    "category": "字体组合",
+    "aliases": [
+      "geometric",
+      "friendly",
+      "calm",
+      "software",
+      "product",
+      "service",
+      "DM Mono"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Figtree",
+        "sans": "Figtree",
+        "mono": "DM Mono"
+      }
+    }
+  },
+  {
+    "slug": "work-sans",
+    "name": "Work Sans",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "calm",
+      "trusted",
+      "service",
+      "product"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Work Sans",
+        "sans": "Work Sans"
+      }
+    }
+  },
+  {
+    "slug": "rethink",
+    "name": "Rethink Sans",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "calm",
+      "friendly",
+      "service",
+      "product"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Rethink Sans",
+        "sans": "Rethink Sans"
+      }
+    }
+  },
+  {
+    "slug": "instrument-sans",
+    "name": "Instrument Sans",
+    "category": "字体组合",
+    "aliases": [
+      "neo-grotesk",
+      "calm",
+      "precise"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Instrument Sans",
+        "sans": "Instrument Sans"
+      }
+    }
+  },
+  {
+    "slug": "instrument-serif",
+    "name": "Instrument Serif / Instrument Sans",
+    "category": "字体组合",
+    "aliases": [
+      "serif",
+      "refined",
+      "calm",
+      "classic",
+      "product",
+      "service"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Instrument Serif",
+        "sans": "Instrument Sans"
+      }
+    }
+  },
+  {
+    "slug": "fraunces",
+    "name": "Fraunces / Figtree",
+    "category": "字体组合",
+    "aliases": [
+      "serif",
+      "warm",
+      "friendly",
+      "classic",
+      "product",
+      "service"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Fraunces",
+        "sans": "Figtree"
+      }
+    }
+  },
+  {
+    "slug": "newsreader",
+    "name": "Newsreader / Hanken Grotesk",
+    "category": "字体组合",
+    "aliases": [
+      "serif",
+      "trusted",
+      "refined",
+      "calm",
+      "service",
+      "product"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Newsreader",
+        "sans": "Hanken Grotesk"
+      }
+    }
+  },
+  {
+    "slug": "source-serif",
+    "name": "Source Serif 4 / Libre Franklin",
+    "category": "字体组合",
+    "aliases": [
+      "serif",
+      "trusted",
+      "classic",
+      "service"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Source Serif 4",
+        "sans": "Libre Franklin"
+      }
+    }
+  },
+  {
+    "slug": "garamond",
+    "name": "EB Garamond / Jost",
+    "category": "字体组合",
+    "aliases": [
+      "serif",
+      "classic",
+      "refined",
+      "calm",
+      "product",
+      "service"
+    ],
+    "tokens": {
+      "font": {
+        "display": "EB Garamond",
+        "sans": "Jost"
+      }
+    }
+  },
+  {
+    "slug": "literata",
+    "name": "Literata / Figtree",
+    "category": "字体组合",
+    "aliases": [
+      "serif",
+      "trusted",
+      "warm",
+      "calm",
+      "service",
+      "product"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Literata",
+        "sans": "Figtree"
+      }
+    }
+  },
+  {
+    "slug": "lora",
+    "name": "Lora / Nunito Sans",
+    "category": "字体组合",
+    "aliases": [
+      "serif",
+      "warm",
+      "classic",
+      "product",
+      "service"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Lora",
+        "sans": "Nunito Sans"
+      }
+    }
+  },
+  {
+    "slug": "besley",
+    "name": "Besley / Albert Sans",
+    "category": "字体组合",
+    "aliases": [
+      "serif",
+      "warm",
+      "bold",
+      "classic",
+      "product",
+      "service"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Besley",
+        "sans": "Albert Sans"
+      }
+    }
+  },
+  {
+    "slug": "vollkorn",
+    "name": "Vollkorn / Work Sans",
+    "category": "字体组合",
+    "aliases": [
+      "serif",
+      "warm",
+      "classic",
+      "product",
+      "service"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Vollkorn",
+        "sans": "Work Sans"
+      }
+    }
+  },
+  {
+    "slug": "zilla",
+    "name": "Zilla Slab / Rethink Sans",
+    "category": "字体组合",
+    "aliases": [
+      "slab",
+      "warm",
+      "trusted",
+      "bold",
+      "product",
+      "service"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Zilla Slab",
+        "sans": "Rethink Sans"
+      }
+    }
+  },
+  {
+    "slug": "nunito",
+    "name": "Nunito",
+    "category": "字体组合",
+    "aliases": [
+      "soft",
+      "friendly",
+      "warm",
+      "product",
+      "service"
+    ],
+    "tokens": {
+      "font": {
+        "display": "Nunito",
+        "sans": "Nunito"
+      }
+    }
+  }
+]

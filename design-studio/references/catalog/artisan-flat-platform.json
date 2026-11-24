@@ -1,0 +1,1787 @@
+[
+  {
+    "slug": "e-ink-editorial",
+    "name": "E-Ink Editorial",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "e-ink UI",
+      "paper display editorial",
+      "电子墨水排版"
+    ],
+    "traits": [
+      "Near-monochrome charcoal on warm e-paper",
+      "Crisp hairlines, labels, and reading-first hierarchy",
+      "No decorative shadows, transparency, or color-dependent meaning"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e7e5dc",
+        "surface": "#f2f0e7",
+        "surface-2": "#d5d3ca",
+        "text": "#22221f",
+        "text-muted": "#62615b",
+        "primary": "#22221f",
+        "accent": "#59574f",
+        "inverted": "#f2f0e7"
+      },
+      "radius": {
+        "sm": "0",
+        "md": "0",
+        "lg": "0",
+        "pill": "999px"
+      },
+      "shadow": {
+        "line": "0 1px 0 #22221f",
+        "none": "none"
+      },
+      "blur": {},
+      "font": {
+        "sans": "Arial, Helvetica, sans-serif",
+        "display": "Georgia, serif",
+        "mono": "'Courier New', monospace"
+      },
+      "text": {
+        "xs": ".75rem",
+        "sm": ".875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(.2,.8,.2,1)"
+      },
+      "extra": {
+        "dither": "repeating-linear-gradient(45deg, rgba(34,34,31,.045) 0 1px, transparent 1px 4px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/e-ink-editorial.md"
+  },
+  {
+    "slug": "flat-design",
+    "name": "Flat Design",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "flat UI",
+      "扁平化",
+      "扁平设计"
+    ],
+    "traits": [
+      "No shadows, gradients, or textures — pure flat color",
+      "Simple geometric shapes and iconography",
+      "Bold color blocking and generous whitespace",
+      "Typography and color carry the hierarchy"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#f4f5f7",
+        "surface-2": "#e9ecef",
+        "text": "#212529",
+        "text-muted": "#6c757d",
+        "primary": "#2d8cff",
+        "accent": "#ff5a5f",
+        "success": "#2ecc71",
+        "warning": "#f1c40f",
+        "danger": "#e74c3c"
+      },
+      "radius": {
+        "sm": "3px",
+        "md": "6px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "none": "none",
+        "sm": "0 1px 2px rgba(0,0,0,0.06)",
+        "md": "0 2px 4px rgba(0,0,0,0.08)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Helvetica Neue', Arial, system-ui, sans-serif",
+        "display": "'Helvetica Neue', Arial, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {}
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/flat-design.md"
+  },
+  {
+    "slug": "metro",
+    "name": "Metro / Microsoft Design Language",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "Metro UI",
+      "Modern UI",
+      "Windows Phone design"
+    ],
+    "traits": [
+      "Live Tiles grid; content over chrome",
+      "Bold Segoe typography, edge-to-edge",
+      "Motion and typographic hierarchy",
+      "Flat, colorful, no skeuomorphism"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0d0d0d",
+        "surface": "#1a1a1a",
+        "surface-strong": "#262626",
+        "border": "#3a3a3a",
+        "text": "#ffffff",
+        "text-muted": "#a6a6a6",
+        "primary": "#2d89ef",
+        "accent": "#e51400",
+        "tile-purple": "#6a00ff",
+        "tile-green": "#00a300",
+        "tile-teal": "#00aba9"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "sm": "none",
+        "md": "none",
+        "lg": "none"
+      },
+      "font": {
+        "sans": "'Segoe UI', 'Segoe UI Light', system-ui, sans-serif",
+        "display": "'Segoe UI Light', 'Segoe UI', system-ui, sans-serif",
+        "mono": "'Consolas', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.5rem",
+        "2xl": "2rem",
+        "3xl": "2.75rem",
+        "4xl": "3.5rem",
+        "5xl": "5rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.1, 0.9, 0.2, 1)"
+      },
+      "extra": {
+        "tile-grid-gap": "2px"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/metro.md"
+  },
+  {
+    "slug": "material-design",
+    "name": "Material Design (M2)",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "Material",
+      "Material 2"
+    ],
+    "traits": [
+      "Material metaphor: paper and ink with real elevation",
+      "Consistent shadow/elevation system",
+      "Bold color, meaningful motion, grid-based",
+      "Floating action button, ripple feedback"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fafafa",
+        "surface": "#ffffff",
+        "surface-strong": "#eeeeee",
+        "border": "#e0e0e0",
+        "text": "#212121",
+        "text-muted": "#616161",
+        "primary": "#6200ee",
+        "accent": "#03dac6",
+        "primary-variant": "#3700b3",
+        "error": "#b00020"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "4px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 3px rgba(0,0,0,0.20), 0 1px 1px rgba(0,0,0,0.14)",
+        "md": "0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)",
+        "lg": "0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)",
+        "fab": "0 6px 10px rgba(0,0,0,0.14), 0 1px 18px rgba(0,0,0,0.12), 0 3px 5px rgba(0,0,0,0.20)"
+      },
+      "font": {
+        "sans": "'Roboto', 'Segoe UI', system-ui, sans-serif",
+        "display": "'Roboto', system-ui, sans-serif",
+        "mono": "'Roboto Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0.0, 0.2, 1)",
+        "entrance": "cubic-bezier(0.0, 0.0, 0.2, 1)",
+        "exit": "cubic-bezier(0.4, 0.0, 1, 1)",
+        "ripple": "radial-gradient(circle, rgba(255,255,255,0.35) 10%, transparent 10.5%)",
+        "elevation-1dp": "0 2px 1px -1px rgba(0,0,0,0.20), 0 1px 1px 0 rgba(0,0,0,0.14), 0 1px 3px 0 rgba(0,0,0,0.12)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/material-design.md"
+  },
+  {
+    "slug": "material-design-3",
+    "name": "Material Design 3 / Material You",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "M3",
+      "Material You",
+      "M3 Expressive",
+      "质感设计",
+      "材质设计",
+      "Material You"
+    ],
+    "traits": [
+      "Dynamic color extracted from user wallpaper (tonal palettes)",
+      "Larger rounded shapes, shape-morphing tokens",
+      "Expressive spring-physics motion",
+      "Design tokens as single source of truth; updated components"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fef7ff",
+        "surface": "#fef7ff",
+        "surface-container": "#f3edf7",
+        "surface-variant": "#e7e0ec",
+        "text": "#1d1b20",
+        "text-muted": "#49454f",
+        "primary": "#6750a4",
+        "on-primary": "#ffffff",
+        "secondary": "#625b71",
+        "tertiary": "#7d5260",
+        "outline": "#79747e",
+        "error": "#b3261e"
+      },
+      "radius": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "12px",
+        "lg": "16px",
+        "xl": "28px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "e1": "0 1px 2px rgba(0,0,0,0.30), 0 1px 3px 1px rgba(0,0,0,0.15)",
+        "e2": "0 1px 2px rgba(0,0,0,0.30), 0 2px 6px 2px rgba(0,0,0,0.15)",
+        "e3": "0 4px 8px 3px rgba(0,0,0,0.15), 0 1px 3px rgba(0,0,0,0.30)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Roboto', 'Roboto Flex', system-ui, sans-serif",
+        "display": "'Roboto Flex', 'Roboto', system-ui, sans-serif",
+        "mono": "'Roboto Mono', monospace"
+      },
+      "text": {
+        "label-sm": "0.6875rem",
+        "label-md": "0.75rem",
+        "body-md": "0.875rem",
+        "body-lg": "1rem",
+        "title-md": "1rem",
+        "title-lg": "1.375rem",
+        "headline-md": "1.75rem",
+        "headline-lg": "2rem",
+        "display-md": "2.8125rem",
+        "display-lg": "3.5625rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "emphasized": "cubic-bezier(0.2, 0, 0, 1)",
+        "spatial-expressive": "cubic-bezier(0.38, 1.21, 0.22, 1)"
+      },
+      "extra": {
+        "state-hover": "rgba(103,80,164,0.08)",
+        "state-pressed": "rgba(103,80,164,0.12)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/material-design-3.md"
+  },
+  {
+    "slug": "fluent-design-2",
+    "name": "Fluent Design 2 (Fluent 2)",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "Fluent",
+      "Fluent Design System",
+      "Windows 11 design"
+    ],
+    "traits": [
+      "Five fundamentals: light, depth, motion, material, scale",
+      "Materials: solid, Mica, Acrylic, Smoke",
+      "Mica tints long-lived surfaces with desktop color",
+      "Reveal highlight, subtle depth, rounded corners"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f3f3f3",
+        "surface": "rgba(255,255,255,0.70)",
+        "mica": "rgba(243,243,243,0.85)",
+        "acrylic": "rgba(252,252,252,0.60)",
+        "text": "#1b1b1b",
+        "text-muted": "#616161",
+        "primary": "#0f6cbd",
+        "accent": "#005fb8",
+        "stroke": "rgba(0,0,0,0.10)"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "12px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 4px rgba(0,0,0,0.14)",
+        "md": "0 8px 16px rgba(0,0,0,0.14)",
+        "lg": "0 32px 64px rgba(0,0,0,0.19)",
+        "card-stroke": "inset 0 0 0 1px rgba(0,0,0,0.06), inset 0 -1px 0 rgba(0,0,0,0.10)"
+      },
+      "blur": {
+        "acrylic": "30px",
+        "acrylic-thin": "60px"
+      },
+      "font": {
+        "sans": "'Segoe UI Variable', 'Segoe UI', system-ui, sans-serif",
+        "display": "'Segoe UI Variable Display', 'Segoe UI', sans-serif",
+        "mono": "'Cascadia Code', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.33, 0, 0.67, 1)",
+        "decel": "cubic-bezier(0.1, 0.9, 0.2, 1)",
+        "accel": "cubic-bezier(0.7, 0, 1, 0.5)"
+      },
+      "extra": {
+        "acrylic-noise": "0.02",
+        "reveal-highlight": "radial-gradient(circle at var(--x,50%) var(--y,50%), rgba(255,255,255,0.35), transparent 60%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/fluent-design-2.md"
+  },
+  {
+    "slug": "carbon-design",
+    "name": "Carbon Design System",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "Carbon",
+      "IBM Carbon"
+    ],
+    "traits": [
+      "2x grid, IBM Plex typeface",
+      "Restrained, enterprise, data-dense",
+      "Productive vs expressive themes",
+      "Strong accessibility standards"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#161616",
+        "surface": "#262626",
+        "surface-strong": "#393939",
+        "border": "#525252",
+        "text": "#f4f4f4",
+        "text-muted": "#c6c6c6",
+        "primary": "#4589ff",
+        "accent": "#08bdba"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "2px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(0,0,0,0.3)",
+        "md": "0 2px 6px rgba(0,0,0,0.35)",
+        "lg": "0 4px 12px rgba(0,0,0,0.4)"
+      },
+      "font": {
+        "sans": "'IBM Plex Sans', 'Helvetica Neue', system-ui, sans-serif",
+        "display": "'IBM Plex Sans', system-ui, sans-serif",
+        "mono": "'IBM Plex Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "2.875rem",
+        "5xl": "3.75rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "16px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0.38, 0.9)"
+      },
+      "extra": {
+        "underline-active": "2px solid var(--color-primary)",
+        "grid-tint": "rgba(255,255,255,0.02)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/carbon-design.md"
+  },
+  {
+    "slug": "ant-design",
+    "name": "Ant Design",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "antd"
+    ],
+    "traits": [
+      "Dense, component-rich enterprise UI",
+      "Blue primary, subtle shadows, 6px radius default",
+      "Comprehensive form/table components",
+      "Pragmatic, information-heavy"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f5f5f5",
+        "surface": "#ffffff",
+        "surface-strong": "#fafafa",
+        "border": "#d9d9d9",
+        "text": "#1f1f1f",
+        "text-muted": "#595959",
+        "primary": "#1677ff",
+        "accent": "#13c2c2"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "6px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(0,0,0,0.05)",
+        "md": "0 2px 8px rgba(0,0,0,0.08)",
+        "lg": "0 6px 16px rgba(0,0,0,0.1)"
+      },
+      "font": {
+        "sans": "-apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+        "display": "-apple-system, 'Segoe UI', sans-serif",
+        "mono": "'SFMono-Regular', Consolas, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.8125rem",
+        "base": "0.875rem",
+        "lg": "1rem",
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "2rem",
+        "4xl": "2.5rem",
+        "5xl": "3.25rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "20px",
+        "8": "24px",
+        "12": "32px",
+        "16": "48px",
+        "24": "64px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      "extra": {
+        "focus-ring": "0 0 0 3px rgba(22,119,255,0.16)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/ant-design.md"
+  },
+  {
+    "slug": "polaris",
+    "name": "Shopify Polaris",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "Polaris"
+    ],
+    "traits": [
+      "Merchant-admin focused, calm and legible",
+      "Card-based layouts, clear affordances",
+      "Accessible, restrained color",
+      "Content guidelines baked in"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f1f2f4",
+        "surface": "#ffffff",
+        "surface-strong": "#f6f6f7",
+        "border": "#d2d5d9",
+        "text": "#1a1c1d",
+        "text-muted": "#5c5f62",
+        "primary": "#008060",
+        "accent": "#2c6ecb",
+        "critical": "#d82c0d"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "8px",
+        "lg": "12px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 0 rgba(26, 28, 29, 0.05)",
+        "md": "0 1px 3px rgba(26, 28, 29, 0.1), 0 1px 2px rgba(26,28,29,0.06)",
+        "lg": "0 4px 10px rgba(26, 28, 29, 0.12)"
+      },
+      "font": {
+        "sans": "-apple-system, 'Segoe UI', 'Helvetica Neue', system-ui, sans-serif",
+        "display": "-apple-system, 'Segoe UI', system-ui, sans-serif",
+        "mono": "ui-monospace, 'SFMono-Regular', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.8125rem",
+        "base": "0.875rem",
+        "lg": "1rem",
+        "xl": "1.25rem",
+        "2xl": "1.625rem",
+        "3xl": "2rem",
+        "4xl": "2.5rem",
+        "5xl": "3.25rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "20px",
+        "8": "28px",
+        "12": "40px",
+        "16": "56px",
+        "24": "80px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "focus-ring": "0 0 0 4px rgba(0, 91, 211, 0.24)",
+        "card-divider": "1px solid var(--color-border)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/polaris.md"
+  },
+  {
+    "slug": "lightning-design",
+    "name": "Salesforce Lightning",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "SLDS",
+      "Lightning Design System"
+    ],
+    "traits": [
+      "Enterprise CRM density and consistency",
+      "Token-driven theming (SLDS)",
+      "Data tables, utility icons",
+      "Neutral, professional palette"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f3f3f3",
+        "surface": "#ffffff",
+        "surface-strong": "#f4f6f9",
+        "border": "#dddbda",
+        "text": "#181818",
+        "text-muted": "#706e6b",
+        "primary": "#0176d3",
+        "accent": "#04844b",
+        "danger": "#ba0517"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "4px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(0,0,0,0.10)",
+        "md": "0 2px 6px rgba(0,0,0,0.12)",
+        "lg": "0 4px 14px rgba(0,0,0,0.14)"
+      },
+      "font": {
+        "sans": "'Salesforce Sans', 'Inter', system-ui, sans-serif",
+        "display": "'Salesforce Sans', 'Inter', system-ui, sans-serif",
+        "mono": "ui-monospace, 'SFMono-Regular', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.8125rem",
+        "base": "0.875rem",
+        "lg": "1rem",
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "2rem",
+        "4xl": "2.5rem",
+        "5xl": "3.25rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "20px",
+        "8": "28px",
+        "12": "40px",
+        "16": "56px",
+        "24": "88px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "brand-rule": "var(--color-primary)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/lightning-design.md"
+  },
+  {
+    "slug": "atlassian-design",
+    "name": "Atlassian Design System",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "ADS",
+      "Atlassian"
+    ],
+    "traits": [
+      "Friendly-professional productivity tone",
+      "Blue/neutral palette, clear hierarchy",
+      "Strong content + accessibility guidance",
+      "Componentized (Atlaskit)"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f7f8f9",
+        "surface": "#ffffff",
+        "surface-strong": "#f1f2f4",
+        "border": "#dcdfe4",
+        "text": "#172b4d",
+        "text-muted": "#44546f",
+        "primary": "#0052cc",
+        "accent": "#36b37e"
+      },
+      "radius": {
+        "sm": "3px",
+        "md": "6px",
+        "lg": "10px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(9,30,66,0.13)",
+        "md": "0 4px 8px rgba(9,30,66,0.14), 0 0 1px rgba(9,30,66,0.28)",
+        "lg": "0 8px 16px rgba(9,30,66,0.16), 0 0 1px rgba(9,30,66,0.31)"
+      },
+      "font": {
+        "sans": "'Charlie Sans', 'Segoe UI', system-ui, -apple-system, sans-serif",
+        "display": "'Charlie Sans', 'Segoe UI', system-ui, sans-serif",
+        "mono": "'SFMono-Regular', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      },
+      "extra": {
+        "focus-ring": "0 0 0 2px rgba(0,82,204,0.4)",
+        "accent-bar": "linear-gradient(90deg, var(--color-primary), var(--color-accent))"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/atlassian-design.md"
+  },
+  {
+    "slug": "apple-hig",
+    "name": "Apple HIG (pre-Liquid flat)",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "Human Interface Guidelines",
+      "iOS flat",
+      "Cupertino"
+    ],
+    "traits": [
+      "Deference: content over chrome",
+      "SF Pro type, generous spacing, subtle depth",
+      "Blur/vibrancy accents, clarity",
+      "Consistent system controls"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f2f2f7",
+        "surface": "#ffffff",
+        "surface-strong": "#f9f9fb",
+        "border": "rgba(60, 60, 67, 0.29)",
+        "text": "#1c1c1e",
+        "text-muted": "#6e6e73",
+        "primary": "#007aff",
+        "accent": "#34c759"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "14px",
+        "lg": "20px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 3px rgba(0,0,0,0.06)",
+        "md": "0 4px 14px rgba(0,0,0,0.08)",
+        "lg": "0 12px 32px rgba(0,0,0,0.12)"
+      },
+      "blur": {
+        "backdrop": "20px"
+      },
+      "font": {
+        "sans": "-apple-system, 'SF Pro Text', 'Helvetica Neue', sans-serif",
+        "display": "-apple-system, 'SF Pro Display', sans-serif",
+        "mono": "'SF Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.25, 0.1, 0.25, 1)"
+      },
+      "extra": {
+        "vibrancy": "rgba(255,255,255,0.72)",
+        "hairline": "0.5px solid var(--color-border)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/apple-hig.md"
+  },
+  {
+    "slug": "base-web",
+    "name": "Base Web",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "Base",
+      "Uber Base"
+    ],
+    "traits": [
+      "Highly themeable primitives",
+      "Neutral, functional, mobility-app roots",
+      "Strong theming tokens",
+      "Accessible components"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#ffffff",
+        "surface-strong": "#f6f6f6",
+        "border": "#e2e2e2",
+        "text": "#000000",
+        "text-muted": "#5e5e5e",
+        "primary": "#276ef1",
+        "accent": "#06c167"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "12px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(0,0,0,0.08)",
+        "md": "0 4px 12px rgba(0,0,0,0.1)",
+        "lg": "0 10px 24px rgba(0,0,0,0.12)"
+      },
+      "font": {
+        "sans": "'Uber Move', 'Helvetica Neue', Arial, sans-serif",
+        "display": "'Uber Move', 'Helvetica Neue', Arial, sans-serif",
+        "mono": "'Uber Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "seam": "var(--color-primary)",
+        "seam-underline": "3px solid var(--seam)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/base-web.md"
+  },
+  {
+    "slug": "primer",
+    "name": "Primer",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "GitHub Primer"
+    ],
+    "traits": [
+      "Developer-tool clarity, dense but calm",
+      "Mona Sans / system fonts, octicon iconography",
+      "Robust light/dark theming",
+      "Content-first, code-friendly"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f6f8fa",
+        "surface": "#ffffff",
+        "surface-strong": "#f6f8fa",
+        "border": "#d0d7de",
+        "text": "#1f2328",
+        "text-muted": "#59636e",
+        "primary": "#1f883d",
+        "accent": "#0969da",
+        "danger": "#cf222e"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "6px",
+        "lg": "12px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 0 rgba(31, 35, 40, 0.04)",
+        "md": "0 3px 6px rgba(140, 149, 159, 0.15)",
+        "lg": "0 8px 24px rgba(140, 149, 159, 0.2)"
+      },
+      "font": {
+        "sans": "-apple-system, 'Segoe UI', 'Noto Sans', 'Helvetica Neue', sans-serif",
+        "display": "-apple-system, 'Segoe UI', sans-serif",
+        "mono": "ui-monospace, 'SFMono-Regular', 'Consolas', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.8125rem",
+        "base": "0.875rem",
+        "lg": "1rem",
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "2rem",
+        "4xl": "2.5rem",
+        "5xl": "3.25rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "20px",
+        "8": "28px",
+        "12": "40px",
+        "16": "56px",
+        "24": "80px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "focus-ring": "0 0 0 3px rgba(9, 105, 218, 0.3)",
+        "code-diff-add": "#d1f4dc"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/primer.md"
+  },
+  {
+    "slug": "uswds",
+    "name": "U.S. Web Design System",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "USWDS"
+    ],
+    "traits": [
+      "Accessibility- and trust-first (Section 508)",
+      "Government blue/red/neutral palette",
+      "Public Sans typeface",
+      "Plain-language, high-legibility"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#f0f0f0",
+        "surface-strong": "#e6e6e6",
+        "border": "#a9aeb1",
+        "text": "#1b1b1b",
+        "text-muted": "#565c65",
+        "primary": "#005ea2",
+        "accent": "#b50909",
+        "primary-dark": "#1a4480",
+        "focus": "#2491ff"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "6px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(0, 0, 0, 0.12)",
+        "md": "0 2px 6px rgba(0, 0, 0, 0.14)",
+        "lg": "0 4px 12px rgba(0, 0, 0, 0.16)",
+        "none": "none"
+      },
+      "font": {
+        "sans": "'Public Sans', system-ui, -apple-system, sans-serif",
+        "display": "'Public Sans', system-ui, sans-serif",
+        "mono": "'Roboto Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "gov-band": "linear-gradient(180deg, var(--color-primary-dark) 0%, var(--color-primary-dark) 70%, var(--color-accent) 70%, var(--color-accent) 100%)",
+        "trust-rule": "4px solid var(--color-primary)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/uswds.md"
+  },
+  {
+    "slug": "govuk-design",
+    "name": "GOV.UK Design System",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "GDS",
+      "GOV.UK"
+    ],
+    "traits": [
+      "Radically clear, task-focused, accessible",
+      "Transport/GDS typeface, black on white",
+      "No decoration; content and usability only",
+      "Rigorous WCAG compliance"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#f3f2f1",
+        "surface-strong": "#ebeae9",
+        "border": "#0b0c0c",
+        "text": "#0b0c0c",
+        "text-muted": "#505a5f",
+        "primary": "#00703c",
+        "accent": "#1d70b8",
+        "focus": "#ffdd00",
+        "error": "#d4351c"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "sm": "0 2px 0 #002d18",
+        "md": "0 2px 0 #002d18",
+        "lg": "0 2px 0 #002d18"
+      },
+      "font": {
+        "sans": "'GDS Transport', 'Helvetica Neue', Arial, sans-serif",
+        "display": "'GDS Transport', 'Helvetica Neue', Arial, sans-serif",
+        "mono": "'GDS Transport Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1.1875rem",
+        "lg": "1.375rem",
+        "xl": "1.75rem",
+        "2xl": "2rem",
+        "3xl": "2.5rem",
+        "4xl": "3rem",
+        "5xl": "3.75rem"
+      },
+      "space": {
+        "1": "5px",
+        "2": "10px",
+        "3": "15px",
+        "4": "20px",
+        "6": "30px",
+        "8": "40px",
+        "12": "50px",
+        "16": "60px",
+        "24": "80px"
+      },
+      "ease": {
+        "standard": "ease-in-out",
+        "focus-ring": "3px solid var(--color-focus)",
+        "focus-shadow": "0 0 0 3px #0b0c0c"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/govuk-design.md"
+  },
+  {
+    "slug": "spectrum",
+    "name": "Adobe Spectrum",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "Spectrum"
+    ],
+    "traits": [
+      "Creative-tool oriented, neutral canvas-friendly",
+      "Adobe Clean typeface",
+      "Careful density scales (medium/large)",
+      "Strong theming + accessibility"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#f8f8f8",
+        "surface-strong": "#eaeaea",
+        "border": "#d5d5d5",
+        "text": "#1f1f1f",
+        "text-muted": "#5a5a5a",
+        "primary": "#1473e6",
+        "accent": "#9256d9",
+        "negative": "#e34850"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "16px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(0,0,0,0.10)",
+        "md": "0 2px 8px rgba(0,0,0,0.12)",
+        "lg": "0 8px 24px rgba(0,0,0,0.16)",
+        "focus-ring": "0 0 0 2px #ffffff, 0 0 0 4px var(--color-primary)"
+      },
+      "font": {
+        "sans": "'Adobe Clean', 'Source Sans Pro', system-ui, sans-serif",
+        "display": "'Adobe Clean', 'Source Sans Pro', system-ui, sans-serif",
+        "mono": "'Source Code Pro', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.15, 0, 0.15, 1)"
+      },
+      "extra": {
+        "focus-ring": "var(--shadow-focus-ring)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/spectrum.md"
+  },
+  {
+    "slug": "shadcn-ui",
+    "name": "shadcn/ui (New York)",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "shadcn",
+      "new-york style",
+      "radix + tailwind"
+    ],
+    "traits": [
+      "Neutral, refined, subtle borders and rings",
+      "Small radius (0.5rem), muted zinc/slate palette",
+      "Accessible Radix primitives",
+      "Understated developer-favorite polish"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#ffffff",
+        "surface-strong": "#f4f4f5",
+        "border": "#e4e4e7",
+        "text": "#09090b",
+        "text-muted": "#71717a",
+        "primary": "#18181b",
+        "accent": "#2563eb",
+        "ring": "#a1a1aa"
+      },
+      "radius": {
+        "sm": "0.375rem",
+        "md": "0.5rem",
+        "lg": "0.75rem",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(0,0,0,0.04)",
+        "md": "0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04)",
+        "lg": "0 10px 15px rgba(0,0,0,0.08), 0 4px 6px rgba(0,0,0,0.05)"
+      },
+      "font": {
+        "sans": "'Geist', 'Inter', system-ui, -apple-system, sans-serif",
+        "display": "'Geist', 'Inter', system-ui, sans-serif",
+        "mono": "'Geist Mono', ui-monospace, 'SFMono-Regular', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      "extra": {
+        "ring-offset": "0 0 0 2px var(--color-bg)",
+        "ring": "0 0 0 4px color-mix(in srgb, var(--color-ring) 35%, transparent)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/shadcn-ui.md"
+  },
+  {
+    "slug": "geist",
+    "name": "Vercel Geist",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "Geist",
+      "Vercel design"
+    ],
+    "traits": [
+      "High-contrast black/white, precise geometry",
+      "Geist Sans/Mono, tight grid",
+      "Subtle gradients and grain accents",
+      "Developer-premium minimalism"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0a0a0a",
+        "surface": "#111111",
+        "surface-strong": "#191919",
+        "border": "#2a2a2a",
+        "text": "#fafafa",
+        "text-muted": "#a1a1a1",
+        "primary": "#fafafa",
+        "accent": "#0072f5"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "8px",
+        "lg": "12px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(0,0,0,0.5)",
+        "md": "0 4px 16px rgba(0,0,0,0.55)",
+        "lg": "0 12px 32px rgba(0,0,0,0.6)"
+      },
+      "font": {
+        "sans": "'Geist', 'Geist Sans', system-ui, -apple-system, sans-serif",
+        "display": "'Geist', system-ui, sans-serif",
+        "mono": "'Geist Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "hairline": "1px solid var(--color-border)",
+        "grain-image": "url(\"data:image/svg+xml"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/geist.md"
+  },
+  {
+    "slug": "linear-dark",
+    "name": "Linear Style",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "Linear app style",
+      "product dark gradient"
+    ],
+    "traits": [
+      "Dark UI with subtle purple/blue gradients",
+      "Crisp small type, hairline borders",
+      "Glow accents, fast micro-interactions",
+      "Refined, fast, premium SaaS"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#08090a",
+        "surface": "#101113",
+        "surface-strong": "#17181b",
+        "border": "rgba(255,255,255,0.09)",
+        "text": "#f7f8f8",
+        "text-muted": "#8a8f98",
+        "primary": "#5e6ad2",
+        "accent": "#4ea7fc",
+        "glow": "rgba(94,106,210,0.5)"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "8px",
+        "lg": "12px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(0,0,0,0.4)",
+        "md": "0 4px 16px rgba(0,0,0,0.5)",
+        "lg": "0 16px 40px rgba(0,0,0,0.6)"
+      },
+      "font": {
+        "sans": "'Inter', system-ui, -apple-system, sans-serif",
+        "display": "'Inter', system-ui, sans-serif",
+        "mono": "'Berkeley Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.8125rem",
+        "base": "0.9375rem",
+        "lg": "1.0625rem",
+        "xl": "1.25rem",
+        "2xl": "1.625rem",
+        "3xl": "2.125rem",
+        "4xl": "2.75rem",
+        "5xl": "3.75rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      },
+      "extra": {
+        "bg-image": "radial-gradient(60% 45% at 50% -5%, rgba(94,106,210,0.18) 0%, transparent 60%), var(--color-bg)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/linear-dark.md"
+  },
+  {
+    "slug": "dashboard-analytics",
+    "name": "Analytics Dashboard",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "admin dashboard",
+      "data dashboard"
+    ],
+    "traits": [
+      "Card grids, KPI tiles, charts, tables",
+      "Neutral surfaces, one or two accent colors",
+      "Dense but scannable, clear hierarchy",
+      "Function-first legibility"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f5f6f8",
+        "surface": "#ffffff",
+        "surface-strong": "#eef0f4",
+        "border": "#e2e5eb",
+        "text": "#1b2130",
+        "text-muted": "#5b6274",
+        "primary": "#4f46e5",
+        "accent": "#16a34a",
+        "negative": "#dc2626"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "10px",
+        "lg": "14px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(16,24,40,0.06)",
+        "md": "0 2px 8px rgba(16,24,40,0.08)",
+        "lg": "0 8px 24px rgba(16,24,40,0.10)"
+      },
+      "font": {
+        "sans": "'Inter', 'Helvetica Neue', system-ui, -apple-system, sans-serif",
+        "display": "'Inter', system-ui, sans-serif",
+        "mono": "'IBM Plex Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      },
+      "extra": {
+        "kpi-label-color": "var(--color-text-muted)",
+        "hairline": "1px solid var(--color-border)",
+        "tabular": "'tnum' 1, 'lnum' 1"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/dashboard-analytics.md"
+  },
+  {
+    "slug": "gradient-saas",
+    "name": "Modern Gradient SaaS",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "startup gradient",
+      "SaaS landing"
+    ],
+    "traits": [
+      "Vibrant gradient hero + soft blurred blobs",
+      "Rounded cards, subtle shadows, gradient buttons",
+      "Friendly geometric sans",
+      "Optimistic, clean, conversion-focused"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#ffffff",
+        "surface": "#ffffff",
+        "surface-strong": "#f5f4ff",
+        "border": "#e6e3fb",
+        "text": "#1a1533",
+        "text-muted": "#635f7a",
+        "primary": "#6d5bf6",
+        "accent": "#ff6fa5",
+        "blob-a": "#8b7bff",
+        "blob-b": "#ff9ac2",
+        "blob-c": "#6fe3ff"
+      },
+      "radius": {
+        "sm": "10px",
+        "md": "16px",
+        "lg": "24px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(109,91,246,0.08)",
+        "md": "0 10px 30px rgba(109,91,246,0.14)",
+        "lg": "0 24px 60px rgba(109,91,246,0.20)"
+      },
+      "font": {
+        "sans": "'Manrope', 'Inter', system-ui, sans-serif",
+        "display": "'Manrope', 'Inter', system-ui, sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "btn-gradient": "linear-gradient(120deg, var(--color-primary), var(--color-accent))"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/gradient-saas.md"
+  },
+  {
+    "slug": "one-ui",
+    "name": "Samsung One UI",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "One UI",
+      "Samsung design"
+    ],
+    "traits": [
+      "Large rounded content zones, reachable UI",
+      "Bottom-weighted layouts for one-handed use",
+      "Soft neutral surfaces, clear color",
+      "Calm, spacious Android skin"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f5f6f8",
+        "surface": "#ffffff",
+        "surface-strong": "#eef1f6",
+        "border": "#e1e5ec",
+        "text": "#1c1c1e",
+        "text-muted": "#6b7079",
+        "primary": "#1259e3",
+        "accent": "#0091ff"
+      },
+      "radius": {
+        "sm": "14px",
+        "md": "20px",
+        "lg": "28px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 3px rgba(28, 28, 30, 0.06)",
+        "md": "0 6px 18px rgba(28, 28, 30, 0.08)",
+        "lg": "0 16px 36px rgba(28, 28, 30, 0.1)"
+      },
+      "font": {
+        "sans": "'SamsungOne', 'SF Pro', -apple-system, system-ui, sans-serif",
+        "display": "'SamsungOne', -apple-system, system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.25, 0.1, 0.25, 1)"
+      },
+      "extra": {
+        "reach-zone-radius": "32px",
+        "bottom-safe-pad": "28px"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/one-ui.md"
+  },
+  {
+    "slug": "android-holo",
+    "name": "Android Holo",
+    "category": "扁平化与平台规范",
+    "aliases": [
+      "Holo",
+      "Honeycomb UI",
+      "Ice Cream Sandwich UI"
+    ],
+    "traits": [
+      "Near-black backgrounds, minimal flat chrome",
+      "Single glowing cyan/holo-blue accent for all interactive highlights",
+      "Thin geometric condensed sans type, often uppercase labels",
+      "Glow (not shadow) substitutes for elevation"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#000000",
+        "surface": "#0c0f10",
+        "surface-2": "#171b1c",
+        "text": "#e8f7fa",
+        "text-muted": "#8a9a9d",
+        "primary": "#33b5e5",
+        "primary-bright": "#8fdce8",
+        "divider": "#2a2f30",
+        "danger": "#ff4444"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "2px",
+        "lg": "2px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "glow": "0 0 8px rgba(51,181,229,0.55), 0 0 1px rgba(51,181,229,0.9)",
+        "glow-strong": "0 0 16px rgba(51,181,229,0.75), 0 0 2px rgba(143,220,232,0.9)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Roboto Condensed', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif",
+        "display": "'Roboto Condensed', 'Droid Sans', sans-serif",
+        "mono": "'Droid Sans Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.6875rem",
+        "sm": "0.8125rem",
+        "base": "0.9375rem",
+        "lg": "1.0625rem",
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "2rem",
+        "4xl": "2.75rem",
+        "5xl": "3.5rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "linear"
+      },
+      "extra": {
+        "holo-underline": "linear-gradient(90deg, transparent, #33b5e5, transparent)",
+        "bg-image": "none"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/android-holo.md"
+  }
+]

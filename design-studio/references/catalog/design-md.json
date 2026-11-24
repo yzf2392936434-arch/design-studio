@@ -1,0 +1,317 @@
+[
+  {
+    "slug": "the-verge",
+    "name": "The Verge",
+    "category": "粗野主义",
+    "aliases": [
+      "brutalist"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/brutalist/the-verge.md"
+  },
+  {
+    "slug": "bmw",
+    "name": "Bmw",
+    "category": "电影感深色",
+    "aliases": [
+      "cinematic"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/cinematic/bmw.md"
+  },
+  {
+    "slug": "cohere",
+    "name": "Cohere",
+    "category": "电影感深色",
+    "aliases": [
+      "cinematic"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/cinematic/cohere.md"
+  },
+  {
+    "slug": "ferrari",
+    "name": "Ferrari",
+    "category": "电影感深色",
+    "aliases": [
+      "cinematic"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/cinematic/ferrari.md"
+  },
+  {
+    "slug": "lamborghini",
+    "name": "Lamborghini",
+    "category": "电影感深色",
+    "aliases": [
+      "cinematic"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/cinematic/lamborghini.md"
+  },
+  {
+    "slug": "minimax",
+    "name": "Minimax",
+    "category": "电影感深色",
+    "aliases": [
+      "cinematic"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/cinematic/minimax.md"
+  },
+  {
+    "slug": "nvidia",
+    "name": "Nvidia",
+    "category": "电影感深色",
+    "aliases": [
+      "cinematic"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/cinematic/nvidia.md"
+  },
+  {
+    "slug": "renault",
+    "name": "Renault",
+    "category": "电影感深色",
+    "aliases": [
+      "cinematic"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/cinematic/renault.md"
+  },
+  {
+    "slug": "runway",
+    "name": "Runway",
+    "category": "电影感深色",
+    "aliases": [
+      "cinematic"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/cinematic/runway.md"
+  },
+  {
+    "slug": "tavus",
+    "name": "Tavus",
+    "category": "电影感深色",
+    "aliases": [
+      "cinematic"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/cinematic/tavus.md"
+  },
+  {
+    "slug": "clickhouse",
+    "name": "Clickhouse",
+    "category": "高密度数据",
+    "aliases": [
+      "data-dense"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/data-dense/clickhouse.md"
+  },
+  {
+    "slug": "datadog",
+    "name": "Datadog",
+    "category": "高密度数据",
+    "aliases": [
+      "data-dense"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/data-dense/datadog.md"
+  },
+  {
+    "slug": "mongodb",
+    "name": "Mongodb",
+    "category": "高密度数据",
+    "aliases": [
+      "data-dense"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/data-dense/mongodb.md"
+  },
+  {
+    "slug": "posthog",
+    "name": "Posthog",
+    "category": "高密度数据",
+    "aliases": [
+      "data-dense"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/data-dense/posthog.md"
+  },
+  {
+    "slug": "linear",
+    "name": "Linear",
+    "category": "编辑极简",
+    "aliases": [
+      "editorial"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/editorial/linear.md"
+  },
+  {
+    "slug": "vercel",
+    "name": "Vercel",
+    "category": "编辑极简",
+    "aliases": [
+      "editorial"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/editorial/vercel.md"
+  },
+  {
+    "slug": "apple",
+    "name": "Apple",
+    "category": "通透界面",
+    "aliases": [
+      "glass"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/glass/apple.md"
+  },
+  {
+    "slug": "arc",
+    "name": "Arc",
+    "category": "通透界面",
+    "aliases": [
+      "glass"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/glass/arc.md"
+  },
+  {
+    "slug": "granola",
+    "name": "Granola",
+    "category": "独立品牌",
+    "aliases": [
+      "indie"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/indie/granola.md"
+  },
+  {
+    "slug": "canva",
+    "name": "Canva",
+    "category": "俏皮撞色",
+    "aliases": [
+      "playful"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/playful/canva.md"
+  },
+  {
+    "slug": "figma",
+    "name": "Figma",
+    "category": "俏皮撞色",
+    "aliases": [
+      "playful"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/playful/figma.md"
+  },
+  {
+    "slug": "toss",
+    "name": "Toss",
+    "category": "俏皮撞色",
+    "aliases": [
+      "playful"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/playful/toss.md"
+  },
+  {
+    "slug": "granola-x-criterion",
+    "name": "Granola X Criterion",
+    "category": "风格混搭",
+    "aliases": [
+      "remix"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/remix/granola-x-criterion.md"
+  },
+  {
+    "slug": "linear-x-claude",
+    "name": "Linear X Claude",
+    "category": "风格混搭",
+    "aliases": [
+      "remix"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/remix/linear-x-claude.md"
+  },
+  {
+    "slug": "mercury-x-linear",
+    "name": "Mercury X Linear",
+    "category": "风格混搭",
+    "aliases": [
+      "remix"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/remix/mercury-x-linear.md"
+  },
+  {
+    "slug": "notion-x-duolingo",
+    "name": "Notion X Duolingo",
+    "category": "风格混搭",
+    "aliases": [
+      "remix"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/remix/notion-x-duolingo.md"
+  },
+  {
+    "slug": "ollama-x-elevenlabs",
+    "name": "Ollama X Elevenlabs",
+    "category": "风格混搭",
+    "aliases": [
+      "remix"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/remix/ollama-x-elevenlabs.md"
+  },
+  {
+    "slug": "stripe-x-a24",
+    "name": "Stripe X A24",
+    "category": "风格混搭",
+    "aliases": [
+      "remix"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/remix/stripe-x-a24.md"
+  },
+  {
+    "slug": "vercel-x-pitchfork",
+    "name": "Vercel X Pitchfork",
+    "category": "风格混搭",
+    "aliases": [
+      "remix"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/remix/vercel-x-pitchfork.md"
+  },
+  {
+    "slug": "warp-x-sentry",
+    "name": "Warp X Sentry",
+    "category": "风格混搭",
+    "aliases": [
+      "remix"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/remix/warp-x-sentry.md"
+  },
+  {
+    "slug": "ollama",
+    "name": "Ollama",
+    "category": "终端",
+    "aliases": [
+      "terminal"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/terminal/ollama.md"
+  },
+  {
+    "slug": "opencode",
+    "name": "Opencode",
+    "category": "终端",
+    "aliases": [
+      "terminal"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/terminal/opencode.md"
+  },
+  {
+    "slug": "warp",
+    "name": "Warp",
+    "category": "终端",
+    "aliases": [
+      "terminal"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/terminal/warp.md"
+  },
+  {
+    "slug": "claude",
+    "name": "Claude",
+    "category": "暖色编辑",
+    "aliases": [
+      "warm"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/warm/claude.md"
+  },
+  {
+    "slug": "mercury",
+    "name": "Mercury",
+    "category": "暖色编辑",
+    "aliases": [
+      "warm"
+    ],
+    "reference": "https://github.com/rohitg00/awesome-claude-design/blob/7f60ee56b9340f8c2671a08c2d8aab4037546a64/design-md/warm/mercury.md"
+  }
+]

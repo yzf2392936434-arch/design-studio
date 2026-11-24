@@ -1,0 +1,251 @@
+[
+  {
+    "slug": "swiss",
+    "name": "瑞士排版",
+    "category": "前端视觉方向",
+    "aliases": [
+      "Swiss",
+      "国际主义"
+    ],
+    "traits": [
+      "露出栅格和细分隔线，标题左对齐，可把日期和数字纳入构图。",
+      "无衬线、低纹理，用一个高识别度的色彩标记导航和主操作。"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F7F7F8",
+        "text": "#171717",
+        "text-muted": "#555555",
+        "primary": "#E4002B",
+        "on-primary": "#FFFFFF"
+      },
+      "font": {
+        "display": "Inter, Helvetica, sans-serif",
+        "sans": "system-ui, sans-serif"
+      },
+      "radius": {
+        "md": "2px"
+      }
+    },
+    "reference": "https://github.com/Ilm-Alan/frontend-design/blob/f8966e6cc9b90247aa102d71f7e675ec3462b419/SKILL.md"
+  },
+  {
+    "slug": "industrial",
+    "name": "工业终端",
+    "category": "前端视觉方向",
+    "aliases": [
+      "Industrial",
+      "单色工业"
+    ],
+    "traits": [
+      "平面暗底、细描边、等宽字体和等宽数字。",
+      "取一种信号色，留给状态或主要动作。"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0B0C0A",
+        "surface": "#171A16",
+        "text": "#F4F7F1",
+        "text-muted": "#B6BDB5",
+        "primary": "#00E676",
+        "on-primary": "#0B0C0A"
+      },
+      "font": {
+        "display": "'IBM Plex Mono', monospace",
+        "sans": "system-ui, sans-serif"
+      },
+      "radius": {
+        "md": "0px"
+      }
+    },
+    "reference": "https://github.com/Ilm-Alan/frontend-design/blob/f8966e6cc9b90247aa102d71f7e675ec3462b419/SKILL.md"
+  },
+  {
+    "slug": "brutalist",
+    "name": "粗野主义",
+    "category": "前端视觉方向",
+    "aliases": [
+      "Brutalist",
+      "粗野派"
+    ],
+    "traits": [
+      "把文字和线条拉到网格边缘，搭配实色硬边或无模糊投影。",
+      "用系统字体和少量纯色，检查碰撞色之间的对比。"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#FFFF00",
+        "text": "#000000",
+        "text-muted": "#333333",
+        "primary": "#0000FF",
+        "on-primary": "#FFFFFF"
+      },
+      "font": {
+        "display": "Arial, sans-serif",
+        "sans": "system-ui, sans-serif"
+      },
+      "radius": {
+        "md": "0px"
+      }
+    },
+    "reference": "https://github.com/Ilm-Alan/frontend-design/blob/f8966e6cc9b90247aa102d71f7e675ec3462b419/SKILL.md"
+  },
+  {
+    "slug": "aurora",
+    "name": "极光极繁",
+    "category": "前端视觉方向",
+    "aliases": [
+      "Aurora Maximalism",
+      "极光渐变"
+    ],
+    "traits": [
+      "深底叠高饱和色带，尺度强烈的标题构成首屏。",
+      "把霓虹光和动效放在视觉主体，交互区域采用可读底色。"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#161027",
+        "surface": "#221536",
+        "text": "#FFFFFF",
+        "text-muted": "#DBCEEB",
+        "primary": "#00F0FF",
+        "on-primary": "#161027"
+      },
+      "font": {
+        "display": "Inter, sans-serif",
+        "sans": "system-ui, sans-serif"
+      },
+      "radius": {
+        "md": "12px"
+      }
+    },
+    "reference": "https://github.com/Ilm-Alan/frontend-design/blob/f8966e6cc9b90247aa102d71f7e675ec3462b419/SKILL.md"
+  },
+  {
+    "slug": "chaotic",
+    "name": "撞色极繁",
+    "category": "前端视觉方向",
+    "aliases": [
+      "Chaotic Maximalism",
+      "拼贴极繁"
+    ],
+    "traits": [
+      "高饱和色和粉彩并置，用错位排版、不同字体和重复纹样制造张力。",
+      "为阅读区保留足够对比，确保下一步可辨。"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#FF71CE",
+        "surface": "#FFD9F2",
+        "text": "#161222",
+        "text-muted": "#332739",
+        "primary": "#DFFF00",
+        "on-primary": "#161222"
+      },
+      "font": {
+        "display": "'Archivo Black', Arial, sans-serif",
+        "sans": "system-ui, sans-serif"
+      },
+      "radius": {
+        "md": "4px"
+      }
+    },
+    "reference": "https://github.com/Ilm-Alan/frontend-design/blob/f8966e6cc9b90247aa102d71f7e675ec3462b419/SKILL.md"
+  },
+  {
+    "slug": "retro-futuristic",
+    "name": "复古未来",
+    "category": "前端视觉方向",
+    "aliases": [
+      "Retro-Futuristic",
+      "复古未来主义"
+    ],
+    "traits": [
+      "深底配霓虹双色，可使用轻量扫描线或色散。",
+      "挑选符合年代感的西文字体和可读的中文回退。"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0A0014",
+        "surface": "#20152D",
+        "text": "#F5EEFF",
+        "text-muted": "#C2B3D2",
+        "primary": "#FF65A7",
+        "on-primary": "#0A0014"
+      },
+      "font": {
+        "display": "'Space Mono', monospace",
+        "sans": "system-ui, sans-serif"
+      },
+      "radius": {
+        "md": "2px"
+      }
+    },
+    "reference": "https://github.com/Ilm-Alan/frontend-design/blob/f8966e6cc9b90247aa102d71f7e675ec3462b419/SKILL.md"
+  },
+  {
+    "slug": "organic",
+    "name": "有机自然",
+    "category": "前端视觉方向",
+    "aliases": [
+      "Organic",
+      "有机"
+    ],
+    "traits": [
+      "大地色搭配温润字形、圆润轮廓和轻质感。",
+      "需要浅底时取砂色或燕麦色，纹理放在大面积背景。"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#E8DCC7",
+        "surface": "#F3EADF",
+        "text": "#312B1F",
+        "text-muted": "#5E5141",
+        "primary": "#606C38",
+        "on-primary": "#FFFFFF"
+      },
+      "font": {
+        "display": "'Cormorant Garamond', Georgia, serif",
+        "sans": "system-ui, sans-serif"
+      },
+      "radius": {
+        "md": "20px"
+      }
+    },
+    "reference": "https://github.com/Ilm-Alan/frontend-design/blob/f8966e6cc9b90247aa102d71f7e675ec3462b419/SKILL.md"
+  },
+  {
+    "slug": "lo-fi",
+    "name": "低保真纸张",
+    "category": "前端视觉方向",
+    "aliases": [
+      "Lo-Fi",
+      "低保真",
+      "复印排版"
+    ],
+    "traits": [
+      "纸黄配网点与错位印刷，构图可以出现少量旋转元素。",
+      "长文字、控件和表单仍保持清楚对齐。"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#E8E0C0",
+        "surface": "#F4EACE",
+        "text": "#1D1A16",
+        "text-muted": "#514536",
+        "primary": "#963A55",
+        "on-primary": "#FFFFFF"
+      },
+      "font": {
+        "display": "Georgia, serif",
+        "sans": "system-ui, sans-serif"
+      },
+      "radius": {
+        "md": "2px"
+      }
+    },
+    "reference": "https://github.com/Ilm-Alan/frontend-design/blob/f8966e6cc9b90247aa102d71f7e675ec3462b419/SKILL.md"
+  }
+]

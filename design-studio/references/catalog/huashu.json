@@ -1,0 +1,922 @@
+[
+  {
+    "slug": "web-01-editorial-brutalism",
+    "name": "媒体级粗野主义 Editorial Brutalism（巨号Helvetica压小正文）",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/01-editorial-brutalism.jpg"
+  },
+  {
+    "slug": "web-02-neo-brutalism",
+    "name": "新粗野主义撞色信息流 Neo-Brutalism（粗黑描边卡片+高饱和撞色）",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/02-neo-brutalism.jpg"
+  },
+  {
+    "slug": "web-03-memphis-maximalism",
+    "name": "孟菲斯复古拼贴最大化 Memphis Maximalism（撞色块+错位叠放+复古字体）",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/03-memphis-maximalism.jpg"
+  },
+  {
+    "slug": "web-04-friendly-candy",
+    "name": "糖果色凸起立体按钮游戏化 Friendly Geometric Candy",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/04-friendly-candy.jpg"
+  },
+  {
+    "slug": "web-05-pure-css-art",
+    "name": "纯CSS几何插画+响应式变形彩蛋 Pure-CSS Art",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/05-pure-css-art.jpg"
+  },
+  {
+    "slug": "web-06-bold-big-type",
+    "name": "巨型字黑白高对比时装大字报 Bold Big-Type Editorial",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/06-bold-big-type.jpg"
+  },
+  {
+    "slug": "web-07-cosmic-retro-futurism",
+    "name": "复古未来太空图录 Cosmic Retro-Futurism",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/07-cosmic-retro-futurism.jpg"
+  },
+  {
+    "slug": "web-08-cinematic-sound-viz",
+    "name": "电影感声波可视化 Cinematic Sound-Viz Dark",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/08-cinematic-sound-viz.jpg"
+  },
+  {
+    "slug": "web-09-pixel-side-scroller",
+    "name": "像素游戏横版叙事 Pixel-Game Side-Scroller",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/09-pixel-side-scroller.jpg"
+  },
+  {
+    "slug": "web-10-bauhaus-geometric",
+    "name": "包豪斯几何标志+扁平插画系统 Bauhaus Geometric",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/10-bauhaus-geometric.jpg"
+  },
+  {
+    "slug": "web-11-dark-editorial",
+    "name": "暗色双色侧栏开发者作品集 Dark Editorial（深底+单荧光accent+等宽字）",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/11-dark-editorial.jpg"
+  },
+  {
+    "slug": "web-12-warm-editorial",
+    "name": "暖色出版物 Warm Editorial（奶油纸底+赤陶橙+衬线无衬线混排）",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/12-warm-editorial.jpg"
+  },
+  {
+    "slug": "web-13-glassmorphism-bento",
+    "name": "Linear暗色发光+Bento网格 Glassmorphism Bento",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/13-glassmorphism-bento.jpg"
+  },
+  {
+    "slug": "web-14-angled-fluid-gradient",
+    "name": "斜切流体渐变带 Angled Fluid Gradient",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/14-angled-fluid-gradient.jpg"
+  },
+  {
+    "slug": "web-15-utility-colorful-docs",
+    "name": "实用主义彩虹分类文档 Utility-First Colorful Docs",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/15-utility-colorful-docs.jpg"
+  },
+  {
+    "slug": "web-16-terminal-core",
+    "name": "终端核软未来 Terminal-Core Soft-Futurism（等宽字+等距立方）",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/16-terminal-core.jpg"
+  },
+  {
+    "slug": "web-17-functional-brutalism",
+    "name": "功能主义网格社区 Functional Brutalism（灰线分割+系统字+蓝链接）",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/17-functional-brutalism.jpg"
+  },
+  {
+    "slug": "web-18-gallery-dark",
+    "name": "深色画廊裱框 Gallery Dark（深黑负空间+单列大图+EXIF小字）",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/18-gallery-dark.jpg"
+  },
+  {
+    "slug": "web-19-swiss-monochrome",
+    "name": "Swiss极致黑白 Swiss Monochrome（Vercel式纯黑白+Geist+锐利边角）",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/19-swiss-monochrome.jpg"
+  },
+  {
+    "slug": "web-20-kenya-hara-white-gallery",
+    "name": "日式留白白盒画廊 Kenya Hara White Gallery",
+    "category": "网页",
+    "aliases": [
+      "web",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/web/20-kenya-hara-white-gallery.jpg"
+  },
+  {
+    "slug": "ppt-01-neo-swiss-billboard",
+    "name": "新瑞士大字报 / Neo-Swiss Billboard Editorial",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/01-neo-swiss-billboard.jpg"
+  },
+  {
+    "slug": "ppt-02-black-big-number-stage",
+    "name": "黑底巨型数字剧场 / Black Big-Number Stage",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/02-black-big-number-stage.jpg"
+  },
+  {
+    "slug": "ppt-03-mono-brand-type-hero",
+    "name": "高饱和单色品牌撞色海报 / Mono-Brand Type-as-Hero",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/03-mono-brand-type-hero.jpg"
+  },
+  {
+    "slug": "ppt-04-full-bleed-gradient-manifesto",
+    "name": "全幅渐变宣言版式 / Full-Bleed Gradient Manifesto",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/04-full-bleed-gradient-manifesto.jpg"
+  },
+  {
+    "slug": "ppt-05-candy-lecture-stage",
+    "name": "CS50单概念糖果舞台 / Candy-Color Lecture Stage",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/05-candy-lecture-stage.jpg"
+  },
+  {
+    "slug": "ppt-06-playful-collins-editorial",
+    "name": "玩味手绘极简 / Playful Maximalist Editorial (Collins式)",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/06-playful-collins-editorial.jpg"
+  },
+  {
+    "slug": "ppt-07-irreverent-pop",
+    "name": "不羁玩梗流行版 / Irreverent Pop (Reddit式)",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/07-irreverent-pop.jpg"
+  },
+  {
+    "slug": "ppt-08-y2k-inflated-wrapped",
+    "name": "Y2K膨胀大字 / Maximalist 3D-Type (Wrapped式)",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/08-y2k-inflated-wrapped.jpg"
+  },
+  {
+    "slug": "ppt-09-bento-grid",
+    "name": "Bento便当格模块网格 / Bento Grid",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/09-bento-grid.jpg"
+  },
+  {
+    "slug": "ppt-10-dark-hairline-terminal",
+    "name": "Neo-Swiss暗色终端美学 / Dark Hairline Terminal",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/10-dark-hairline-terminal.jpg"
+  },
+  {
+    "slug": "ppt-11-two-font-consulting",
+    "name": "双字体咨询版 / Two-Font Consulting (Bower式)",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/11-two-font-consulting.jpg"
+  },
+  {
+    "slug": "ppt-12-diagram-isotype",
+    "name": "图谱箭头企业版 / Diagram-Driven Isotype",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/12-diagram-isotype.jpg"
+  },
+  {
+    "slug": "ppt-13-diagrammatic-minimalism",
+    "name": "单图母图概念图解 / Diagrammatic Minimalism",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/13-diagrammatic-minimalism.jpg"
+  },
+  {
+    "slug": "ppt-14-narrative-sparkline",
+    "name": "Sparkline叙事波形 / Narrative Sparkline (Duarte式)",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/14-narrative-sparkline.jpg"
+  },
+  {
+    "slug": "ppt-15-assertion-evidence",
+    "name": "断言-证据 / Tufte信息设计",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/15-assertion-evidence.jpg"
+  },
+  {
+    "slug": "ppt-16-institutional-swiss",
+    "name": "瑞士机构极简 / Institutional Swiss Minimal",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/16-institutional-swiss.jpg"
+  },
+  {
+    "slug": "ppt-17-editorial-longform",
+    "name": "杂志编辑长文流 / Editorial Longform",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/17-editorial-longform.jpg"
+  },
+  {
+    "slug": "ppt-18-humanist-rounded-cards",
+    "name": "人文圆角卡片 / Humanist Rounded Cards (Khan式)",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/18-humanist-rounded-cards.jpg"
+  },
+  {
+    "slug": "ppt-19-dense-research-report",
+    "name": "研报密集图表 / Dense Research Report (Meeker式)",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/19-dense-research-report.jpg"
+  },
+  {
+    "slug": "ppt-20-all-text-manifesto",
+    "name": "纯文字宣言备忘录 / All-Text Manifesto (Netflix/Amazon式)",
+    "category": "PPT",
+    "aliases": [
+      "ppt",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/ppt/20-all-text-manifesto.jpg"
+  },
+  {
+    "slug": "infographic-01-personal-annual-report",
+    "name": "个人数据印刷年报 / Personal Annual Report（Feltron式）",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/01-personal-annual-report.jpg"
+  },
+  {
+    "slug": "infographic-02-explanation-graphics",
+    "name": "解释性图解 / Explanation Graphics（Nigel Holmes式）",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/02-explanation-graphics.jpg"
+  },
+  {
+    "slug": "infographic-03-cross-section-epic",
+    "name": "巨幅剖面手绘 / Cross-Section Epic（SCMP Arranz式）",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/03-cross-section-epic.jpg"
+  },
+  {
+    "slug": "infographic-04-magazine-pop-data",
+    "name": "杂志撞色数据页 / Magazine Pop Data（Businessweek式）",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/04-magazine-pop-data.jpg"
+  },
+  {
+    "slug": "infographic-05-isotype",
+    "name": "ISOTYPE图形统计 / Neurath–Arntz",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/05-isotype.jpg"
+  },
+  {
+    "slug": "infographic-06-data-humanism",
+    "name": "数据人文主义手绘图谱 / Data Humanism（Lupi式）",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/06-data-humanism.jpg"
+  },
+  {
+    "slug": "infographic-07-scrollytelling",
+    "name": "滚动叙事数据长卷 / Scrollytelling（The Pudding式）",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/07-scrollytelling.jpg"
+  },
+  {
+    "slug": "infographic-08-cartographic-lead",
+    "name": "地图即主角 / Cartographic Lead（Stamen式）",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/08-cartographic-lead.jpg"
+  },
+  {
+    "slug": "infographic-09-newsroom-chart",
+    "name": "数据新闻图表规范 / Newsroom Chart System（FT式）",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/09-newsroom-chart.jpg"
+  },
+  {
+    "slug": "infographic-10-computational-portrait",
+    "name": "计算式数据肖像 / Computational Portrait（Fathom式）",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/10-computational-portrait.jpg"
+  },
+  {
+    "slug": "infographic-11-beautiful-information",
+    "name": "美丽信息 / Beautiful Information（McCandless式）",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/11-beautiful-information.jpg"
+  },
+  {
+    "slug": "infographic-12-open-research-data",
+    "name": "学术开放数据 / Open Research Data（Our World in Data式）",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/12-open-research-data.jpg"
+  },
+  {
+    "slug": "infographic-13-speculative-tech-diagram",
+    "name": "东方思辨科技图 / Speculative Tech Diagram（Takram式）",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/13-speculative-tech-diagram.jpg"
+  },
+  {
+    "slug": "infographic-14-pictogram-system",
+    "name": "系统图标化图解 / Pictogram System（Otl Aicher式）",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/14-pictogram-system.jpg"
+  },
+  {
+    "slug": "infographic-15-small-multiples",
+    "name": "Tufte小倍数矩阵 / Small Multiples",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/15-small-multiples.jpg"
+  },
+  {
+    "slug": "infographic-16-topological-transit-map",
+    "name": "拓扑简化路网图 / Topological Transit Map（Beck/Vignelli式）",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/16-topological-transit-map.jpg"
+  },
+  {
+    "slug": "infographic-17-ma-emptiness",
+    "name": "白之留白信息图 / Ma & Emptiness（原研哉式）",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/17-ma-emptiness.jpg"
+  },
+  {
+    "slug": "infographic-18-bookcraft-data",
+    "name": "书籍级信息排印 / Bookcraft Data（Irma Boom式）",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/18-bookcraft-data.jpg"
+  },
+  {
+    "slug": "infographic-19-scientific-figure-plate",
+    "name": "科学期刊图版 / Scientific Figure Plate",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/19-scientific-figure-plate.jpg"
+  },
+  {
+    "slug": "infographic-20-swiss-grid-report",
+    "name": "瑞士网格年报 / Swiss Grid Report（Müller-Brockmann式）",
+    "category": "信息图",
+    "aliases": [
+      "infographic",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/info/20-swiss-grid-report.jpg"
+  },
+  {
+    "slug": "app-01-hardware-panel",
+    "name": "硬件面板 Hardware Panel（Teenage Engineering式，OP-1 / EP-133 的界面语言）",
+    "category": "App",
+    "aliases": [
+      "app",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/app/01-hardware-panel.jpg"
+  },
+  {
+    "slug": "app-02-liquid-glass",
+    "name": "液态玻璃 Liquid Glass（Apple iOS 26 新设计语言）",
+    "category": "App",
+    "aliases": [
+      "app",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/app/02-liquid-glass.jpg"
+  },
+  {
+    "slug": "app-03-playful-3d",
+    "name": "玩味3D材质 Playful Tactile（Not Boring系列式，Andy Works）",
+    "category": "App",
+    "aliases": [
+      "app",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/app/03-playful-3d.jpg"
+  },
+  {
+    "slug": "app-04-friendly-fintech",
+    "name": "友好金融 Friendly Fintech（Monzo式，高饱和品牌色+大圆角）",
+    "category": "App",
+    "aliases": [
+      "app",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/app/04-friendly-fintech.jpg"
+  },
+  {
+    "slug": "app-05-pro-camera",
+    "name": "专业相机工具 Pro Camera（Halide式，深色+黄色强调+密集刻度）",
+    "category": "App",
+    "aliases": [
+      "app",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/app/05-pro-camera.jpg"
+  },
+  {
+    "slug": "app-06-topo-outdoor",
+    "name": "户外地形工具 Topo Outdoor（Gaia GPS / AllTrails式等高线与轨迹）",
+    "category": "App",
+    "aliases": [
+      "app",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/app/06-topo-outdoor.jpg"
+  },
+  {
+    "slug": "app-07-feed-waterfall",
+    "name": "中文内容瀑布流 Feed Waterfall（小红书式双列卡片流）",
+    "category": "App",
+    "aliases": [
+      "app",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/app/07-feed-waterfall.jpg"
+  },
+  {
+    "slug": "app-08-command-palette",
+    "name": "键盘优先命令面板 Command Palette（Raycast式）",
+    "category": "App",
+    "aliases": [
+      "app",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/app/08-command-palette.jpg"
+  },
+  {
+    "slug": "app-09-health-color-code",
+    "name": "健康数据颜色编码 Health Color-Code（Apple 健康 / Oura式）",
+    "category": "App",
+    "aliases": [
+      "app",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/app/09-health-color-code.jpg"
+  },
+  {
+    "slug": "app-10-native-polish",
+    "name": "原生精修 Native Polish（Things 3式，Cultured Code）",
+    "category": "App",
+    "aliases": [
+      "app",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/app/10-native-polish.jpg"
+  },
+  {
+    "slug": "app-11-gentle-encouraging",
+    "name": "柔和鼓励式 Gentle Encouragement（Gentler Streak式，暗色变体）",
+    "category": "App",
+    "aliases": [
+      "app",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/app/11-gentle-encouraging.jpg"
+  },
+  {
+    "slug": "app-12-editorial-reader",
+    "name": "编辑式阅读 Editorial Reader（Matter / Readwise Reader式）",
+    "category": "App",
+    "aliases": [
+      "app",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/app/12-editorial-reader.jpg"
+  },
+  {
+    "slug": "east-asian-01-lu-jingren-bookcraft",
+    "name": "吕敬人书籍设计 Lü Jingren Bookcraft",
+    "category": "中文与东亚",
+    "aliases": [
+      "east-asian",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/east/01-lu-jingren-bookcraft.jpg"
+  },
+  {
+    "slug": "east-asian-02-song-block-print",
+    "name": "宋刻本版式 Song Block-Print Leaf",
+    "category": "中文与东亚",
+    "aliases": [
+      "east-asian",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/east/02-song-block-print.jpg"
+  },
+  {
+    "slug": "east-asian-03-republic-book-jacket",
+    "name": "民国书衣 Republic-Era Book Jacket",
+    "category": "中文与东亚",
+    "aliases": [
+      "east-asian",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/east/03-republic-book-jacket.jpg"
+  },
+  {
+    "slug": "east-asian-04-shanghai-deco-calendar",
+    "name": "上海摩登装饰艺术 Shanghai Moderne Deco",
+    "category": "中文与东亚",
+    "aliases": [
+      "east-asian",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/east/04-shanghai-deco-calendar.jpg"
+  },
+  {
+    "slug": "east-asian-05-hanzi-experimental-poster",
+    "name": "中文实验字体海报 Experimental Hanzi Poster",
+    "category": "中文与东亚",
+    "aliases": [
+      "east-asian",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/east/05-hanzi-experimental-poster.jpg"
+  },
+  {
+    "slug": "east-asian-06-hk-street-signs",
+    "name": "香港街招与招牌 Hong Kong Street Signs",
+    "category": "中文与东亚",
+    "aliases": [
+      "east-asian",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/east/06-hk-street-signs.jpg"
+  },
+  {
+    "slug": "east-asian-07-traditional-colors-solar-terms",
+    "name": "中国传统色·节气色谱 Solar-Term Palette",
+    "category": "中文与东亚",
+    "aliases": [
+      "east-asian",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/east/07-traditional-colors-solar-terms.jpg"
+  },
+  {
+    "slug": "east-asian-08-sugiura-info-mandala",
+    "name": "杉浦康平信息曼荼罗 Sugiura Information Mandala",
+    "category": "中文与东亚",
+    "aliases": [
+      "east-asian",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/east/08-sugiura-info-mandala.jpg"
+  },
+  {
+    "slug": "east-asian-09-tanaka-geometric-poster",
+    "name": "田中一光几何平面构成 Ikko Tanaka Geometric",
+    "category": "中文与东亚",
+    "aliases": [
+      "east-asian",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/east/09-tanaka-geometric-poster.jpg"
+  },
+  {
+    "slug": "east-asian-10-hattori-playful-offset",
+    "name": "服部一成玩味错位 Hattori Playful Offset",
+    "category": "中文与东亚",
+    "aliases": [
+      "east-asian",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/east/10-hattori-playful-offset.jpg"
+  },
+  {
+    "slug": "east-asian-11-sato-minimal-symbol",
+    "name": "佐藤可士和极简符号 Sato Minimal Symbol",
+    "category": "中文与东亚",
+    "aliases": [
+      "east-asian",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/east/11-sato-minimal-symbol.jpg"
+  },
+  {
+    "slug": "east-asian-12-japan-magazine-dense",
+    "name": "日式生活杂志密排 Japanese Lifestyle Magazine Dense",
+    "category": "中文与东亚",
+    "aliases": [
+      "east-asian",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/east/12-japan-magazine-dense.jpg"
+  },
+  {
+    "slug": "xiaohongshu-01-specimen-journal",
+    "name": "标本志 Specimen Journal",
+    "category": "小红书",
+    "aliases": [
+      "xiaohongshu",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/xhs/01-specimen-journal.jpg"
+  },
+  {
+    "slug": "xiaohongshu-02-sticker-notebook",
+    "name": "贴纸本 Product Notebook",
+    "category": "小红书",
+    "aliases": [
+      "xiaohongshu",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/xhs/02-sticker-notebook.jpg"
+  },
+  {
+    "slug": "xiaohongshu-03-index-ink",
+    "name": "索引 Index Ink",
+    "category": "小红书",
+    "aliases": [
+      "xiaohongshu",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/xhs/03-index-ink.jpg"
+  },
+  {
+    "slug": "xiaohongshu-04-panorama-strip",
+    "name": "长卷 Panorama Strip",
+    "category": "小红书",
+    "aliases": [
+      "xiaohongshu",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/xhs/04-panorama-strip.jpg"
+  },
+  {
+    "slug": "xiaohongshu-05-daily-paper",
+    "name": "日报 Daily Paper",
+    "category": "小红书",
+    "aliases": [
+      "xiaohongshu",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/xhs/05-daily-paper.jpg"
+  },
+  {
+    "slug": "xiaohongshu-06-trading-cards",
+    "name": "集换卡 Trading Cards",
+    "category": "小红书",
+    "aliases": [
+      "xiaohongshu",
+      "大胆"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/xhs/06-trading-cards.jpg"
+  },
+  {
+    "slug": "xiaohongshu-07-blank-vertical",
+    "name": "留白 Blank & Vertical",
+    "category": "小红书",
+    "aliases": [
+      "xiaohongshu",
+      "安静"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/xhs/07-blank-vertical.jpg"
+  },
+  {
+    "slug": "xiaohongshu-08-area-infographic",
+    "name": "信息图 Area Infographic",
+    "category": "小红书",
+    "aliases": [
+      "xiaohongshu",
+      "中性"
+    ],
+    "reference": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/assets/style-specimens/xhs/08-area-infographic.jpg"
+  }
+]

@@ -1,0 +1,2383 @@
+[
+  {
+    "slug": "fantasy-cartography",
+    "name": "Fantasy Cartography",
+    "category": "纹理与材料",
+    "aliases": [
+      "mapmaker fantasy",
+      "illustrated map UI"
+    ],
+    "traits": [
+      "Parchment with ink contours and terrain marks",
+      "Serif place names and compass geometry",
+      "Routes, legends, and coordinate-like interfaces"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#e8d6ad",
+        "surface": "#f6e8c7",
+        "surface-2": "#d8c08c",
+        "text": "#382b1b",
+        "text-muted": "#755e3b",
+        "primary": "#3f693f",
+        "accent": "#a94832",
+        "ink": "#293e48"
+      },
+      "radius": {
+        "sm": "0",
+        "md": "3px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "paper": "0 1px 0 rgba(255,255,255,.5) inset, 0 8px 18px rgba(56,43,27,.18)",
+        "ink": "0 0 0 1px #382b1b"
+      },
+      "blur": {},
+      "font": {
+        "sans": "Georgia, serif",
+        "display": "Georgia, 'Times New Roman', serif",
+        "mono": "'Courier New', monospace"
+      },
+      "text": {
+        "xs": ".75rem",
+        "sm": ".875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(.2,.75,.3,1)"
+      },
+      "extra": {
+        "contours": "repeating-radial-gradient(ellipse at 48% 56%, transparent 0 12px, rgba(41,62,72,.16) 13px 14px, transparent 15px 23px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/fantasy-cartography.md"
+  },
+  {
+    "slug": "chrome-metal",
+    "name": "Chrome / Liquid Metal",
+    "category": "纹理与材料",
+    "aliases": [
+      "liquid metal",
+      "metallic",
+      "chrome type"
+    ],
+    "traits": [
+      "Reflective mirror-metal surfaces and type",
+      "Environment-map reflections, gradients top-light",
+      "Cold silver/steel with rainbow edge",
+      "Heavy, premium, futuristic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#1c1e22",
+        "surface": "#2a2d33",
+        "surface-strong": "#383c44",
+        "border": "#6b727e",
+        "text": "#f1f3f5",
+        "text-muted": "#b7bec8",
+        "primary": "#c7cdd6",
+        "accent": "#7dd3fc"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "14px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(0,0,0,0.5)",
+        "md": "0 6px 16px rgba(0,0,0,0.5)",
+        "lg": "0 14px 32px rgba(0,0,0,0.55)"
+      },
+      "font": {
+        "sans": "'Helvetica Neue', Arial, system-ui, sans-serif",
+        "display": "'Helvetica Neue', Arial, system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      },
+      "extra": {
+        "chrome-gradient": "linear-gradient(180deg, #f4f6f8 0%, #c7cdd6 18%, #6b727e 48%, #9aa1ab 62%, #eef1f4 100%)",
+        "rainbow-edge": "linear-gradient(90deg, #ff8fab, #ffd97d, #7dd3fc, #b794f6)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/chrome-metal.md"
+  },
+  {
+    "slug": "holographic",
+    "name": "Holographic / Iridescent",
+    "category": "纹理与材料",
+    "aliases": [
+      "iridescent",
+      "foil",
+      "holo"
+    ],
+    "traits": [
+      "Rainbow gradient that shifts by angle",
+      "Oil-slick / soap-bubble iridescence",
+      "Metallic foil sheen on dark or white",
+      "Futuristic, dreamy, premium"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0b0b12",
+        "surface": "rgba(255,255,255,0.08)",
+        "text": "#ffffff",
+        "text-muted": "#c7c7d9",
+        "primary": "#a0f0ff",
+        "accent": "#ff9ff3",
+        "cyan": "#7cf9ff",
+        "pink": "#ff9ff3",
+        "lime": "#c8ff8f"
+      },
+      "radius": {
+        "sm": "10px",
+        "md": "18px",
+        "lg": "28px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "iri": "0 8px 30px rgba(160,240,255,0.35)"
+      },
+      "blur": {
+        "backdrop": "8px"
+      },
+      "font": {
+        "sans": "'Space Grotesk', system-ui, sans-serif",
+        "display": "'Space Grotesk', sans-serif",
+        "mono": "'Space Mono', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "holo": "linear-gradient(115deg, #ff9ff3, #a0f0ff, #c8ff8f, #ff9ff3)",
+        "foil": "conic-gradient(from 0deg, #ff9ff3, #a0f0ff, #c8ff8f, #ffd28f, #ff9ff3)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/holographic.md"
+  },
+  {
+    "slug": "duotone",
+    "name": "Duotone",
+    "category": "纹理与材料",
+    "aliases": [
+      "two-tone",
+      "bitone"
+    ],
+    "traits": [
+      "Two-color gradient mapped onto photos",
+      "High-contrast bold pairings",
+      "Unifies mixed imagery",
+      "Punchy, modern, brand-forward"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0e1f17",
+        "surface": "#133527",
+        "surface-strong": "#1a4732",
+        "border": "#2fae74",
+        "text": "#eafff2",
+        "text-muted": "#9fe3bd",
+        "primary": "#34d980",
+        "accent": "#ff3e6c",
+        "tone-shadow": "#0e1f17",
+        "tone-highlight": "#ff3e6c"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "12px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 8px rgba(0,0,0,0.3)",
+        "md": "0 6px 20px rgba(0,0,0,0.4)",
+        "lg": "0 16px 40px rgba(0,0,0,0.5)"
+      },
+      "font": {
+        "sans": "'Circular', 'Helvetica Neue', system-ui, sans-serif",
+        "display": "'Gotham', 'Circular', system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      },
+      "extra": {
+        "duotone-ramp": "linear-gradient(135deg, var(--tone-shadow) 0%, var(--color-primary) 55%, var(--tone-highlight) 130%)",
+        "duotone-wash": "linear-gradient(180deg, rgba(52,217,128,0.16), rgba(255,62,108,0.10))"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/duotone.md"
+  },
+  {
+    "slug": "halftone",
+    "name": "Halftone",
+    "category": "纹理与材料",
+    "aliases": [
+      "dot pattern",
+      "Ben-Day dots"
+    ],
+    "traits": [
+      "Dot grids simulate tone via dot size",
+      "Comic/newsprint texture",
+      "Bold with CMYK registration feel",
+      "Retro print nostalgia"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fdf6e8",
+        "surface": "#ffffff",
+        "surface-strong": "#fff2c9",
+        "border": "#16130f",
+        "text": "#16130f",
+        "text-muted": "#4d463a",
+        "primary": "#e0263b",
+        "accent": "#1f6fd6",
+        "yellow": "#f6c93b"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "3px 3px 0 var(--color-border)",
+        "md": "5px 5px 0 var(--color-border)",
+        "lg": "8px 8px 0 var(--color-border)"
+      },
+      "font": {
+        "sans": "'Archivo Black', 'Helvetica Neue', sans-serif",
+        "display": "'Bangers', 'Anton', 'Archivo Black', sans-serif",
+        "mono": "'Courier New', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.9rem",
+        "base": "1rem",
+        "lg": "1.15rem",
+        "xl": "1.5rem",
+        "2xl": "2rem",
+        "3xl": "2.75rem",
+        "4xl": "3.75rem",
+        "5xl": "5.25rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "dot-grid": "radial-gradient(var(--color-primary) 32%, transparent 34%) 0 0/10px 10px",
+        "dot-grid-blue": "radial-gradient(var(--color-accent) 32%, transparent 34%) 0 0/8px 8px"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/halftone.md"
+  },
+  {
+    "slug": "risograph",
+    "name": "Risograph",
+    "category": "纹理与材料",
+    "aliases": [
+      "riso",
+      "riso print",
+      "孔版印刷",
+      "理想印刷",
+      "蜡纸油印"
+    ],
+    "traits": [
+      "Limited bright spot-ink palette (fluoro pink, blue)",
+      "Visible misregistration and grain",
+      "Overprint multiply blends",
+      "Handmade, imperfect, zine-like"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f3ecde",
+        "surface": "#f3ecde",
+        "text": "#1a1a1a",
+        "text-muted": "#444444",
+        "primary": "#ff5b45",
+        "accent": "#0078bf",
+        "yellow": "#ffd200",
+        "green": "#00a95c",
+        "pink": "#ff48b0"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "2px",
+        "lg": "4px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "none": "none"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Space Grotesk', 'Archivo', system-ui, sans-serif",
+        "display": "'Archivo Black', sans-serif",
+        "mono": "'Space Mono', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "linear"
+      },
+      "extra": {
+        "grain": "url('data:image/svg+xml;...noise')",
+        "halftone": "radial-gradient(#ff5b45 30%, transparent 31%) 0 0 / 6px 6px",
+        "multiply": "multiply"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/risograph.md"
+  },
+  {
+    "slug": "isometric",
+    "name": "Isometric",
+    "category": "纹理与材料",
+    "aliases": [
+      "iso illustration",
+      "2.5D"
+    ],
+    "traits": [
+      "Parallel projection, no perspective vanishing",
+      "30° axonometric grids",
+      "Cutaway rooms/cities, tiny detailed scenes",
+      "Clean vector or soft 3D"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#eef1fb",
+        "surface": "#ffffff",
+        "surface-strong": "#e2e7f9",
+        "border": "#c7d0f0",
+        "text": "#1c2340",
+        "text-muted": "#5b6486",
+        "primary": "#6d5ef5",
+        "accent": "#14b8a6",
+        "iso-shadow-a": "#4c46c9",
+        "iso-shadow-b": "#8f89ff"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "10px",
+        "lg": "16px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 3px 0 var(--color-iso-shadow-a)",
+        "md": "6px 6px 0 var(--color-iso-shadow-a)",
+        "lg": "10px 10px 0 var(--color-iso-shadow-a)"
+      },
+      "font": {
+        "sans": "'Poppins', 'Inter', system-ui, sans-serif",
+        "display": "'Poppins', system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      },
+      "extra": {
+        "iso-facet": "linear-gradient(155deg, #ffffff 0%, var(--color-surface-strong) 100%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/isometric.md"
+  },
+  {
+    "slug": "low-poly",
+    "name": "Low Poly",
+    "category": "纹理与材料",
+    "aliases": [
+      "lowpoly",
+      "faceted 3D"
+    ],
+    "traits": [
+      "Visible triangular facets and flat shading",
+      "Crystalline geometric forms",
+      "Gradient facet lighting",
+      "Stylized, game-adjacent"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#1b2a4a",
+        "surface": "#24365c",
+        "surface-strong": "#2f4570",
+        "border": "#3c5480",
+        "text": "#eef3fb",
+        "text-muted": "#aebedc",
+        "primary": "#ff7f5c",
+        "accent": "#46e0c8",
+        "facet-dark": "#16223c"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "6px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(0,0,0,0.35)",
+        "md": "0 8px 20px rgba(0,0,0,0.4)",
+        "lg": "0 18px 40px rgba(0,0,0,0.45)"
+      },
+      "font": {
+        "sans": "'Space Grotesk', 'Rajdhani', system-ui, sans-serif",
+        "display": "'Space Grotesk', system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      },
+      "extra": {
+        "facet-corner": "polygon(0 0, 100% 0, 100% 100%, 22% 100%, 0 70%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/low-poly.md"
+  },
+  {
+    "slug": "voxel",
+    "name": "Voxel Art",
+    "category": "纹理与材料",
+    "aliases": [
+      "voxel",
+      "3D pixel"
+    ],
+    "traits": [
+      "Cubic 3D 'pixels' build objects",
+      "Blocky charming forms",
+      "Bright toy-like palettes",
+      "Isometric voxel scenes"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#a8e0f0",
+        "surface": "#ffffff",
+        "surface-strong": "#eef7fb",
+        "border": "#16324a",
+        "text": "#16324a",
+        "text-muted": "#3b5a72",
+        "primary": "#ff6b3d",
+        "accent": "#2fbf71",
+        "yellow": "#ffc93c"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "sm": "3px 3px 0 var(--color-border)",
+        "md": "5px 5px 0 var(--color-border)",
+        "lg": "8px 8px 0 var(--color-border)"
+      },
+      "font": {
+        "sans": "'Space Grotesk', 'Segoe UI', sans-serif",
+        "display": "'Press Start 2P', 'Space Grotesk', monospace",
+        "mono": "'VT323', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "2.75rem",
+        "5xl": "3.5rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "steps(4, end)"
+      },
+      "extra": {
+        "voxel-top": "linear-gradient(180deg, rgba(255,255,255,0.55) 0 30%, transparent 30%)",
+        "voxel-side": "4px solid var(--color-border)",
+        "pixel-notch": "8px"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/voxel.md"
+  },
+  {
+    "slug": "pixel-art",
+    "name": "Pixel Art / 8-bit",
+    "category": "纹理与材料",
+    "aliases": [
+      "8-bit",
+      "16-bit",
+      "retro game",
+      "像素艺术",
+      "像素风"
+    ],
+    "traits": [
+      "Visible grid of chunky pixels",
+      "Limited palettes (NES/Game Boy)",
+      "Dithering for gradients",
+      "Nostalgic, playful, game-y"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0f1e2e",
+        "surface": "#1c3a4f",
+        "surface-strong": "#2a5470",
+        "border": "#7fd8c5",
+        "text": "#eaf6f2",
+        "text-muted": "#9fc9c0",
+        "primary": "#f4c542",
+        "accent": "#ef5b5b",
+        "pixel-grid": "rgba(0, 0, 0, 0.25)"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "sm": "4px 4px 0 #0a1622",
+        "md": "6px 6px 0 #0a1622",
+        "lg": "8px 8px 0 #0a1622"
+      },
+      "font": {
+        "sans": "'Press Start 2P', 'VT323', monospace",
+        "display": "'Press Start 2P', monospace",
+        "mono": "'VT323', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.7rem",
+        "sm": "0.8rem",
+        "base": "0.95rem",
+        "lg": "1.1rem",
+        "xl": "1.3rem",
+        "2xl": "1.7rem",
+        "3xl": "2.1rem",
+        "4xl": "2.6rem",
+        "5xl": "3.4rem"
+      },
+      "space": {
+        "1": "8px",
+        "2": "16px",
+        "3": "16px",
+        "4": "24px",
+        "6": "32px",
+        "8": "40px",
+        "12": "56px",
+        "16": "72px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "steps(4, end)"
+      },
+      "extra": {
+        "pixel-grid-bg": "linear-gradient(var(--color-pixel-grid) 1px, transparent 1px), linear-gradient(90deg, var(--color-pixel-grid) 1px, transparent 1px)",
+        "dither-fill": "repeating-conic-gradient(#f4c542 0% 25%, #ef5b5b 0% 50%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/pixel-art.md"
+  },
+  {
+    "slug": "ascii-terminal",
+    "name": "ASCII / Terminal / TUI",
+    "category": "纹理与材料",
+    "aliases": [
+      "terminal UI",
+      "TUI",
+      "ANSI art",
+      "green screen"
+    ],
+    "traits": [
+      "Monospace text-only layouts, box-drawing chars",
+      "Green/amber phosphor on black",
+      "Blinking cursor, ASCII art, command-line framing",
+      "Utilitarian, hacker, nostalgic"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0a0e0a",
+        "surface": "#0f150f",
+        "text": "#33ff66",
+        "text-muted": "#1f9940",
+        "primary": "#33ff66",
+        "accent": "#ffb000",
+        "amber": "#ffb000",
+        "cursor": "#33ff66",
+        "dim": "#0a3d1a"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "glow": "0 0 4px rgba(51,255,102,0.7)"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'IBM Plex Mono', 'Courier New', monospace",
+        "display": "'IBM Plex Mono', monospace",
+        "mono": "'IBM Plex Mono', 'Courier New', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "2rem",
+        "4xl": "2.5rem",
+        "5xl": "3rem"
+      },
+      "space": {
+        "1": "0.5ch",
+        "2": "1ch",
+        "3": "1.5ch",
+        "4": "2ch",
+        "6": "3ch",
+        "8": "4ch",
+        "12": "6ch",
+        "16": "8ch"
+      },
+      "ease": {
+        "standard": "steps(1, end)"
+      },
+      "extra": {
+        "scanline": "repeating-linear-gradient(0deg, rgba(51,255,102,0.08) 0 1px, transparent 1px 2px)",
+        "border": "1px solid #33ff66"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/ascii-terminal.md"
+  },
+  {
+    "slug": "crt",
+    "name": "CRT / Scanline / Retro Monitor",
+    "category": "纹理与材料",
+    "aliases": [
+      "scanlines",
+      "phosphor",
+      "retro monitor"
+    ],
+    "traits": [
+      "Horizontal scanlines and screen curvature",
+      "Phosphor glow and bloom",
+      "RGB subpixel/aperture-grille texture",
+      "Flicker, vignette, chromatic edges"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#06110a",
+        "surface": "#0b1f13",
+        "surface-strong": "#123020",
+        "border": "#2f6b45",
+        "text": "#7dffb0",
+        "text-muted": "#4fbf82",
+        "primary": "#39ff88",
+        "accent": "#ff5fa2",
+        "phosphor-glow": "rgba(57, 255, 136, 0.45)"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 0 4px var(--color-phosphor-glow)",
+        "md": "0 0 12px var(--color-phosphor-glow)",
+        "lg": "0 0 28px var(--color-phosphor-glow)"
+      },
+      "font": {
+        "sans": "'VT323', 'Share Tech Mono', ui-monospace, monospace",
+        "display": "'Press Start 2P', 'VT323', monospace",
+        "mono": "'Share Tech Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "steps(3, end)"
+      },
+      "extra": {
+        "scanlines": "repeating-linear-gradient(0deg, rgba(0,0,0,0.35) 0px, rgba(0,0,0,0.35) 1px, transparent 1px, transparent 3px)",
+        "glow": "0 0 2px var(--color-text), 0 0 8px var(--color-phosphor-glow)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/crt.md"
+  },
+  {
+    "slug": "glitch-art",
+    "name": "Glitch Art",
+    "category": "纹理与材料",
+    "aliases": [
+      "glitch",
+      "datamosh",
+      "databending"
+    ],
+    "traits": [
+      "RGB channel split / chromatic aberration",
+      "Pixel sorting, block corruption, tearing",
+      "Scan glitches, jitter, noise",
+      "Broken-signal energy"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#050505",
+        "surface": "#0d0d0d",
+        "text": "#f2f2f2",
+        "text-muted": "#8a8a8a",
+        "primary": "#ff003c",
+        "accent": "#00f0ff",
+        "green": "#00ff5f",
+        "border": "#ff003c"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "0px"
+      },
+      "shadow": {
+        "rgb-split": "2px 0 #ff003c, -2px 0 #00f0ff"
+      },
+      "blur": {},
+      "font": {
+        "sans": "'Space Mono', 'Courier New', monospace",
+        "display": "'Major Mono Display', monospace",
+        "mono": "'Space Mono', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "steps(2, jump-none)"
+      },
+      "extra": {
+        "chromatic": "drop-shadow(2px 0 #ff003c) drop-shadow(-2px 0 #00f0ff)",
+        "noise": "repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 2px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/glitch-art.md"
+  },
+  {
+    "slug": "vhs",
+    "name": "VHS / Analog Video",
+    "category": "纹理与材料",
+    "aliases": [
+      "retro video",
+      "tracking lines",
+      "camcorder"
+    ],
+    "traits": [
+      "Tracking distortion, tape warble, timestamp overlay",
+      "Chromatic bleed, soft blur, grain",
+      "Date/REC HUD, interlacing",
+      "Warm nostalgic degradation"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0a0a0f",
+        "surface": "#16161f",
+        "surface-strong": "#1e1e2a",
+        "border": "#3a3a4a",
+        "text": "#f0ece0",
+        "text-muted": "#a3a0ae",
+        "primary": "#ff3b5c",
+        "accent": "#2de2e6",
+        "tape-yellow": "#f5c518"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "6px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(0, 0, 0, 0.5)",
+        "md": "0 6px 18px rgba(0, 0, 0, 0.55)",
+        "lg": "0 12px 32px rgba(0, 0, 0, 0.6)"
+      },
+      "font": {
+        "sans": "'Helvetica Neue', Arial, sans-serif",
+        "display": "'VCR OSD Mono', 'Courier New', monospace",
+        "mono": "'VCR OSD Mono', 'Courier New', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "steps(6, end)",
+        "chroma-shadow": "-1.5px 0 var(--color-accent), 1.5px 0 var(--color-primary)",
+        "scanlines": "repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px, transparent 1px, transparent 3px)",
+        "tape-grain": "radial-gradient(ellipse at 50% 0%, rgba(255,255,255,0.06), transparent 70%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/vhs.md"
+  },
+  {
+    "slug": "film-grain",
+    "name": "Film Grain / Noise",
+    "category": "纹理与材料",
+    "aliases": [
+      "grain",
+      "noise texture",
+      "grainy",
+      "胶片颗粒",
+      "胶片风"
+    ],
+    "traits": [
+      "Subtle photographic grain over flat color",
+      "Analog warmth and texture",
+      "Reduces banding on gradients",
+      "Cinematic, tactile"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#211d1a",
+        "surface": "#2b2622",
+        "surface-strong": "#35302a",
+        "border": "#4a423a",
+        "text": "#f2ece2",
+        "text-muted": "#bdb2a3",
+        "primary": "#d98c4a",
+        "accent": "#7fa08f"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "14px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(0,0,0,0.35)",
+        "md": "0 8px 20px rgba(0,0,0,0.42)",
+        "lg": "0 18px 40px rgba(0,0,0,0.5)"
+      },
+      "font": {
+        "sans": "'Suisse Int\\'l', 'Helvetica Neue', Arial, sans-serif",
+        "display": "'Canela', 'Georgia', serif",
+        "mono": "'IBM Plex Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "grain-image": "url(\"data:image/svg+xml",
+        "grain-opacity": "0.16"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/film-grain.md"
+  },
+  {
+    "slug": "blueprint",
+    "name": "Blueprint / Technical Drawing",
+    "category": "纹理与材料",
+    "aliases": [
+      "schematic",
+      "wireframe aesthetic",
+      "draft"
+    ],
+    "traits": [
+      "White line-work on cyan/blue ground",
+      "Grid paper, dimension lines, callouts",
+      "Monospace annotations",
+      "Precise, technical, honest"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0d3b66",
+        "surface": "#0f4a7d",
+        "surface-strong": "#135a96",
+        "border": "#bcd9f0",
+        "text": "#eaf4ff",
+        "text-muted": "#9fc4e6",
+        "primary": "#ffffff",
+        "accent": "#ffb703"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "0px",
+        "lg": "0px",
+        "pill": "2px"
+      },
+      "shadow": {
+        "sm": "0 1px 0 rgba(255,255,255,0.15)",
+        "md": "0 2px 8px rgba(0,0,0,0.35)",
+        "lg": "0 6px 18px rgba(0,0,0,0.4)"
+      },
+      "font": {
+        "sans": "'Archivo', 'Helvetica Neue', system-ui, sans-serif",
+        "display": "'Archivo', system-ui, sans-serif",
+        "mono": "'IBM Plex Mono', 'Courier New', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "linear"
+      },
+      "extra": {
+        "grid-line": "rgba(234,244,255,0.14)",
+        "dim-line": "1px dashed var(--color-text-muted)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/blueprint.md"
+  },
+  {
+    "slug": "hand-drawn",
+    "name": "Hand-Drawn / Sketch",
+    "category": "纹理与材料",
+    "aliases": [
+      "doodle",
+      "sketchy",
+      "hand-illustrated",
+      "手绘",
+      "手绘风"
+    ],
+    "traits": [
+      "Rough, wobbly hand-drawn strokes",
+      "Sketch-style borders and arrows",
+      "Marker/pencil textures",
+      "Friendly, approachable, human"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fffdf7",
+        "surface": "#ffffff",
+        "surface-strong": "#fff5e0",
+        "border": "#2b2b2b",
+        "text": "#2b2b2b",
+        "text-muted": "#5c5c54",
+        "primary": "#ff6b4a",
+        "accent": "#3b7dd8",
+        "marker": "#ffd93b"
+      },
+      "radius": {
+        "sm": "6px 9px 7px 10px",
+        "md": "12px 16px 13px 18px",
+        "lg": "22px 28px 24px 30px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "2px 3px 0 rgba(43,43,43,0.5)",
+        "md": "3px 5px 0 rgba(43,43,43,0.4)",
+        "lg": "5px 8px 0 rgba(43,43,43,0.3)"
+      },
+      "font": {
+        "sans": "'Patrick Hand', 'Comic Neue', 'Segoe Print', sans-serif",
+        "display": "'Caveat', 'Kalam', 'Patrick Hand', cursive",
+        "mono": "'Courier New', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.8rem",
+        "sm": "0.95rem",
+        "base": "1.05rem",
+        "lg": "1.2rem",
+        "xl": "1.5rem",
+        "2xl": "1.9rem",
+        "3xl": "2.5rem",
+        "4xl": "3.4rem",
+        "5xl": "4.6rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "sketch-border": "2px solid var(--color-border)",
+        "sketch-wobble": "2px 2px 0 -1px var(--color-bg), 2px 2px 0 0 var(--color-border)",
+        "marker-swipe": "linear-gradient(180deg, transparent 55%, var(--color-marker) 55%, var(--color-marker) 85%, transparent 85%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/hand-drawn.md"
+  },
+  {
+    "slug": "papercut",
+    "name": "Papercut / Paper Collage",
+    "category": "纹理与材料",
+    "aliases": [
+      "paper craft",
+      "layered paper",
+      "kirigami"
+    ],
+    "traits": [
+      "Layered paper with soft realistic shadows",
+      "Torn/cut edges, fold lines",
+      "Warm matte pastel stock",
+      "Craft, tactile, storybook"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fbf3e7",
+        "surface": "#fff9f0",
+        "surface-strong": "#ffe8cc",
+        "border": "#e3c9a3",
+        "text": "#3b2c22",
+        "text-muted": "#6b5847",
+        "primary": "#e8623d",
+        "accent": "#4f9c8e",
+        "torn-shadow": "rgba(59, 44, 34, 0.18)"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "14px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "2px 3px 0 rgba(59, 44, 34, 0.12), 0 2px 6px rgba(59,44,34,0.1)",
+        "md": "4px 6px 0 rgba(59, 44, 34, 0.14), 0 6px 14px rgba(59,44,34,0.12)",
+        "lg": "6px 10px 0 rgba(59, 44, 34, 0.16), 0 12px 28px rgba(59,44,34,0.14)"
+      },
+      "font": {
+        "sans": "'Quicksand', 'Comic Neue', system-ui, sans-serif",
+        "display": "'Caveat', 'Comic Neue', cursive",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      "extra": {
+        "torn-edge-clip": "polygon(0% 2%, 3% 0%, 8% 3%, 14% 0%, 20% 2%, 27% 0%, 34% 3%, 41% 0%, 48% 2%, 55% 0%, 62% 3%, 69% 0%, 76% 2%, 83% 0%, 90% 3%, 97% 0%, 100% 2%, 100% 98%, 96% 100%, 90% 98%, 83% 100%, 76% 98%, 69% 100%, 62% 98%, 55% 100%, 48% 98%, 41% 100%, 34% 98%, 27% 100%, 20% 98%, 14% 100%, 8% 98%, 3% 100%, 0% 98%)",
+        "fold-line": "linear-gradient(90deg, transparent 0%, rgba(59,44,34,0.08) 50%, transparent 100%)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/papercut.md"
+  },
+  {
+    "slug": "comic",
+    "name": "Comic / Manga",
+    "category": "纹理与材料",
+    "aliases": [
+      "comic book",
+      "manga style"
+    ],
+    "traits": [
+      "Bold ink outlines, cel shading",
+      "Speech bubbles, action lines, SFX lettering",
+      "Halftone/screentone shading",
+      "Dynamic paneling"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fef9e7",
+        "surface": "#ffffff",
+        "surface-strong": "#fff6cc",
+        "border": "#101010",
+        "text": "#101010",
+        "text-muted": "#43423f",
+        "primary": "#e8272c",
+        "accent": "#ffd400",
+        "blue": "#1c4fd6",
+        "halftone": "rgba(16, 16, 16, 0.14)"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "14px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "3px 3px 0 var(--color-border)",
+        "md": "5px 5px 0 var(--color-border)",
+        "lg": "8px 8px 0 var(--color-border)"
+      },
+      "font": {
+        "sans": "'Anton', 'Bangers', 'Arial Black', system-ui, sans-serif",
+        "display": "'Bangers', 'Anton', 'Impact', sans-serif",
+        "mono": "'Comic Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "entrance": "cubic-bezier(0, 0, 0, 1)",
+        "exit": "cubic-bezier(0.3, 0, 1, 1)"
+      },
+      "extra": {
+        "ink-outline": "3px solid var(--color-border)",
+        "halftone-bg": "radial-gradient(var(--color-halftone) 1.2px, transparent 1.2px)",
+        "halftone-size": "7px 7px"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/comic.md"
+  },
+  {
+    "slug": "engraving",
+    "name": "Engraving / Line Art",
+    "category": "纹理与材料",
+    "aliases": [
+      "etching",
+      "woodcut",
+      "hatching"
+    ],
+    "traits": [
+      "Fine hatching and cross-hatching for tone",
+      "Monochrome, high detail line work",
+      "Vintage currency/certificate feel",
+      "Premium, heritage, editorial"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f2ead9",
+        "surface": "#ece1cb",
+        "surface-strong": "#e4d5b8",
+        "border": "#2b2013",
+        "text": "#1c140b",
+        "text-muted": "#4a3a24",
+        "primary": "#5a2e12",
+        "accent": "#8a6d3b",
+        "ink": "#241a0e"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "2px",
+        "lg": "3px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 0 rgba(36,26,14,0.3)",
+        "md": "0 2px 0 rgba(36,26,14,0.28), 0 4px 8px rgba(36,26,14,0.18)",
+        "lg": "0 4px 0 rgba(36,26,14,0.26), 0 10px 20px rgba(36,26,14,0.22)"
+      },
+      "font": {
+        "sans": "'Freight Text', 'Georgia', 'Iowan Old Style', serif",
+        "display": "'Playfair Display', 'Didot', 'Georgia', serif",
+        "mono": "'Courier Prime', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "border-certificate": "3px double var(--color-ink)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/engraving.md"
+  },
+  {
+    "slug": "thermal",
+    "name": "Thermal / Infrared",
+    "category": "纹理与材料",
+    "aliases": [
+      "heatmap aesthetic",
+      "thermal cam"
+    ],
+    "traits": [
+      "Heat-map gradient (black-purple-red-yellow-white)",
+      "Glowing edges, body-heat blobs",
+      "Sci-fi surveillance vibe",
+      "High-tech, eerie"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0a0014",
+        "surface": "#1a0a2e",
+        "surface-strong": "#26123f",
+        "border": "#5b1a6b",
+        "text": "#f5f0e8",
+        "text-muted": "#c9a8d9",
+        "primary": "#ff6a1a",
+        "accent": "#ffd23f",
+        "heat-cold": "#3a0ca3"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "14px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 0 8px rgba(255,106,26,0.25)",
+        "md": "0 0 24px rgba(255,106,26,0.35)",
+        "lg": "0 0 48px rgba(255,106,26,0.45)"
+      },
+      "font": {
+        "sans": "'Rajdhani', 'Barlow Condensed', system-ui, sans-serif",
+        "display": "'Rajdhani', 'Oswald', sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "heat-ramp": "linear-gradient(90deg, #0a0014 0%, #3a0ca3 30%, #ff1a4a 55%, #ff6a1a 75%, #ffd23f 90%, #fff8e7 100%)",
+        "heat-glow-edge": "linear-gradient(90deg, var(--color-heat-cold), var(--color-primary), var(--color-accent))"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/thermal.md"
+  },
+  {
+    "slug": "gradient-noise",
+    "name": "Grainy Gradient",
+    "category": "纹理与材料",
+    "aliases": [
+      "noise gradient",
+      "grainy gradient"
+    ],
+    "traits": [
+      "Smooth color gradient overlaid with fine grain",
+      "Reduces banding, adds tactility",
+      "Soft dreamy color fields",
+      "Premium editorial feel"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#1c1626",
+        "surface": "#241d31",
+        "surface-strong": "#2e2540",
+        "border": "rgba(255,255,255,0.10)",
+        "text": "#f4f1f8",
+        "text-muted": "#b8aec7",
+        "primary": "#ff8a5c",
+        "accent": "#7c6cf0",
+        "grad-a": "#2a1b3d",
+        "grad-b": "#6b3fa0",
+        "grad-c": "#ff8a5c"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "14px",
+        "lg": "22px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 3px 10px rgba(0,0,0,0.25)",
+        "md": "0 10px 30px rgba(0,0,0,0.35)",
+        "lg": "0 24px 60px rgba(0,0,0,0.45)"
+      },
+      "font": {
+        "sans": "'Inter', system-ui, -apple-system, sans-serif",
+        "display": "'Söhne', 'Inter', system-ui, sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "bg-image": "radial-gradient(120% 90% at 15% -10%, var(--color-grad-c) 0%, var(--color-grad-b) 45%, var(--color-grad-a) 100%)",
+        "grain-svg": "url(\"data:image/svg+xml"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/gradient-noise.md"
+  },
+  {
+    "slug": "neon-tube",
+    "name": "Neon Sign / Tube",
+    "category": "纹理与材料",
+    "aliases": [
+      "neon",
+      "neon glow",
+      "tube light"
+    ],
+    "traits": [
+      "Glowing tube strokes on dark ground",
+      "Saturated pink/cyan/orange light bloom",
+      "Flicker and reflection",
+      "Nightlife, retro, vivid"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0a0710",
+        "surface": "#150e22",
+        "surface-strong": "#1f1530",
+        "border": "rgba(255, 79, 216, 0.35)",
+        "text": "#fbeaff",
+        "text-muted": "#c6a9d6",
+        "primary": "#ff2ee0",
+        "accent": "#24f0ff",
+        "orange": "#ff9d2e",
+        "glass-tube": "#2a1e3d"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "14px",
+        "lg": "24px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 0 6px rgba(255,46,224,0.55), 0 0 2px rgba(255,46,224,0.9)",
+        "md": "0 0 18px rgba(255,46,224,0.55), 0 0 40px rgba(255,46,224,0.30)",
+        "lg": "0 0 32px rgba(36,240,255,0.45), 0 0 70px rgba(255,46,224,0.30)"
+      },
+      "font": {
+        "sans": "'Futura', 'Poppins', system-ui, sans-serif",
+        "display": "'Pacifico', 'Brush Script MT', cursive",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "tube-text-glow": "0 0 4px #fff, 0 0 12px var(--color-primary), 0 0 28px var(--color-primary), 0 0 48px rgba(255,46,224,0.5)",
+        "tube-stroke": "2px solid var(--color-primary)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/neon-tube.md"
+  },
+  {
+    "slug": "textile",
+    "name": "Textile / Knit / Embroidery",
+    "category": "纹理与材料",
+    "aliases": [
+      "knit",
+      "embroidered",
+      "stitched"
+    ],
+    "traits": [
+      "Woven, knitted, or embroidered textures",
+      "Visible thread and stitch detail",
+      "Warm tactile materiality",
+      "Cozy, crafted"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#efe6d8",
+        "surface": "#f7f1e6",
+        "surface-strong": "#ece0cd",
+        "border": "#c9b28c",
+        "text": "#3a2a20",
+        "text-muted": "#6b5744",
+        "primary": "#b5502f",
+        "accent": "#4a6b4d",
+        "thread": "#d9c299"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "10px",
+        "lg": "16px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 3px rgba(58,42,32,0.12)",
+        "md": "0 4px 12px rgba(58,42,32,0.16)",
+        "lg": "0 10px 28px rgba(58,42,32,0.20)"
+      },
+      "font": {
+        "sans": "'Quicksand', 'Nunito', system-ui, sans-serif",
+        "display": "'Fraunces', 'Georgia', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      },
+      "extra": {
+        "stitch-border": "repeating-linear-gradient(90deg, var(--color-thread) 0 8px, transparent 8px 16px)",
+        "weave-fill": "repeating-linear-gradient(45deg, rgba(181,80,47,0.05) 0 6px, rgba(74,107,77,0.05) 6px 12px)",
+        "stitch-dash": "2px dashed var(--color-thread)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/textile.md"
+  },
+  {
+    "slug": "cyanotype",
+    "name": "Cyanotype",
+    "category": "纹理与材料",
+    "aliases": [
+      "sun print",
+      "blueprint photo"
+    ],
+    "traits": [
+      "Prussian-blue monochrome photographic prints",
+      "White silhouettes on deep blue",
+      "Botanical/photogram subjects",
+      "Antique handmade quality"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#0d2c61",
+        "surface": "#123a7a",
+        "surface-strong": "#17458f",
+        "border": "#6f92d1",
+        "text": "#eaf1ff",
+        "text-muted": "#b6c9ec",
+        "primary": "#ffffff",
+        "accent": "#a9c4f5",
+        "bleed": "rgba(255, 255, 255, 0.10)"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "6px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(0, 0, 0, 0.30)",
+        "md": "0 6px 16px rgba(0, 0, 0, 0.34)",
+        "lg": "0 12px 28px rgba(0, 0, 0, 0.38)"
+      },
+      "font": {
+        "sans": "'Cormorant Garamond', 'EB Garamond', Georgia, serif",
+        "display": "'Cormorant Garamond', 'Playfair Display', serif",
+        "mono": "'Courier Prime', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "emulsion-vignette": "radial-gradient(120% 100% at 50% 0%, transparent 55%, rgba(0,0,0,0.28) 100%)",
+        "botanical-border": "1px solid rgba(255,255,255,0.35)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/cyanotype.md"
+  },
+  {
+    "slug": "airbrush",
+    "name": "Airbrush / 70s-80s Illustration",
+    "category": "纹理与材料",
+    "aliases": [
+      "airbrushed",
+      "van art"
+    ],
+    "traits": [
+      "Smooth gradient shading and soft glows",
+      "Chrome, lasers, fantasy sci-fi scenes",
+      "Highly polished rendered surfaces",
+      "Retro album/poster illustration"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#1a0f2e",
+        "surface": "#2b1b3d",
+        "surface-strong": "#3d2554",
+        "border": "#6b4a8a",
+        "text": "#fdf3e7",
+        "text-muted": "rgba(253, 243, 231, 0.72)",
+        "primary": "#ff6b35",
+        "accent": "#ff2e88",
+        "chrome": "#cbd5e1"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "16px",
+        "lg": "32px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 10px rgba(255,107,53,0.25)",
+        "md": "0 10px 30px rgba(255,46,136,0.28)",
+        "lg": "0 24px 60px rgba(255,107,53,0.3)"
+      },
+      "font": {
+        "sans": "'Avenir Next', 'Century Gothic', system-ui, sans-serif",
+        "display": "'Eurostile', 'Century Gothic', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.3, 0, 0.15, 1)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/airbrush.md"
+  },
+  {
+    "slug": "terrazzo",
+    "name": "Terrazzo",
+    "category": "纹理与材料",
+    "aliases": [
+      "speckled",
+      "confetti texture"
+    ],
+    "traits": [
+      "Speckled chip pattern on solid ground",
+      "Playful multicolor flecks",
+      "Soft pastel or bold color chips",
+      "Fresh, tactile, retro-modern"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f7f3ec",
+        "surface": "#ffffff",
+        "surface-strong": "#efe8db",
+        "border": "#e0d6c2",
+        "text": "#221f1a",
+        "text-muted": "#5c564a",
+        "primary": "#e2574c",
+        "accent": "#2f9e8f",
+        "chip-a": "#f2b705",
+        "chip-b": "#7c5cff",
+        "chip-c": "#2f9e8f",
+        "chip-d": "#e2574c"
+      },
+      "radius": {
+        "sm": "8px",
+        "md": "14px",
+        "lg": "22px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 2px 6px rgba(34,31,26,0.08)",
+        "md": "0 6px 16px rgba(34,31,26,0.10)",
+        "lg": "0 16px 36px rgba(34,31,26,0.14)"
+      },
+      "font": {
+        "sans": "'Poppins', 'Nunito', system-ui, sans-serif",
+        "display": "'Poppins', 'Fraunces', system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.34, 1.4, 0.64, 1)"
+      },
+      "extra": {
+        "terrazzo-size": "140px 140px"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/terrazzo.md"
+  },
+  {
+    "slug": "marble",
+    "name": "Marble / Stone",
+    "category": "纹理与材料",
+    "aliases": [
+      "marbled",
+      "stone texture"
+    ],
+    "traits": [
+      "Veined marble surfaces and swirls",
+      "Cream, black, green, gold veining",
+      "Premium, weighty, classical",
+      "Fluid ink-marble variants"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f7f4ee",
+        "surface": "#fdfcf9",
+        "surface-strong": "#efe9dd",
+        "border": "#d8cfbd",
+        "text": "#241f1a",
+        "text-muted": "#5c5346",
+        "primary": "#1f3d33",
+        "accent": "#b08a3e",
+        "vein": "#8a8272",
+        "vein-dark": "#38332b"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 3px rgba(36,31,26,0.10)",
+        "md": "0 6px 18px rgba(36,31,26,0.14)",
+        "lg": "0 16px 40px rgba(36,31,26,0.18)"
+      },
+      "font": {
+        "sans": "'Cormorant Garamond', 'Georgia', serif",
+        "display": "'Didot', 'Playfair Display', 'Georgia', serif",
+        "mono": "ui-monospace, 'Courier New', monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)",
+        "gold-hairline": "1px solid rgba(176,138,62,0.55)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/marble.md"
+  },
+  {
+    "slug": "wireframe-lofi",
+    "name": "Lo-fi Wireframe",
+    "category": "纹理与材料",
+    "aliases": [
+      "wireframe aesthetic",
+      "sketch UI",
+      "lo-fi mockup"
+    ],
+    "traits": [
+      "Grey boxes, placeholder lines, X'd images",
+      "Hand-drawn or Balsamiq sketch strokes",
+      "Deliberately unfinished honesty",
+      "Neutral, structural, playful"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#fafafa",
+        "surface": "#ffffff",
+        "surface-strong": "#f0f0f0",
+        "border": "#9a9a9a",
+        "text": "#333333",
+        "text-muted": "#7a7a7a",
+        "primary": "#6b6b6b",
+        "accent": "#ff5a36",
+        "placeholder": "#cfcfcf"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "3px",
+        "lg": "4px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "none",
+        "md": "none",
+        "lg": "none"
+      },
+      "font": {
+        "sans": "'Helvetica Neue', Arial, sans-serif",
+        "display": "'Helvetica Neue', Arial, sans-serif",
+        "mono": "'Courier New', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "ease"
+      },
+      "extra": {
+        "dashed-outline": "1.5px dashed var(--color-border)",
+        "sketch-jitter": "rotate(-0.2deg)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/wireframe-lofi.md"
+  },
+  {
+    "slug": "stipple",
+    "name": "Stipple / Pointillism",
+    "category": "纹理与材料",
+    "aliases": [
+      "dotwork",
+      "pointillist"
+    ],
+    "traits": [
+      "Tone built from dots of varying density",
+      "Fine detailed dotwork portraits",
+      "WSJ 'hedcut' style",
+      "Refined, editorial, tactile"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f7f5ef",
+        "surface": "#ffffff",
+        "surface-strong": "#ece8dc",
+        "border": "#cfc9b8",
+        "text": "#1e1c17",
+        "text-muted": "#5e594c",
+        "primary": "#2b2620",
+        "accent": "#a1361c",
+        "dot": "#1e1c17"
+      },
+      "radius": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "8px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "sm": "0 1px 2px rgba(30,28,23,0.10)",
+        "md": "0 3px 10px rgba(30,28,23,0.12)",
+        "lg": "0 10px 24px rgba(30,28,23,0.16)"
+      },
+      "font": {
+        "sans": "'Georgia', 'Source Serif Pro', serif",
+        "display": "'Playfair Display', 'Georgia', serif",
+        "mono": "'Courier Prime', ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "extra": {
+        "stipple-fine": "radial-gradient(circle, var(--color-dot) 0.6px, transparent 0.6px)",
+        "stipple-coarse": "radial-gradient(circle, var(--color-dot) 1px, transparent 1px)",
+        "stipple-size-fine": "4px 4px",
+        "stipple-size-coarse": "7px 7px"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/stipple.md"
+  },
+  {
+    "slug": "woodcut-linocut",
+    "name": "Woodcut / Linocut",
+    "category": "纹理与材料",
+    "aliases": [
+      "relief print",
+      "block print",
+      "linocut",
+      "woodblock (Western)"
+    ],
+    "traits": [
+      "Bold, thick, hand-carved black outlines on every shape",
+      "Visible gouge/cut-stroke texture filling color areas instead of flat fills",
+      "High-contrast, limited palette: black/cream plus at most one spot color"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f2e8d3",
+        "surface": "#f8f1e0",
+        "surface-2": "#e9dcbc",
+        "text": "#1c1712",
+        "text-muted": "#5a4a35",
+        "primary": "#1c1712",
+        "accent": "#a4271f",
+        "cream": "#f2e8d3",
+        "carve-line": "#241d16"
+      },
+      "radius": {
+        "sm": "0px",
+        "md": "2px",
+        "lg": "4px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "print": "6px 6px 0 rgba(28,23,18,0.9)",
+        "print-sm": "3px 3px 0 rgba(28,23,18,0.9)"
+      },
+      "blur": {
+        "none": "0px"
+      },
+      "font": {
+        "sans": "'Space Grotesk', 'Helvetica Neue', system-ui, sans-serif",
+        "display": "'Bebas Neue', 'Anton', 'Arial Black', sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.2, 0.8, 0.2, 1)"
+      },
+      "extra": {
+        "gouge-texture": "repeating-linear-gradient(35deg, rgba(28,23,18,0.10) 0px, rgba(28,23,18,0.10) 2px, transparent 2px, transparent 7px)",
+        "ink-border": "3px solid #1c1712"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/woodcut-linocut.md"
+  },
+  {
+    "slug": "batik",
+    "name": "Batik",
+    "category": "纹理与材料",
+    "aliases": [
+      "wax-resist dyeing",
+      "tulis",
+      "cap batik"
+    ],
+    "traits": [
+      "Intricate repeating organic/geometric pattern (florals, parang, kawung motifs)",
+      "Fine crackle/veining lines from wax-resist cracking during dyeing",
+      "Warm indigo/rust/ochre dye palette on a natural cloth ground"
+    ],
+    "tokens": {
+      "color": {
+        "bg": "#f3e6cd",
+        "surface": "#faf1de",
+        "surface-2": "#e7d3ab",
+        "text": "#2b1c12",
+        "text-muted": "#6b5335",
+        "primary": "#2c4a6e",
+        "accent": "#b5501f",
+        "ochre": "#c68a2e",
+        "indigo-deep": "#1c3350"
+      },
+      "radius": {
+        "sm": "6px",
+        "md": "14px",
+        "lg": "26px",
+        "pill": "999px"
+      },
+      "shadow": {
+        "cloth": "0 10px 26px rgba(43,28,18,0.18)",
+        "cloth-sm": "0 4px 12px rgba(43,28,18,0.14)"
+      },
+      "blur": {
+        "none": "0px"
+      },
+      "font": {
+        "sans": "'Cormorant Garamond', 'Marcellus', system-ui, serif",
+        "display": "'Marcellus', 'Cormorant Garamond', serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "text": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.375rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3rem",
+        "5xl": "4rem"
+      },
+      "space": {
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "6": "24px",
+        "8": "32px",
+        "12": "48px",
+        "16": "64px",
+        "24": "96px"
+      },
+      "ease": {
+        "standard": "cubic-bezier(0.33, 0.0, 0.2, 1)"
+      },
+      "extra": {
+        "crackle-veins": "repeating-conic-gradient(from 20deg at 30% 40%, rgba(43,28,18,0.05) 0deg 4deg, transparent 4deg 26deg)",
+        "motif-border": "repeating-linear-gradient(90deg, #2c4a6e 0 6px, #c68a2e 6px 8px, transparent 8px 22px)"
+      }
+    },
+    "reference": "https://github.com/ara-mkr/claude-artisan/blob/ae6d3add319e7be885f8b02fc0feec8085b0bfc1/design-language/references/00-flagship-implementation-specs/batik.md"
+  }
+]
